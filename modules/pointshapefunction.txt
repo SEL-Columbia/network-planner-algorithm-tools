@@ -1,0 +1,27 @@
+def save(shapePath, geoLocations, spatialReferenceAsProj4)
+    Save points in the given shapePath.
+    # Get driver
+    driver = osgeo.ogr.GetDriverByName('ESRI Shapefile')
+    # Create shapeData
+    shapePath = validateShapePath(shapePath)
+    if os.path.exists(shapePath) os.remove(shapePath)
+    shapeData = driver.CreateDataSource(shapePath)
+    # Create spatialReference
+    spatialReference = getSpatialReferenceFromProj4(spatialReferenceAsProj4)
+    # Create layer
+    layerName = os.path.splitext(os.path.split(shapePath)[1])[0]
+    layer = shapeData.CreateLayer(layerName, spatialReference, osgeo.ogr.wkbPoint)
+    layerDefinition = layer.GetLayerDefn()
+    # For each point,
+    for pointIndex, geoLocation in enumerate(geoLocations)
+        # Create point
+        point = osgeo.ogr.Geometry(osgeo.ogr.wkbPoint)
+        point.SetPoint(0, geoLocation[0], geoLocation[1])
+        # Create feature
+        feature = osgeo.ogr.Feature(layerDefinition)
+        feature.SetGeometry(point)
+        feature.SetFID(pointIndex)
+        # Save feature
+        layer.CreateFeature(feature)
+    # Return
+    return shapePath
