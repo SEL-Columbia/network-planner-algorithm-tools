@@ -1,0 +1,234 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.cluster
+C: 99,0: Line too long (82/80)
+W: 10,0: Relative import 'network', should be 'network-planner-algorithm-tools.modules.network'
+W: 11,0: Relative import 'kruskals', should be 'network-planner-algorithm-tools.modules.kruskals'
+C: 13,0:ClusterList: Missing docstring
+C: 14,4:ClusterList.numClusts: Invalid name "numClusts" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 14,4:ClusterList.numClusts: Missing docstring
+C: 17,4:ClusterList.getNodes: Invalid name "getNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,4:ClusterList.getNodes: Missing docstring
+C: 18,8:ClusterList.getNodes: Invalid name "nodeList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 22,12:ClusterList.getNodes: No exception type(s) specified
+C: 26,4:ClusterList.getEdges: Invalid name "getEdges" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 26,4:ClusterList.getEdges: Missing docstring
+C: 27,8:ClusterList.getEdges: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 36,8:ClusterList.bestInterhDist: Redefining built-in 'min'
+C: 35,4:ClusterList.bestInterhDist: Invalid name "bestInterhDist" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 35,4:ClusterList.bestInterhDist: Missing docstring
+C: 38,12:ClusterList.bestInterhDist: Invalid name "interDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 44,8:ClusterList.maxNodeWeight: Redefining built-in 'max'
+C: 43,4:ClusterList.maxNodeWeight: Invalid name "maxNodeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,4:ClusterList.maxNodeWeight: Missing docstring
+C: 46,12:ClusterList.maxNodeWeight: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 52,8:ClusterList.getHeaviestClust: Redefining built-in 'max'
+C: 51,4:ClusterList.getHeaviestClust: Invalid name "getHeaviestClust" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,4:ClusterList.getHeaviestClust: Missing docstring
+C: 54,12:ClusterList.getHeaviestClust: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,16:ClusterList.getHeaviestClust: Invalid name "maxClust" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,4:ClusterList.heaviestClustStats: Invalid name "heaviestClustStats" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,4:ClusterList.heaviestClustStats: Missing docstring
+C: 71,8:MergeInfo.__init__: Invalid name "_maxIndex" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 70,8:MergeInfo.__init__: Invalid name "_minIndex" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+W: 75,28:MergeInfo.__cmp__: Access to a protected member _maxIndex of a client class
+W: 77,30:MergeInfo.__cmp__: Access to a protected member _maxIndex of a client class
+C: 83,8:MergeInfo.__str__: Invalid name "minIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 83,18:MergeInfo.__str__: Invalid name "maxIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 85,8:MergeInfo.__str__: Operator not followed by a space
+        return "(%(minIndex)s, %(maxIndex)s, %(seg)s)" %vars()
+                                                       ^
+W: 83,8:MergeInfo.__str__: Unused variable 'minIndex'
+W: 84,8:MergeInfo.__str__: Unused variable 'seg'
+W: 83,18:MergeInfo.__str__: Unused variable 'maxIndex'
+C: 88,8:MergeInfo.__repr__: Invalid name "minIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 88,18:MergeInfo.__repr__: Invalid name "maxIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,8:MergeInfo.__repr__: Operator not followed by a space
+        return "mergeInfo(%(minIndex)r, %(maxIndex)r, %(seg)r)" %vars()
+                                                                ^
+W: 88,8:MergeInfo.__repr__: Unused variable 'minIndex'
+W: 89,8:MergeInfo.__repr__: Unused variable 'seg'
+W: 88,18:MergeInfo.__repr__: Unused variable 'maxIndex'
+C: 92,4:MergeInfo.getIndices: Invalid name "getIndices" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 92,4:MergeInfo.getIndices: Missing docstring
+C: 95,4:MergeInfo.getSeg: Invalid name "getSeg" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 95,4:MergeInfo.getSeg: Missing docstring
+C:102,8:Cluster.__init__: Invalid name "_potentialSegs" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,8:Cluster.__init__: Invalid name "_totalNodeWeight" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,8:Cluster.__init__: Invalid name "_totalEdgeWeight" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,8:Cluster.__init__: Invalid name "_mstFlag" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+W:100,4:Cluster.__init__: Dangerous default value [] as argument
+W:100,4:Cluster.__init__: Dangerous default value set() as argument
+W:100,4:Cluster.__init__: Dangerous default value [] as argument
+C:100,4:Cluster.__init__: Invalid name "potentialSegs" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,33:Cluster.__init__: Invalid name "potentialSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:114,8:Cluster.__str__: Operator not followed by a space
+        return "(%(nodes)s)" %vars()
+                             ^
+W:113,8:Cluster.__str__: Unused variable 'nodes'
+C:116,4:Cluster.mergeCluster: Invalid name "mergeCluster" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,4:Cluster.splitCluster: Invalid name "splitCluster" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,4:Cluster.splitCluster: Invalid name "segDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,4:Cluster.splitCluster: Missing docstring
+C:127,32:Cluster.splitCluster: Invalid name "segDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:135,4:Cluster.rebuildMST: Invalid name "rebuildMST" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:135,4:Cluster.rebuildMST: Missing docstring
+E:137,19:Cluster.rebuildMST: Too many positional arguments for function call
+C:142,4:Cluster.getNodes: Invalid name "getNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,4:Cluster.getNodes: Missing docstring
+C:145,4:Cluster.numNodes: Invalid name "numNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:145,4:Cluster.numNodes: Missing docstring
+C:148,4:Cluster.getSegs: Invalid name "getSegs" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,4:Cluster.getSegs: Missing docstring
+C:151,4:Cluster.numSegs: Invalid name "numSegs" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:151,4:Cluster.numSegs: Missing docstring
+C:154,4:Cluster.getNet: Invalid name "getNet" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:154,4:Cluster.getNet: Missing docstring
+C:157,4:Cluster.setNet: Invalid name "setNet" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:157,4:Cluster.setNet: Missing docstring
+C:163,4:Cluster.getTotalEdgeWeight: Invalid name "getTotalEdgeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:163,4:Cluster.getTotalEdgeWeight: Missing docstring
+C:166,4:Cluster.getTotalNodeWeight: Invalid name "getTotalNodeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:166,4:Cluster.getTotalNodeWeight: Missing docstring
+C:169,4:Cluster.getInterhDistance: Invalid name "getInterhDistance" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:169,4:Cluster.getInterhDistance: Missing docstring
+C:172,4:Cluster.getMSTFlag: Invalid name "getMSTFlag" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,4:Cluster.getMSTFlag: Missing docstring
+C:175,4:Cluster.setMSTFlag: Invalid name "setMSTFlag" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:175,4:Cluster.setMSTFlag: Missing docstring
+C:178,4:Cluster.calcMergedStats: Invalid name "calcMergedStats" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:178,4:Cluster.calcMergedStats: Missing docstring
+C:179,8:Cluster.calcMergedStats: Invalid name "combinedSegWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,8:Cluster.calcMergedStats: Invalid name "combinedNodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,0:clusterListToNetwork: Invalid name "clusterListToNetwork" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,0:clusterListToNetwork: Invalid name "clusterList" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,0:clusterListToNetwork: Missing docstring
+C:185,25:clusterListToNetwork: Invalid name "clusterList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:194,25:networkToClusterList: Redefining name 'network' from outer scope (line 10)
+C:194,0:networkToClusterList: Invalid name "networkToClusterList" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:194,0:networkToClusterList: Invalid name "segDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:194,0:networkToClusterList: Missing docstring
+C:194,34:networkToClusterList: Invalid name "segDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:195,4:networkToClusterList: Invalid name "clustList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:196,8:networkToClusterList: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:199,8:networkToClusterList: Invalid name "potentialSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:  9,0: Unused import sys
+
+
+Report
+======
+157 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |66.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |30     |NC         |NC         |23.33       |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |85     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |55          |
++-----------+------------+
+|C0111      |26          |
++-----------+------------+
+|W0612      |7           |
++-----------+------------+
+|W0622      |3           |
++-----------+------------+
+|W0102      |3           |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|W0403      |2           |
++-----------+------------+
+|W0212      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0621      |1           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|E1121      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.99/10
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |157    |90.75 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |6.94  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |0.58  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |1.73  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+External dependencies
+---------------------
+::
+
+    network-planner-algorithm-tools 
+      \-modules 
+        \-kruskals (network-planner-algorithm-tools.modules.cluster)
+        \-network (network-planner-algorithm-tools.modules.cluster)
+
+
+

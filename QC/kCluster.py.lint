@@ -1,0 +1,233 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.kCluster
+C:104,0: Line too long (88/80)
+C:105,0: Line too long (106/80)
+C:106,0: Line too long (83/80)
+C:112,0: Line too long (108/80)
+C:133,0: Line too long (99/80)
+W:135,0: Bad indentation. Found 13 spaces, expected 12
+C:  1,0: Invalid name "kCluster" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+C:  1,0: Missing docstring
+F:  5,0: Unable to import 'Pycluster'
+W: 12,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 13,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 24,0:Usage: Missing docstring
+W: 25,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 29,0:Error: Missing docstring
+W: 30,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 33,0: Comma not followed by a space
+features  = array([[ 1.9,2.3],
+                        ^^
+                   [ 1.5,2.5],
+                   [ 0.8,0.6],
+                   [ 0.4,1.8],
+                   [ 0.1,0.1],
+                   [ 0.2,1.8],
+                   [ 2.0,0.5],
+                   [ 0.3,1.5],
+                   [ 1.0,1.0]])
+C: 33,0: Invalid name "features" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 43,0:readNodesFromTxtForKmeans: Invalid name "readNodesFromTxtForKmeans" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+W: 47,4:readNodesFromTxtForKmeans: No exception type(s) specified
+C: 50,4:readNodesFromTxtForKmeans: Operator not preceded by a space
+    line= fid.readline()
+        ^
+C: 59,8:readNodesFromTxtForKmeans: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,16:readNodesFromTxtForKmeans: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,19:readNodesFromTxtForKmeans: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,8:readNodesFromTxtForKmeans: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,8:readNodesFromTxtForKmeans: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 62,8:readNodesFromTxtForKmeans: Comma not followed by a space
+        nodes.append((x,y))
+                       ^^
+W: 59,22:readNodesFromTxtForKmeans: Unused variable 'weight'
+W: 59,8:readNodesFromTxtForKmeans: Unused variable 'nodeID'
+C: 69,0:plotCluster: Invalid name "plotCluster" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,0:plotCluster: Missing docstring
+C: 70,4:plotCluster: Invalid name "xs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,4:plotCluster: Invalid name "ys" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,4:plotCluster: Comma not followed by a space
+    pylab.plot([mean[0]],[mean[1]], 'x', color=color)
+                        ^^
+C: 85,0:main: Missing docstring
+R: 85,0:main: Too many local variables (18/15)
+C: 95,12:main: Invalid name "nodesFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,8:main: Operator not preceded by a space
+        nodes=readNodesFromTxtForKmeans(nodesFile)
+             ^
+C:106,8:main: Comma not followed by a space
+        results = Pycluster.kcluster(array(nodes),nclusters=30,npass=50,method='m')
+                                                 ^^
+C:107,8:main: Operator not preceded by a space
+        assignments=results[0]
+                   ^
+C:115,8:main: Invalid name "xs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:116,8:main: Invalid name "ys" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,8:main: Operator not preceded by a space
+        clusterByClusterID=collections.defaultdict(list)
+                          ^
+C:117,8:main: Invalid name "clusterByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,8:main: Comma not followed by a space
+        for x, y, clusterID in itertools.izip(xs,ys,assignments):
+                                                ^^
+C:119,12:main: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,15:main: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,18:main: Invalid name "clusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:122,12:main: Comma not followed by a space
+            clusterByClusterID[clusterID].append((x,y))
+                                                   ^^
+C:129,8:main: Operator not preceded by a space
+        colors=['r','b','g','c','m','y','k','w','#ff6c01','#00cd00']
+              ^
+C:133,12:main: Invalid name "clusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:141,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:145,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 90,18:main: Unused variable 'args'
+W: 90,12:main: Unused variable 'opts'
+W: 20,4: Unused import osr
+W: 11,0: Unused import kmeans
+W: 15,4: Unused import ogr
+W: 11,0: Unused import vq
+W: 11,0: Unused import kmeans2
+W: 11,0: Unused import whiten
+W: 12,0: Unused import network
+W:  1,0: Unused import os
+W: 13,0: Unused import fileRW
+W:  4,0: Unused import math
+
+
+Report
+======
+86 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |42     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |19          |
++-----------+------------+
+|W0611      |10          |
++-----------+------------+
+|C0324      |6           |
++-----------+------------+
+|C0322      |5           |
++-----------+------------+
+|C0301      |5           |
++-----------+------------+
+|C0111      |5           |
++-----------+------------+
+|W0612      |4           |
++-----------+------------+
+|W0403      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|C0323      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0311      |1           |
++-----------+------------+
+|R0914      |1           |
++-----------+------------+
+|F0401      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.67/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |33.33       |66.67    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |93     |67.88 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |1      |0.73  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |23     |16.79 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |20     |14.60 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (network-planner-algorithm-tools.kCluster)
+      \-array (network-planner-algorithm-tools.kCluster)
+    ogr (network-planner-algorithm-tools.kCluster)
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.kCluster)
+      \-osr (network-planner-algorithm-tools.kCluster)
+    osr (network-planner-algorithm-tools.kCluster)
+    pylab (network-planner-algorithm-tools.kCluster)
+    scipy 
+      \-cluster 
+        \-vq 
+          \-kmeans (network-planner-algorithm-tools.kCluster)
+          \-kmeans2 (network-planner-algorithm-tools.kCluster)
+          \-vq (network-planner-algorithm-tools.kCluster)
+          \-whiten (network-planner-algorithm-tools.kCluster)
+
+
+

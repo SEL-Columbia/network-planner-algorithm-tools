@@ -1,0 +1,171 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.fileRW
+C:  1,0: Invalid name "fileRW" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 13,0: No exception type(s) specified
+W: 12,4: Relative import 'fileRWogr', should be 'network-planner-algorithm-tools.modules.fileRWogr'
+W: 12,4: Wildcard import fileRWogr
+W: 15,8: Relative import 'fileRWarcgis', should be 'network-planner-algorithm-tools.modules.fileRWarcgis'
+W: 15,8: Wildcard import fileRWarcgis
+C: 19,0:readNodesFromTxt: Invalid name "readNodesFromTxt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+W: 23,4:readNodesFromTxt: No exception type(s) specified
+C: 29,8:readNodesFromTxt: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 29,16:readNodesFromTxt: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 29,19:readNodesFromTxt: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 30,8:readNodesFromTxt: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 31,8:readNodesFromTxt: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 32,8:readNodesFromTxt: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,0:readSegsFromTxt: Invalid name "readSegsFromTxt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+W: 43,4:readSegsFromTxt: No exception type(s) specified
+C: 48,4:readSegsFromTxt: Invalid name "segID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,12:readSegsFromTxt: Invalid name "node1ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,21:readSegsFromTxt: Invalid name "node2ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 54,12:readSegsFromTxt: Invalid name "node1ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 54,21:readSegsFromTxt: Invalid name "node2ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 56,8:readSegsFromTxt: Invalid name "node1ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,8:readSegsFromTxt: Invalid name "node2ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,12:readSegsFromTxt: Invalid name "segID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 76,8:writeNodesToTxt: Redefining built-in 'id'
+C: 72,0:writeNodesToTxt: Invalid name "writeNodesToTxt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,0:writeNodesToTxt: Invalid name "outputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,27:writeNodesToTxt: Invalid name "outputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 76,8:writeNodesToTxt: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,8:writeNodesToTxt: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,11:writeNodesToTxt: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 78,8:writeNodesToTxt: Unused variable 'weight'
+W: 77,11:writeNodesToTxt: Unused variable 'y'
+W: 77,8:writeNodesToTxt: Unused variable 'x'
+W: 76,8:writeNodesToTxt: Unused variable 'id'
+C: 84,0:writeSegsToTxt: Invalid name "writeSegsToTxt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,0:writeSegsToTxt: Invalid name "outputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,26:writeSegsToTxt: Invalid name "outputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 88,8:writeSegsToTxt: Invalid name "p1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 89,8:writeSegsToTxt: Invalid name "p2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 89,8:writeSegsToTxt: Unused variable 'p2'
+W: 88,8:writeSegsToTxt: Unused variable 'p1'
+C: 95,0:writeNodesToPP: Invalid name "writeNodesToPP" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 95,0:writeNodesToPP: Invalid name "outputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 95,26:writeNodesToPP: Invalid name "outputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,4:writeNodesToPP: Invalid name "xl" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:105,4:writeNodesToPP: Invalid name "xu" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,4:writeNodesToPP: Invalid name "yl" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,4:writeNodesToPP: Invalid name "yu" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,8:writeNodesToPP: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,11:writeNodesToPP: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:106,4:writeNodesToPP: Unused variable 'yl'
+W:104,4:writeNodesToPP: Unused variable 'xl'
+W:107,4:writeNodesToPP: Unused variable 'yu'
+W:111,11:writeNodesToPP: Unused variable 'y'
+W:111,8:writeNodesToPP: Unused variable 'x'
+W:105,4:writeNodesToPP: Unused variable 'xu'
+W: 12,4: Unused import readNetFromShp from wildcard import
+W: 15,8: Unused import gp from wildcard import
+W: 12,4: Unused import osr from wildcard import
+W: 12,4: Unused import ogr from wildcard import
+W:  9,0: Unused import sys
+W: 12,4: Unused import convertToShpUnits from wildcard import
+W: 12,4: Unused import writeFieldToShp from wildcard import
+W: 15,8: Unused import arcgisscripting from wildcard import
+W: 12,4: Unused import readFieldFromShp from wildcard import
+W: 12,4: Unused import getFieldType from wildcard import
+W: 12,4: Unused import readNodesFromShp from wildcard import
+W: 12,4: Unused import os from wildcard import
+W: 12,4: Unused import genShapefile from wildcard import
+
+
+Report
+======
+93 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |92     |83.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |10.91 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |0.91  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |4.55  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |37     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |33     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |37          |
++-----------+------------+
+|W0614      |12          |
++-----------+------------+
+|W0612      |12          |
++-----------+------------+
+|W0702      |3           |
++-----------+------------+
+|W0403      |2           |
++-----------+------------+
+|W0401      |2           |
++-----------+------------+
+|W0622      |1           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.47/10
+

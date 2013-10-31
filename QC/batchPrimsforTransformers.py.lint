@@ -1,0 +1,622 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.batchPrimsforTransformers
+C: 53,0: Line too long (87/80)
+C: 56,0: Line too long (83/80)
+W: 99,0: Bad indentation. Found 12 spaces, expected 8
+W:100,0: Bad indentation. Found 16 spaces, expected 12
+C:102,0: Line too long (81/80)
+W:102,0: Bad indentation. Found 12 spaces, expected 8
+C:103,0: Line too long (107/80)
+W:104,0: Bad indentation. Found 12 spaces, expected 8
+C:105,0: Line too long (127/80)
+W:105,0: Bad indentation. Found 12 spaces, expected 8
+C:106,0: Line too long (114/80)
+W:106,0: Bad indentation. Found 12 spaces, expected 8
+C:107,0: Line too long (84/80)
+W:107,0: Bad indentation. Found 12 spaces, expected 8
+W:108,0: Bad indentation. Found 12 spaces, expected 8
+W:109,0: Bad indentation. Found 12 spaces, expected 8
+C:110,0: Line too long (95/80)
+W:110,0: Bad indentation. Found 12 spaces, expected 8
+W:111,0: Bad indentation. Found 12 spaces, expected 8
+C:115,0: Line too long (152/80)
+C:117,0: Line too long (135/80)
+C:118,0: Line too long (104/80)
+C:120,0: Line too long (103/80)
+C:126,0: Line too long (133/80)
+C:127,0: Line too long (133/80)
+C:159,0: Line too long (89/80)
+C:174,0: Line too long (85/80)
+C:184,0: Line too long (82/80)
+C:186,0: Line too long (105/80)
+C:188,0: Line too long (149/80)
+C:190,0: Line too long (82/80)
+C:192,0: Line too long (88/80)
+C:199,0: Line too long (84/80)
+C:201,0: Line too long (92/80)
+W:209,0: Bad indentation. Found 9 spaces, expected 8
+W:211,0: Bad indentation. Found 9 spaces, expected 8
+W:213,0: Bad indentation. Found 9 spaces, expected 8
+W:217,0: Bad indentation. Found 9 spaces, expected 8
+W:219,0: Bad indentation. Found 9 spaces, expected 8
+W:221,0: Bad indentation. Found 9 spaces, expected 8
+C:224,0: Line too long (164/80)
+C:226,0: Line too long (82/80)
+C:231,0: Line too long (87/80)
+C:240,0: Line too long (116/80)
+C:243,0: Line too long (81/80)
+W:249,0: Bad indentation. Found 12 spaces, expected 8
+C:293,0: Line too long (115/80)
+C:296,0: Line too long (165/80)
+C:298,0: Line too long (180/80)
+C:300,0: Line too long (111/80)
+C:304,0: Line too long (81/80)
+C:313,0: Line too long (82/80)
+C:323,0: Line too long (84/80)
+C:  1,0: Invalid name "batchPrimsforTransformers" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 17,0: Relative import 'distStats', should be 'network-planner-algorithm-tools.distStats'
+W: 19,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 20,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 21,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 23,0:Usage: Missing docstring
+W: 24,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 27,0:Error: Missing docstring
+W: 28,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 32,0:main: Missing docstring
+C: 44,8:main: Invalid name "startTime" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 53,12:main: Operator not preceded by a space
+            inputShapefile=r"C:\Users\Selin\Desktop\real\tiby_all\TibyQB2005Pts\MV.shp"
+                          ^
+C: 53,12:main: Invalid name "inputShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 55,12:main: Operator not preceded by a space
+            outputPath=r"C:\Users\Selin\Desktop\real\tiby_all\TibyQB2005Pts"
+                      ^
+C: 55,12:main: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,12:main: Operator not preceded by a space
+            locationTitle="Tiby"
+                         ^
+C: 57,12:main: Invalid name "locationTitle" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 63,8:main: Operator not preceded by a space
+        MVtree=fileRW.readNetFromShp(inputShapefile)
+              ^
+C: 63,8:main: Invalid name "MVtree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 64,8:main: Comma not followed by a space
+        batchPrims(MVtree,outputPath,locationTitle)
+                         ^^
+C: 69,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 72,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 37,18:main: Unused variable 'args'
+W: 44,8:main: Unused variable 'startTime'
+W: 37,12:main: Unused variable 'opts'
+C: 77,0:batchPrims: Comma not followed by a space
+def batchPrims(tree,outputPath,locationTitle):
+                   ^^
+C: 77,0:batchPrims: Invalid name "batchPrims" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:batchPrims: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:batchPrims: Invalid name "locationTitle" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:batchPrims: Missing docstring
+R: 77,0:batchPrims: Too many local variables (35/15)
+C: 77,20:batchPrims: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,31:batchPrims: Invalid name "locationTitle" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 78,4:batchPrims: Invalid name "dataPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 79,4:batchPrims: Invalid name "bestPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 86,4:batchPrims: Invalid name "startFIDs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:batchPrims: Operator not preceded by a space
+    nodesDict=tree.getNodeDict()
+             ^
+C: 90,4:batchPrims: Invalid name "nodesDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 92,4:batchPrims: Invalid name "nodeSegmentsDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 95,4:batchPrims: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 96,4:batchPrims: Invalid name "numStartPts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 97,4:batchPrims: Invalid name "maxNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 98,8:batchPrims: Invalid name "startFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,16:batchPrims: Operator not followed by a space
+                print "Run %i of %i..." %(n, numStartPts)
+                                        ^
+C:104,12:batchPrims: Operator not followed by a space
+            statsFile = dataPath + os.sep + "batchPrims%i.txt" %(startFID)
+                                                               ^
+C:104,12:batchPrims: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:105,12:batchPrims: Comma not followed by a space
+            nodeWeights, totalCost,MV,LV = getStatsFromTree(tree,nodesDict,outputPath,startFID)# bunun yerine yeni bisi yaz....
+                                  ^^
+C:105,12:batchPrims: Invalid name "nodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:105,25:batchPrims: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:105,35:batchPrims: Invalid name "MV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:105,38:batchPrims: Invalid name "LV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,12:batchPrims: Invalid name "cumNodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,12:batchPrims: Invalid name "cumTotalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:108,12:batchPrims: Operator not preceded by a space
+            cumMV=numpy.cumsum(MV)
+                 ^
+C:108,12:batchPrims: Invalid name "cumMV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:109,12:batchPrims: Operator not preceded by a space
+            cumLV=numpy.cumsum(LV)
+                 ^
+C:109,12:batchPrims: Invalid name "cumLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,12:batchPrims: Comma not followed by a space
+            writeStatsToTextforClusterBased(statsFile,cumNodeWeights,cumTotalCost,cumMV, cumLV)
+                                                     ^^
+C:111,12:batchPrims: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,4:batchPrims: Comma not followed by a space
+    bestCostsByPercent,bestCostsByNumber,MVByNumber,MVByPercent,LVByNumber,LVByPercent,numClustersConn,percentConn = calcBestStatsClusterBased(dataPath)
+                      ^^
+C:115,4:batchPrims: Invalid name "bestCostsByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,23:batchPrims: Invalid name "bestCostsByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,41:batchPrims: Invalid name "MVByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,52:batchPrims: Invalid name "MVByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,64:batchPrims: Invalid name "LVByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,75:batchPrims: Invalid name "LVByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,87:batchPrims: Invalid name "numClustersConn" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,103:batchPrims: Invalid name "percentConn" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,4:batchPrims: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,4:batchPrims: Comma not followed by a space
+    writeStatsToTextforClusterBased(statsFile, numClustersConn, bestCostsByNumber,MVByNumber,LVByNumber)
+                                                                                 ^^
+C:119,4:batchPrims: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:120,4:batchPrims: Comma not followed by a space
+    writeStatsToTextforClusterBased(statsFile, percentConn, bestCostsByPercent,MVByPercent,LVByPercent)
+                                                                              ^^
+C:123,4:batchPrims: Invalid name "statsPlotByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,4:batchPrims: Invalid name "statsPlotByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:126,4:batchPrims: Comma not followed by a space
+    plotStatsForClusterBased(numClustersConn, bestCostsByNumber,MVByNumber,LVByNumber, statsPlotByNumber, "Mean Cost", locationTitle)
+                                                               ^^
+C:127,4:batchPrims: Comma not followed by a space
+    plotStatsForClusterBased(percentConn, bestCostsByPercent,MVByPercent,LVByPercent, statsPlotByPercent, "Mean Cost", locationTitle)
+                                                            ^^
+W: 87,4:batchPrims: Unused variable 'resolution'
+C:131,0:getStatsFromTree: Comma not followed by a space
+def getStatsFromTree(tree,centers,outputDir,startFID,sortByWeight=False):
+                         ^^
+C:131,0:getStatsFromTree: Invalid name "getStatsFromTree" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,0:getStatsFromTree: Invalid name "outputDir" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,0:getStatsFromTree: Invalid name "startFID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,0:getStatsFromTree: Invalid name "sortByWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,0:getStatsFromTree: Missing docstring
+R:131,0:getStatsFromTree: Too many local variables (18/15)
+C:131,34:getStatsFromTree: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,44:getStatsFromTree: Invalid name "startFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,53:getStatsFromTree: Invalid name "sortByWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:133,4:getStatsFromTree: Operator not preceded by a space
+    DictFile= outputDir + os.sep + "LVCostDict.txt"
+            ^
+C:133,4:getStatsFromTree: Invalid name "DictFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,4:getStatsFromTree: Operator not preceded by a space
+    LVCostDict=distStats.loadStatsFromTextAsDict(DictFile)
+              ^
+C:134,4:getStatsFromTree: Invalid name "LVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:138,4:getStatsFromTree: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:139,4:getStatsFromTree: Operator not preceded by a space
+    MVLineMeter=[]
+               ^
+C:139,4:getStatsFromTree: Invalid name "MVLineMeter" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:getStatsFromTree: Operator not preceded by a space
+    LVLineMeter=[]
+               ^
+C:140,4:getStatsFromTree: Invalid name "LVLineMeter" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:141,4:getStatsFromTree: Invalid name "nodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,4:getStatsFromTree: Invalid name "nodesInNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:152,8:getStatsFromTree: Invalid name "newNodeWeightSum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,16:getStatsFromTree: Invalid name "newNodeWeightSum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:157,16:getStatsFromTree: Operator not preceded by a space
+                newLV=LVCostDict[node.getID()]
+                     ^
+C:157,16:getStatsFromTree: Invalid name "newLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:162,4:getStatsFromTree: Comma not followed by a space
+    return nodeWeights,totalCost,MVLineMeter,LVLineMeter
+                      ^^
+W:181,8:calcBestStatsClusterBased: Redefining built-in 'file'
+C:164,0:calcBestStatsClusterBased: Invalid name "calcBestStatsClusterBased" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:164,0:calcBestStatsClusterBased: Invalid name "dataPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:164,0:calcBestStatsClusterBased: Too many local variables (30/15)
+C:164,30:calcBestStatsClusterBased: Invalid name "dataPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:168,4:calcBestStatsClusterBased: Invalid name "bestCostsByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:169,4:calcBestStatsClusterBased: Operator not preceded by a space
+    bestCostsByNumber={}
+                     ^
+C:169,4:calcBestStatsClusterBased: Invalid name "bestCostsByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:170,4:calcBestStatsClusterBased: Operator not preceded by a space
+    MVByNumber={}#MV Line Length in meter
+              ^
+C:170,4:calcBestStatsClusterBased: Invalid name "MVByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,4:calcBestStatsClusterBased: Operator not preceded by a space
+    LVByNumber={} #LV Line Length in meter
+              ^
+C:171,4:calcBestStatsClusterBased: Invalid name "LVByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,4:calcBestStatsClusterBased: Operator not preceded by a space
+    MVByPercent={}
+               ^
+C:172,4:calcBestStatsClusterBased: Invalid name "MVByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:173,4:calcBestStatsClusterBased: Operator not preceded by a space
+    LVByPercent={}
+               ^
+C:173,4:calcBestStatsClusterBased: Invalid name "LVByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:174,4:calcBestStatsClusterBased: Operator not preceded by a space
+    bestCostsArrayByPercent=[]# Stores the best costs for each percentage penetration
+                           ^
+C:174,4:calcBestStatsClusterBased: Invalid name "bestCostsArrayByPercent" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:175,4:calcBestStatsClusterBased: Operator not preceded by a space
+    bestCostsArrayByNumber=[]
+                          ^
+C:175,4:calcBestStatsClusterBased: Invalid name "bestCostsArrayByNumber" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:176,4:calcBestStatsClusterBased: Operator not preceded by a space
+    MVByNumberArray=[]
+                   ^
+C:176,4:calcBestStatsClusterBased: Invalid name "MVByNumberArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,4:calcBestStatsClusterBased: Operator not preceded by a space
+    LVByNumberArray=[]
+                   ^
+C:177,4:calcBestStatsClusterBased: Invalid name "LVByNumberArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:178,4:calcBestStatsClusterBased: Operator not preceded by a space
+    MVByPercentArray=[]
+                    ^
+C:178,4:calcBestStatsClusterBased: Invalid name "MVByPercentArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:179,4:calcBestStatsClusterBased: Operator not preceded by a space
+    LVByPercentArray=[]
+                    ^
+C:179,4:calcBestStatsClusterBased: Invalid name "LVByPercentArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:184,8:calcBestStatsClusterBased: Invalid name "startFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,8:calcBestStatsClusterBased: Comma not followed by a space
+        filePath = os.path.join(dataPath,file)
+                                        ^^
+C:185,8:calcBestStatsClusterBased: Invalid name "filePath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,8:calcBestStatsClusterBased: Comma not followed by a space
+        cumNodeWeights,cumSegWeights,cumMVLength,cumLVLength = loadStatsFromTextforClusterBased(filePath)
+                      ^^
+C:186,8:calcBestStatsClusterBased: Invalid name "cumNodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,23:calcBestStatsClusterBased: Invalid name "cumSegWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,37:calcBestStatsClusterBased: Invalid name "cumMVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,49:calcBestStatsClusterBased: Invalid name "cumLVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:188,8:calcBestStatsClusterBased: Comma not followed by a space
+        numClustersConnected,percentConnClusters, costs,meanMV,meanLV = calcMeanCostForCluster(cumNodeWeights, cumSegWeights,cumMVLength,cumLVLength)
+                            ^^
+C:188,8:calcBestStatsClusterBased: Invalid name "numClustersConnected" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:188,29:calcBestStatsClusterBased: Invalid name "percentConnClusters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:188,56:calcBestStatsClusterBased: Invalid name "meanMV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:188,63:calcBestStatsClusterBased: Invalid name "meanLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,8:calcBestStatsClusterBased: Comma not followed by a space
+        for number,cost,MV,LV in zip(numClustersConnected, costs, meanMV, meanLV):
+                  ^^
+C:190,24:calcBestStatsClusterBased: Invalid name "MV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,27:calcBestStatsClusterBased: Invalid name "LV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:196,16:calcBestStatsClusterBased: Operator not preceded by a space
+                LVByNumber[number]=LV
+                                  ^
+C:197,16:calcBestStatsClusterBased: Operator not preceded by a space
+                MVByNumber[number]=MV
+                                  ^
+C:199,8:calcBestStatsClusterBased: Comma not followed by a space
+        for percent, cost ,MV,LV in zip(percentConnClusters, costs, meanMV, meanLV):
+                          ^^
+C:199,27:calcBestStatsClusterBased: Invalid name "MV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:199,30:calcBestStatsClusterBased: Invalid name "LV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:205,16:calcBestStatsClusterBased: Operator not preceded by a space
+                LVByPercent[percent]=LV
+                                    ^
+C:206,16:calcBestStatsClusterBased: Operator not preceded by a space
+                MVByPercent[percent]=MV
+                                    ^
+C:224,4:calcBestStatsClusterBased: Comma not followed by a space
+    return bestCostsArrayByPercent,bestCostsArrayByNumber,MVByNumberArray,MVByPercentArray,LVByNumberArray,LVByPercentArray,numClustersConnected,percentConnClusters
+                                  ^^
+W:184,8:calcBestStatsClusterBased: Unused variable 'startFID'
+R:164,0:calcBestStatsClusterBased: Too many branches (14/12)
+C:226,0:calcMeanCostForCluster: Comma not followed by a space
+def calcMeanCostForCluster(cumNodeWeights, cumSegWeights,cumMVLength,cumLVLength):
+                                                        ^^
+C:226,0:calcMeanCostForCluster: Invalid name "calcMeanCostForCluster" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,0:calcMeanCostForCluster: Invalid name "cumNodeWeights" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,0:calcMeanCostForCluster: Invalid name "cumSegWeights" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,0:calcMeanCostForCluster: Invalid name "cumMVLength" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,0:calcMeanCostForCluster: Invalid name "cumLVLength" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,27:calcMeanCostForCluster: Invalid name "cumNodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,43:calcMeanCostForCluster: Invalid name "cumSegWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,57:calcMeanCostForCluster: Invalid name "cumMVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:226,69:calcMeanCostForCluster: Invalid name "cumLVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:228,4:calcMeanCostForCluster: Operator not preceded by a space
+    numClustersConnected=[]
+                        ^
+C:228,4:calcMeanCostForCluster: Invalid name "numClustersConnected" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:229,4:calcMeanCostForCluster: Comma not followed by a space
+    for x in range(1,len(cumNodeWeights)+1):
+                    ^^
+C:229,8:calcMeanCostForCluster: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:231,4:calcMeanCostForCluster: Comma not followed by a space
+    meanSegWeights = map(lambda segWeight,nodeWeight: (float(segWeight) / nodeWeight),
+                                         ^^
+            cumSegWeights, cumNodeWeights)
+C:231,4:calcMeanCostForCluster: Invalid name "meanSegWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:231,21:calcMeanCostForCluster: Used builtin function 'map'
+C:234,4:calcMeanCostForCluster: Comma not followed by a space
+    meanMV = map(lambda MVLength,nodeWeight: (float(MVLength) / nodeWeight),
+                                ^^
+            cumMVLength, cumNodeWeights)
+C:234,4:calcMeanCostForCluster: Invalid name "meanMV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:234,13:calcMeanCostForCluster: Used builtin function 'map'
+C:237,4:calcMeanCostForCluster: Comma not followed by a space
+    meanLV = map(lambda LVLength,nodeWeight: (float(LVLength) / nodeWeight),
+                                ^^
+            cumLVLength, cumNodeWeights)
+C:237,4:calcMeanCostForCluster: Invalid name "meanLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:237,13:calcMeanCostForCluster: Used builtin function 'map'
+C:240,4:calcMeanCostForCluster: Invalid name "percentConnClusters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:240,26:calcMeanCostForCluster: Used builtin function 'map'
+C:243,4:calcMeanCostForCluster: Comma not followed by a space
+    return numClustersConnected,percentConnClusters, meanSegWeights,meanMV,meanLV
+                               ^^
+C:245,0:writeStatsToTextforClusterBased: Comma not followed by a space
+def writeStatsToTextforClusterBased(statsFile,x,y,z,t):
+                                             ^^
+C:245,0:writeStatsToTextforClusterBased: Invalid name "writeStatsToTextforClusterBased" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,0:writeStatsToTextforClusterBased: Invalid name "statsFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,0:writeStatsToTextforClusterBased: Invalid name "x" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,0:writeStatsToTextforClusterBased: Invalid name "y" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,0:writeStatsToTextforClusterBased: Invalid name "z" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,0:writeStatsToTextforClusterBased: Invalid name "t" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,36:writeStatsToTextforClusterBased: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,46:writeStatsToTextforClusterBased: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,48:writeStatsToTextforClusterBased: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,50:writeStatsToTextforClusterBased: Invalid name "z" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,52:writeStatsToTextforClusterBased: Invalid name "t" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:247,4:writeStatsToTextforClusterBased: Invalid name "outFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:248,4:writeStatsToTextforClusterBased: Comma not followed by a space
+    for xi, yi ,zi,ti in zip(x, y,z,t):
+               ^^
+C:248,8:writeStatsToTextforClusterBased: Invalid name "xi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:248,12:writeStatsToTextforClusterBased: Invalid name "yi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:248,16:writeStatsToTextforClusterBased: Invalid name "zi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:248,19:writeStatsToTextforClusterBased: Invalid name "ti" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:248,12:writeStatsToTextforClusterBased: Unused variable 'yi'
+W:248,8:writeStatsToTextforClusterBased: Unused variable 'xi'
+W:248,16:writeStatsToTextforClusterBased: Unused variable 'zi'
+W:248,19:writeStatsToTextforClusterBased: Unused variable 'ti'
+C:253,0:loadStatsFromTextforClusterBased: Invalid name "loadStatsFromTextforClusterBased" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:253,0:loadStatsFromTextforClusterBased: Invalid name "statsFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:253,37:loadStatsFromTextforClusterBased: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:257,4:loadStatsFromTextforClusterBased: No exception type(s) specified
+C:256,8:loadStatsFromTextforClusterBased: Invalid name "inFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:260,4:loadStatsFromTextforClusterBased: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:261,4:loadStatsFromTextforClusterBased: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:262,4:loadStatsFromTextforClusterBased: Invalid name "z" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:263,4:loadStatsFromTextforClusterBased: Invalid name "t" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,8:loadStatsFromTextforClusterBased: Comma not followed by a space
+        xi, yi,zi,ti = line.split()
+              ^^
+C:265,8:loadStatsFromTextforClusterBased: Invalid name "xi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,12:loadStatsFromTextforClusterBased: Invalid name "yi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,15:loadStatsFromTextforClusterBased: Invalid name "zi" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,18:loadStatsFromTextforClusterBased: Invalid name "ti" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Comma not followed by a space
+def plotStatsForClusterBased(x, y1,y2,y3 ,outputFile, ylabel, title=""):
+                                  ^^
+C:275,0:plotStatsForClusterBased: Invalid name "plotStatsForClusterBased" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Invalid name "x" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Invalid name "y1" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Invalid name "y2" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Invalid name "y3" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,0:plotStatsForClusterBased: Invalid name "outputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:275,0:plotStatsForClusterBased: Too many arguments (7/5)
+C:275,29:plotStatsForClusterBased: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,32:plotStatsForClusterBased: Invalid name "y1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,35:plotStatsForClusterBased: Invalid name "y2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,38:plotStatsForClusterBased: Invalid name "y3" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,42:plotStatsForClusterBased: Invalid name "outputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:277,4:plotStatsForClusterBased: Operator not preceded by a space
+    xlen=len(y1)
+        ^
+C:281,4:plotStatsForClusterBased: Operator not preceded by a space
+    MV=pylab.plot(x, y2, 'b--', linewidth=5)
+      ^
+C:281,4:plotStatsForClusterBased: Invalid name "MV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:282,4:plotStatsForClusterBased: Operator not preceded by a space
+    LV=pylab.plot(x, y3, 'y.-', linewidth=5)
+      ^
+C:282,4:plotStatsForClusterBased: Invalid name "LV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:283,4:plotStatsForClusterBased: Comma not followed by a space
+    pylab.ylim(0,100)
+                ^^
+C:285,4:plotStatsForClusterBased: Operator not preceded by a space
+    meanCost=pylab.plot(x, y1, 'm-', linewidth=5)
+            ^
+C:285,4:plotStatsForClusterBased: Invalid name "meanCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:286,4:plotStatsForClusterBased: Operator not preceded by a space
+    if x[0]==1:
+           ^^
+C:288,8:plotStatsForClusterBased: Operator not preceded by a space
+        ticks=[]
+             ^
+C:289,8:plotStatsForClusterBased: Comma not followed by a space
+        for i in range(0,xlen/20+1):
+                        ^^
+C:292,8:plotStatsForClusterBased: Operator not preceded by a space
+        if title=="Ruhiira":
+                ^^
+C:293,12:plotStatsForClusterBased: Comma not followed by a space
+            pylab.xticks(ticks, ('0/%i'%(xlen), '20/%i'%(xlen), '40/%i'%(xlen),'49/%i'%(xlen) ), fontsize='xlarge')
+                                                                              ^^
+C:295,8:plotStatsForClusterBased: Operator not preceded by a space
+        if title=="Pampaida":
+                ^^
+C:296,12:plotStatsForClusterBased: Comma not followed by a space
+            pylab.xticks(ticks, ('0/%i'%(xlen), '20/%i'%(xlen), '40/%i'%(xlen), '60/%i'%(xlen), '80/%i'%(xlen),'100/%i'%(xlen),'115/%i'%(xlen)), fontsize='x-large')
+                                                                                                              ^^
+C:297,8:plotStatsForClusterBased: Operator not preceded by a space
+        if title=="Mbola":
+                ^^
+C:298,12:plotStatsForClusterBased: Comma not followed by a space
+            pylab.xticks(ticks, ('0/%i'%(xlen), '20/%i'%(xlen), '40/%i'%(xlen), '60/%i'%(xlen), '80/%i'%(xlen),'100/%i'%(xlen),'120/%i' %(xlen),'139/%i' %(xlen)), fontsize='large')
+                                                                                                              ^^
+C:299,8:plotStatsForClusterBased: Operator not preceded by a space
+        if title=="Tiby": #tick leri de degistir
+                ^^
+C:300,12:plotStatsForClusterBased: Comma not followed by a space
+            pylab.xticks(ticks, ('0/%i'%(xlen), '5/%i'%(xlen), '10/%i'%(xlen),'15/%i'%(xlen)),fontsize='large')
+                                                                             ^^
+C:306,8:plotStatsForClusterBased: Comma not followed by a space
+        pylab.xlim(0,100)
+                    ^^
+C:309,4:plotStatsForClusterBased: Comma not followed by a space
+    pylab.ylim(min(min(y1),min(y2),min(y3)), max(max(y1),max(y2),max(y3))+100)
+                          ^^
+C:313,4:plotStatsForClusterBased: Comma not followed by a space
+    pylab.legend((MV,LV,meanCost),('MeanMV','MeanLV','MeanCost'),loc="upper left")
+                    ^^
+W:320,8:makePastaPlot: Redefining built-in 'file'
+C:318,0:makePastaPlot: Invalid name "makePastaPlot" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,0:makePastaPlot: Invalid name "dataPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,0:makePastaPlot: Invalid name "plotFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,0:makePastaPlot: Invalid name "plotTitle" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,0:makePastaPlot: Missing docstring
+C:318,18:makePastaPlot: Invalid name "dataPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,28:makePastaPlot: Invalid name "plotFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,38:makePastaPlot: Invalid name "plotTitle" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:323,8:makePastaPlot: Invalid name "startFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:324,8:makePastaPlot: Comma not followed by a space
+        filePath = os.path.join(dataPath,file)
+                                        ^^
+C:324,8:makePastaPlot: Invalid name "filePath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:325,8:makePastaPlot: Invalid name "nodeWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:325,21:makePastaPlot: Invalid name "segWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:326,8:makePastaPlot: Invalid name "percentConn" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:323,8:makePastaPlot: Unused variable 'startFID'
+C:339,0:elapsedTime: Invalid name "elapsedTime" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:339,0:elapsedTime: Invalid name "startTime" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:339,0:elapsedTime: Missing docstring
+C:339,16:elapsedTime: Invalid name "startTime" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:344,4:elapsedTime: Operator not followed by a space
+    return "%ih %im %is" %(hours, minutes, seconds)
+                         ^
+W: 12,0: Unused import pickle
+W: 10,0: Unused import shutil
+W: 21,0: Unused import network
+
+
+Report
+======
+253 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |282    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |44     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |160         |
++-----------+------------+
+|C0322      |38          |
++-----------+------------+
+|C0324      |37          |
++-----------+------------+
+|C0301      |35          |
++-----------+------------+
+|W0311      |18          |
++-----------+------------+
+|W0612      |10          |
++-----------+------------+
+|C0111      |7           |
++-----------+------------+
+|C0323      |5           |
++-----------+------------+
+|W0403      |4           |
++-----------+------------+
+|W0141      |4           |
++-----------+------------+
+|W0611      |3           |
++-----------+------------+
+|R0914      |3           |
++-----------+------------+
+|W0622      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|R0913      |1           |
++-----------+------------+
+|R0912      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -3.08/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |258    |83.77 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |13     |4.22  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |9      |2.92  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |28     |9.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |10     |NC         |NC         |50.00       |90.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (network-planner-algorithm-tools.batchPrimsforTransformers)
+    pylab (network-planner-algorithm-tools.batchPrimsforTransformers)
+
+
+

@@ -1,0 +1,476 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.CMST_dfs
+C: 28,0: Line too long (106/80)
+C: 36,0: Line too long (106/80)
+C: 98,0: Line too long (96/80)
+C:101,0: Line too long (94/80)
+C:126,0: Line too long (125/80)
+C:129,0: Line too long (123/80)
+C:143,0: Line too long (86/80)
+C:147,0: Line too long (94/80)
+C:149,0: Line too long (90/80)
+C:150,0: Line too long (90/80)
+C:163,0: Line too long (94/80)
+C:165,0: Line too long (83/80)
+C:194,0: Line too long (111/80)
+C:196,0: Line too long (152/80)
+C:200,0: Line too long (111/80)
+C:201,0: Line too long (100/80)
+C:205,0: Line too long (124/80)
+C:209,0: Line too long (105/80)
+W:211,0: Bad indentation. Found 11 spaces, expected 12
+C:217,0: Line too long (84/80)
+C:220,0: Line too long (91/80)
+C:222,0: Line too long (133/80)
+C:224,0: Line too long (140/80)
+C:227,0: Line too long (84/80)
+C:  1,0: Invalid name "CMST_dfs" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 14,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 16,0:T: Invalid name "T" for type class (should match [A-Z_][a-zA-Z0-9]+$)
+C: 19,8:T.__init__: Invalid name "_addedSegmentNode1" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 20,8:T.__init__: Invalid name "_addedSegmentNode2" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 18,8:T.__init__: Invalid name "_removedSegmentNode" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 16,0:T: Missing docstring
+C: 17,4:T.__init__: Comma not followed by a space
+    def __init__(self,value1=None,value2=None,value3=None,value4=None):
+                     ^^
+C: 18,8:T.__init__: Operator not preceded by a space
+        self._removedSegmentNode= value1
+                                ^
+C: 19,8:T.__init__: Operator not preceded by a space
+        self._addedSegmentNode1=value2
+                               ^
+C: 20,8:T.__init__: Operator not preceded by a space
+        self._addedSegmentNode2=value3
+                               ^
+C: 21,8:T.__init__: Operator not preceded by a space
+        self._value=value4
+                   ^
+C: 24,8:T.__repr__: Invalid name "removedSegment" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 25,8:T.__repr__: Invalid name "addedSegmentNode1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 26,8:T.__repr__: Invalid name "addedSegmentNode2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 27,8:T.__repr__: Operator not preceded by a space
+        value=self.getValue()
+             ^
+C: 28,8:T.__repr__: Operator not followed by a space
+        return "T ( %(removedSegment)s), %(addedSegmentNode1)s, %(addedSegmentNode2)s, %(value)s)" %vars()
+                                                                                                   ^
+W: 26,8:T.__repr__: Unused variable 'addedSegmentNode2'
+W: 24,8:T.__repr__: Unused variable 'removedSegment'
+W: 25,8:T.__repr__: Unused variable 'addedSegmentNode1'
+W: 27,8:T.__repr__: Unused variable 'value'
+C: 32,8:T.__str__: Invalid name "removedSegment" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 33,8:T.__str__: Invalid name "addedSegmentNode1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,8:T.__str__: Invalid name "addedSegmentNode2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 35,8:T.__str__: Operator not preceded by a space
+        value=self.getValue()
+             ^
+C: 36,8:T.__str__: Operator not followed by a space
+        return "T ( %(removedSegment)s), %(addedSegmentNode1)s, %(addedSegmentNode2)s, %(value)s)" %vars()
+                                                                                                   ^
+W: 34,8:T.__str__: Unused variable 'addedSegmentNode2'
+W: 32,8:T.__str__: Unused variable 'removedSegment'
+W: 33,8:T.__str__: Unused variable 'addedSegmentNode1'
+W: 35,8:T.__str__: Unused variable 'value'
+C: 38,4:T.getRemovedSegmentNode: Invalid name "getRemovedSegmentNode" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 38,4:T.getRemovedSegmentNode: Missing docstring
+C: 40,4:T.getAddedSegmentNode1: Invalid name "getAddedSegmentNode1" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,4:T.getAddedSegmentNode1: Missing docstring
+C: 42,4:T.getAddedSegmentNode2: Invalid name "getAddedSegmentNode2" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 42,4:T.getAddedSegmentNode2: Missing docstring
+C: 44,4:T.getValue: Invalid name "getValue" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 44,4:T.getValue: Missing docstring
+C: 47,0:buildAssocDict: Invalid name "buildAssocDict" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,4:buildAssocDict: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 52,12:buildAssocDict: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 66,24:dfs: More than one statement on a single line
+C: 70,8:dfs: Invalid name "v" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:depthFirstSet: Comma not followed by a space
+def depthFirstSet(node1,node2,root,segList,distDict):
+                       ^^
+C: 77,0:depthFirstSet: Invalid name "depthFirstSet" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:depthFirstSet: Invalid name "segList" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,0:depthFirstSet: Invalid name "distDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,35:depthFirstSet: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,43:depthFirstSet: Invalid name "distDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 82,4:depthFirstSet: Operator not preceded by a space
+    visited=[]
+           ^
+C: 83,4:depthFirstSet: Comma not followed by a space
+    node1.setWeight(node2.getWeight()+distDict[(node1.getID(),node2.getID())])
+                                                             ^^
+C: 86,8:depthFirstSet: Invalid name "v" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,12:depthFirstSet: Operator not preceded by a space
+            vNeighbors=[]
+                      ^
+C: 90,12:depthFirstSet: Invalid name "vNeighbors" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 93,16:depthFirstSet: Operator not preceded by a space
+                firstNode,secondNode=seg.getNodes()
+                                    ^
+C: 93,16:depthFirstSet: Invalid name "firstNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 93,26:depthFirstSet: Invalid name "secondNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,16:depthFirstSet: Operator not preceded by a space
+                if firstNode==root or secondNode==root :
+                            ^^
+C: 96,16:depthFirstSet: Operator not preceded by a space
+                if firstNode==v and secondNode not in visited:
+                            ^^
+C: 98,20:depthFirstSet: Comma not followed by a space
+                    secondNode.setWeight(v.getWeight()+distDict[(v.getID(),secondNode.getID())])
+                                                                          ^^
+C: 99,16:depthFirstSet: Operator not preceded by a space
+                if secondNode==v and firstNode not in visited:
+                             ^^
+C:101,20:depthFirstSet: Comma not followed by a space
+                    firstNode.setWeight(v.getWeight()+distDict[(v.getID(),firstNode.getID())])
+                                                                         ^^
+C:104,0:maxDistFromNode: Comma not followed by a space
+def maxDistFromNode(node1,root,treeSegments,distDict):
+                         ^^
+C:104,0:maxDistFromNode: Invalid name "maxDistFromNode" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,0:maxDistFromNode: Invalid name "treeSegments" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,0:maxDistFromNode: Invalid name "distDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,31:maxDistFromNode: Invalid name "treeSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,44:maxDistFromNode: Invalid name "distDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:108,4:maxDistFromNode: Operator not preceded by a space
+    segList=buildAssocDict(treeSegments.values())
+           ^
+C:108,4:maxDistFromNode: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,4:maxDistFromNode: Operator not preceded by a space
+    visited=[]
+           ^
+C:112,4:maxDistFromNode: Operator not preceded by a space
+    tempWeightByNode={}
+                    ^
+C:112,4:maxDistFromNode: Invalid name "tempWeightByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:116,8:maxDistFromNode: Invalid name "v" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,12:maxDistFromNode: Operator not preceded by a space
+            vNeighbors=[]
+                      ^
+C:119,12:maxDistFromNode: Invalid name "vNeighbors" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,16:maxDistFromNode: Operator not preceded by a space
+                firstNode,secondNode=seg.getNodes()
+                                    ^
+C:121,16:maxDistFromNode: Invalid name "firstNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,26:maxDistFromNode: Invalid name "secondNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:122,16:maxDistFromNode: Operator not preceded by a space
+                if firstNode==root or secondNode==root :
+                            ^^
+C:124,16:maxDistFromNode: Operator not preceded by a space
+                if firstNode==v and secondNode not in visited:
+                            ^^
+C:126,20:maxDistFromNode: Comma not followed by a space
+                    tempWeightByNode[secondNode.getID()]=tempWeightByNode[v.getID()]+distDict[(v.getID(),secondNode.getID())]
+                                                                                                        ^^
+C:127,16:maxDistFromNode: Operator not preceded by a space
+                if secondNode==v and firstNode not in visited:
+                             ^^
+C:129,20:maxDistFromNode: Comma not followed by a space
+                    tempWeightByNode[firstNode.getID()]=tempWeightByNode[v.getID()]+distDict[(v.getID(),firstNode.getID())]
+                                                                                                       ^^
+C:131,4:maxDistFromNode: Operator not preceded by a space
+    maxDist=max(tempWeightByNode.values())
+           ^
+C:131,4:maxDistFromNode: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:136,0:CMST: Comma not followed by a space
+def CMST(households,capacity,root):
+                   ^^
+W:136,9:CMST: Redefining name 'households' from outer scope (line 258)
+W:136,20:CMST: Redefining name 'capacity' from outer scope (line 244)
+C:136,0:CMST: Invalid name "CMST" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:136,0:CMST: Missing docstring
+R:136,0:CMST: Too many local variables (26/15)
+C:138,4:CMST: Operator not preceded by a space
+    treeSegments={}
+                ^
+C:138,4:CMST: Invalid name "treeSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:139,4:CMST: Operator not preceded by a space
+    distDict={}
+            ^
+C:139,4:CMST: Invalid name "distDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:CMST: Operator not preceded by a space
+    households_Copy=copy.deepcopy(households)
+                   ^
+C:140,4:CMST: Invalid name "households_Copy" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:141,4:CMST: Operator not preceded by a space
+    SegID=10000000
+         ^
+C:141,4:CMST: Invalid name "SegID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,4:CMST: Operator not preceded by a space
+    root_Copy=copy.deepcopy(root)
+             ^
+C:142,4:CMST: Invalid name "root_Copy" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:143,4:CMST: Operator not preceded by a space
+    newRootID=root_Copy.getID()*(-1)-100  #### not to be confused with the same nodeID
+             ^
+C:143,4:CMST: Invalid name "newRootID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:145,4:CMST: Operator not preceded by a space
+    maxTvalue=0
+             ^
+C:145,4:CMST: Invalid name "maxTvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,4:CMST: Operator not preceded by a space
+    branchNodeByNode={}# which branch is the node on?
+                    ^
+C:146,4:CMST: Invalid name "branchNodeByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:147,4:CMST: Operator not preceded by a space
+    nodesByBranchNode=collections.defaultdict(list )# what are the nodes on a spesific branch?
+                     ^
+C:147,4:CMST: Invalid name "nodesByBranchNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,8:CMST: Operator not preceded by a space
+        length=((node.getX()-root_Copy.getX())**2+(node.getY()-root_Copy.getY())**2)**(.5)
+              ^
+C:150,8:CMST: Comma not followed by a space
+        treeSegments[(node.getID(),newRootID)]=network.Seg(SegID, node, root_Copy, length)
+                                  ^^
+C:151,8:CMST: Operator not preceded by a space
+        SegID+=1
+             ^^
+C:151,8:CMST: Invalid name "SegID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,8:CMST: Operator not preceded by a space
+        branchNodeByNode[node]=node
+                              ^
+C:155,8:CMST: Comma not followed by a space
+        distDict[(newRootID,node.getID())]=length
+                           ^^
+C:156,8:CMST: Comma not followed by a space
+        distDict[(node.getID(),newRootID)]=length
+                              ^^
+C:160,12:CMST: Operator not preceded by a space
+            if node1==node2:
+                    ^^
+C:163,16:CMST: Operator not preceded by a space
+                distance=((node1.getX()-node2.getX())**2+(node1.getY()-node2.getY())**2)**(.5)
+                        ^
+C:165,16:CMST: Operator not preceded by a space
+                Tvalue=treeSegments[(node1.getID(),newRootID)].getWeight()-distance
+                      ^
+C:165,16:CMST: Invalid name "Tvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:168,20:CMST: Operator not preceded by a space
+                    newT=T(node1,node1,node2,Tvalue)
+                        ^
+C:168,20:CMST: Invalid name "newT" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,24:CMST: Operator not preceded by a space
+                        maxTObject=newT
+                                  ^
+C:172,24:CMST: Invalid name "maxTObject" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:173,24:CMST: Operator not preceded by a space
+                        maxTvalue=newT.getValue()
+                                 ^
+C:173,24:CMST: Invalid name "maxTvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:174,4:CMST: Operator not preceded by a space
+    totalLVCost=0
+               ^
+C:174,4:CMST: Invalid name "totalLVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:176,8:CMST: Operator not preceded by a space
+        totalLVCost=totalLVCost+segment.getWeight()
+                   ^
+C:176,8:CMST: Invalid name "totalLVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,8:CMST: Operator not preceded by a space
+        maxTvalue=0
+                 ^
+C:180,8:CMST: Invalid name "maxTvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,8:CMST: Operator not preceded by a space
+        SegID+=1
+             ^^
+C:181,8:CMST: Invalid name "SegID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:182,8:CMST: Operator not preceded by a space
+        node1=maxTObject.getAddedSegmentNode1() # node1 and node2 of new segment
+             ^
+C:184,8:CMST: Operator not preceded by a space
+        node1Weigth=node1.getWeight()
+                   ^
+C:184,8:CMST: Invalid name "node1Weigth" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,8:CMST: Operator not preceded by a space
+        node2=maxTObject.getAddedSegmentNode2()
+             ^
+C:189,8:CMST: Comma not followed by a space
+        del treeSegments[(maxTObject.getRemovedSegmentNode().getID(),newRootID)]
+                                                                    ^^
+C:193,8:CMST: Operator not preceded by a space
+        if node1==branchNodeByNode[node1]:
+                ^^
+C:194,12:CMST: Operator not preceded by a space
+            tempWeight=node1.getWeight() # I need this becouse node1 is updated first and it effects the others
+                      ^
+C:194,12:CMST: Invalid name "tempWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:196,16:CMST: Comma not followed by a space
+                node.setWeight(node.getWeight()-tempWeight+ node2.getWeight()+distDict[(node1.getID(),node2.getID())])# digerlerinin de set olmasi lazim
+                                                                                                     ^^
+C:200,12:CMST: Operator not preceded by a space
+            segList=buildAssocDict(treeSegments.values()) # daha efficient yapmak icin sadece update edebilirim
+                   ^
+C:200,12:CMST: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:201,12:CMST: Comma not followed by a space
+            depthFirstSet(node1,node2,root_Copy,segList,distDict) # root  (node1) hala icinde unutma
+                               ^^
+C:205,8:CMST: Comma not followed by a space
+        treeSegments[(node1.getID(), node2.getID())]=network.Seg(SegID,node1, node2,distDict[(node1.getID(),node2.getID())])
+                                                                      ^^
+C:211,11:CMST: Operator not preceded by a space
+           branchNodeByNode[node]=branchNodeByNode[node2]
+                                 ^
+C:217,16:CMST: Operator not preceded by a space
+                if node1==node2 or branchNodeByNode[node1]==branchNodeByNode[node2]:
+                        ^^
+C:220,20:CMST: Operator not preceded by a space
+                    maxDistFromNode1=maxDistFromNode(node1,root_Copy,treeSegments,distDict)
+                                    ^
+C:220,20:CMST: Invalid name "maxDistFromNode1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:222,20:CMST: Comma not followed by a space
+                    if (node2.getWeight()+distDict[node1.getID(),node2.getID()]+maxDistFromNode1<=capacity): #1 2ye baslansa ne olur?
+                                                                ^^
+C:224,24:CMST: Operator not preceded by a space
+                        Tvalue=treeSegments[(branchNodeByNode[node1].getID(),newRootID)].getWeight()-distDict[(node1.getID(),node2.getID())]
+                              ^
+C:224,24:CMST: Invalid name "Tvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:225,24:CMST: Operator not preceded by a space
+                        if Tvalue>=maxTvalue:
+                                 ^^
+C:226,28:CMST: Operator not preceded by a space
+                            maxTvalue=Tvalue
+                                     ^
+C:226,28:CMST: Invalid name "maxTvalue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:227,28:CMST: Operator not preceded by a space
+                            maxTObject=T(branchNodeByNode[node1],node1,node2,Tvalue)
+                                      ^
+C:227,28:CMST: Invalid name "maxTObject" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:230,4:CMST: Operator not preceded by a space
+    totalLVCost=0
+               ^
+C:230,4:CMST: Invalid name "totalLVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:232,8:CMST: Operator not preceded by a space
+        totalLVCost=totalLVCost+segment.getWeight()
+                   ^
+C:232,8:CMST: Invalid name "totalLVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:184,8:CMST: Unused variable 'node1Weigth'
+R:136,0:CMST: Too many branches (20/12)
+R:136,0:CMST: Too many statements (60/50)
+C:244,0: Operator not preceded by a space
+capacity=10
+        ^
+C:244,0: Invalid name "capacity" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:255,-1: Comma not followed by a space
+households.append(network.Node(8,-2,3,1))'''
+                                ^^
+W:255,-1: String statement has no effect
+C:258,0: Operator not preceded by a space
+households=[]
+          ^
+C:258,0: Invalid name "households" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+W:  9,0: Unused import sys
+W:  8,0: Unused import os
+
+
+Report
+======
+180 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |180    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |16     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |70          |
++-----------+------------+
+|C0322      |60          |
++-----------+------------+
+|C0301      |23          |
++-----------+------------+
+|C0324      |18          |
++-----------+------------+
+|W0612      |9           |
++-----------+------------+
+|C0111      |6           |
++-----------+------------+
+|W0621      |2           |
++-----------+------------+
+|W0611      |2           |
++-----------+------------+
+|C0323      |2           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|W0311      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|R0915      |1           |
++-----------+------------+
+|R0914      |1           |
++-----------+------------+
+|R0912      |1           |
++-----------+------------+
+|C0321      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -1.06/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |7      |NC         |NC         |42.86       |57.14    |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |80.00       |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |180    |69.77 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |27     |10.47 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |10     |3.88  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |41     |15.89 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+

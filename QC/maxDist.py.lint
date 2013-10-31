@@ -1,0 +1,142 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.maxDist
+C: 47,0: Line too long (82/80)
+C:  1,0: Invalid name "maxDist" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 12,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 14,0:Usage: Missing docstring
+W: 15,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 18,0:Error: Missing docstring
+W: 19,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 22,0:main: Missing docstring
+C: 33,8:main: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 38,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 39,8:main: Operator not followed by a space
+        print >>sys.stderr, "For help use --help"
+               ^
+C: 43,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 27,12:main: Unused variable 'opts'
+C: 46,0:calcMaxDist: Invalid name "calcMaxDist" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 46,0:calcMaxDist: Invalid name "inputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 46,16:calcMaxDist: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 54,4:calcMaxDist: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 55,4:calcMaxDist: Invalid name "startPtNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 56,8:calcMaxDist: Invalid name "startPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,8:calcMaxDist: Invalid name "thisNearest" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,8:calcMaxDist: Comma not followed by a space
+        endPtIndices = range(0,startPtNum) + \
+                              ^^
+                range(startPtNum + 1,len(coords))
+C: 59,8:calcMaxDist: Invalid name "endPtIndices" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,12:calcMaxDist: Invalid name "endPtNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 62,12:calcMaxDist: Invalid name "endPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 66,16:calcMaxDist: Invalid name "thisNearest" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,16:calcMaxDist: Invalid name "thisNearest" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 70,16:calcMaxDist: Invalid name "thisNearestID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 73,12:calcMaxDist: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 74,8:calcMaxDist: Invalid name "startPtNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:  9,0: Unused import os
+
+
+Report
+======
+58 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |25     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |17          |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|C0111      |3           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0612      |1           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|C0324      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 4.83/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |57     |79.17 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |9      |12.50 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |1.39  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |6.94  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |50.00       |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+

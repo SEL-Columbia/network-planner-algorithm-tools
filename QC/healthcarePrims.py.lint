@@ -1,0 +1,211 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.healthcarePrims
+C:190,0: Line too long (82/80)
+C:  1,0: Invalid name "healthcarePrims" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 17,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 18,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 19,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+F: 21,0: Unable to import 'arcgisscripting'
+C: 23,0:Usage: Missing docstring
+W: 24,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 27,0:Error: Missing docstring
+W: 28,4:Error.__init__: __init__ method from base class 'Exception' is not called
+W: 33,0: No exception type(s) specified
+C: 32,4: Invalid name "gp" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 36,0:main: Missing docstring
+R: 36,0:main: Too many local variables (45/15)
+C: 47,8:main: Invalid name "inputShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 48,8:main: Invalid name "startPtShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,8:main: Invalid name "outputShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 50,8:main: Invalid name "nodeShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,8:main: Invalid name "nodeShapefile1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 52,8:main: Invalid name "lengthTable" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 53,8:main: Invalid name "maxNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 67,12:main: No exception type(s) specified
+C: 66,16:main: Invalid name "ptWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 68,16:main: Invalid name "ptWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,12:main: Invalid name "ptFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 74,8:main: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,8:main: Invalid name "distFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 78,8:main: Invalid name "nodeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 81,8:main: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 81,17:main: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 83,8:main: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,8:main: Invalid name "newProjFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 89,12:main: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+E: 90,15:main: Undefined variable 'WindowsError'
+C: 98,8:main: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,8:main: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:103,8:main: Invalid name "firstNodeFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:116,8:main: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:116,17:main: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,8:main: Invalid name "outDesc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:120,8:main: Invalid name "origFIDField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:122,8:main: Invalid name "lengthField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:125,8:main: Invalid name "nodeRows" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:128,12:main: Invalid name "nodeFID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:129,12:main: Operator not followed by a space
+            sql = '"FID"=%i' %(nodeFID)
+                             ^
+C:131,12:main: Invalid name "oldRow" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,8:main: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:151,8:main: Invalid name "totalLenField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:162,8:main: Operator not followed by a space
+        print >>sys.stderr, "For help use --help"
+               ^
+C:166,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 82,14:main: Unused variable 'ext'
+W: 78,8:main: Unused variable 'nodeFile'
+W: 77,8:main: Unused variable 'distFile'
+W: 41,12:main: Unused variable 'opts'
+R: 36,0:main: Too many branches (15/12)
+R: 36,0:main: Too many statements (111/50)
+C:169,0:nearestNode: Invalid name "nearestNode" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:169,0:nearestNode: Invalid name "startNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:169,16:nearestNode: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,4:nearestNode: Invalid name "minDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,4:nearestNode: Invalid name "startPtNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,12:nearestNode: Invalid name "minDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:178,12:nearestNode: Invalid name "closestNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:172,4:nearestNode: Unused variable 'startPtNum'
+C:181,0:primsAlg: Invalid name "primsAlg" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,0:primsAlg: Invalid name "numNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,0:primsAlg: Invalid name "firstNodeID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:181,0:primsAlg: Too many local variables (16/15)
+C:181,20:primsAlg: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,30:primsAlg: Invalid name "firstNodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:183,4:primsAlg.addToHeap: Invalid name "addToHeap" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:183,4:primsAlg.addToHeap: Invalid name "newSegs" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:183,24:primsAlg.addToHeap: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:189,4:primsAlg.calcSegs: Invalid name "calcSegs" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:189,4:primsAlg.calcSegs: Invalid name "startNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:189,17:primsAlg.calcSegs: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,4:primsAlg: Invalid name "segHeap" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:211,4:primsAlg: Invalid name "leastWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:214,12:primsAlg: Invalid name "leastWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:215,12:primsAlg: Invalid name "firstSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:219,8:primsAlg: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:225,8:primsAlg: No exception type(s) specified
+C:229,8:primsAlg: Invalid name "node1InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:230,8:primsAlg: Invalid name "node2InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:234,16:primsAlg: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:236,16:primsAlg: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+R:181,0:primsAlg: Too many branches (14/12)
+W: 17,0: Unused import prims
+W: 14,0: Unused import time
+
+
+Report
+======
+188 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |190    |86.76 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |5.48  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |7      |3.20  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |10     |4.57  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |80.00       |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |68     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |15     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |60          |
++-----------+------------+
+|W0612      |5           |
++-----------+------------+
+|C0323      |4           |
++-----------+------------+
+|W0702      |3           |
++-----------+------------+
+|W0403      |3           |
++-----------+------------+
+|C0111      |3           |
++-----------+------------+
+|W0611      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|R0912      |2           |
++-----------+------------+
+|R0915      |1           |
++-----------+------------+
+|F0401      |1           |
++-----------+------------+
+|E0602      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 5.05/10
+

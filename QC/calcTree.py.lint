@@ -1,0 +1,156 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.calcTree
+C: 64,0: Line too long (92/80)
+W:134,0: Bad indentation. Found 7 spaces, expected 8
+W: 52,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 52,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 52,0: Anomalous Unicode escape in byte string: '\N'. String constant might be missing an r or u prefix.
+C:  1,0: Invalid name "calcTree" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 13,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 14,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 15,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 17,0:Usage: Missing docstring
+W: 18,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 21,0:Error: Missing docstring
+W: 22,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 25,0:main: Missing docstring
+C: 38,12:main: Invalid name "inputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 68,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 30,12:main: Unused variable 'opts'
+C: 71,0:runAlgorithm: Invalid name "runAlgorithm" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:runAlgorithm: Invalid name "inputDir" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:runAlgorithm: Invalid name "outputDir" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:runAlgorithm: Missing docstring
+C: 71,28:runAlgorithm: Invalid name "inputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,38:runAlgorithm: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+E: 76,60:runAlgorithm: Undefined variable 'inputFile'
+C: 77,4:runAlgorithm: Invalid name "distFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 78,4:runAlgorithm: Invalid name "nodeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 79,4:runAlgorithm: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 80,4:runAlgorithm: Invalid name "shapePath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,4:runAlgorithm: Invalid name "testSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,4:runAlgorithm: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,8:runAlgorithm: Comma not followed by a space
+        tree = prims.primsAlg(testSegments, numNodes,firstNodeID=0)
+                                                    ^^
+C:123,8:runAlgorithm: Invalid name "MID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:129,4:runAlgorithm: Invalid name "fileRWReturnCode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+R: 71,0:runAlgorithm: Too many return statements (7/6)
+R: 71,0:runAlgorithm: Too many branches (14/12)
+
+
+Report
+======
+92 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |24     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |16          |
++-----------+------------+
+|C0111      |4           |
++-----------+------------+
+|W0403      |3           |
++-----------+------------+
+|W1401      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|C0323      |2           |
++-----------+------------+
+|W1402      |1           |
++-----------+------------+
+|W0612      |1           |
++-----------+------------+
+|W0311      |1           |
++-----------+------------+
+|R0912      |1           |
++-----------+------------+
+|R0911      |1           |
++-----------+------------+
+|E0602      |1           |
++-----------+------------+
+|C0324      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 5.54/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |91     |75.21 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |22     |18.18 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |3      |2.48  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |4.13  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |0.00        |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+

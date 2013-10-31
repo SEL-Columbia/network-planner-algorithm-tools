@@ -1,0 +1,352 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.AvgNearestGrid_polyline
+C:  6,0: Line too long (83/80)
+C:  7,0: Line too long (86/80)
+C:155,0: Line too long (105/80)
+C:176,0: Line too long (206/80)
+C:177,0: Line too long (120/80)
+C:198,0: Line too long (83/80)
+C:202,0: Line too long (98/80)
+C:224,0: Line too long (81/80)
+C:229,0: Line too long (106/80)
+C:230,0: Line too long (114/80)
+C:241,0: Line too long (106/80)
+W:251,0: Found indentation with tabs instead of spaces
+W:252,0: Found indentation with tabs instead of spaces
+C:253,0: Line too long (87/80)
+W:253,0: Found indentation with tabs instead of spaces
+W:254,0: Found indentation with tabs instead of spaces
+W:255,0: Found indentation with tabs instead of spaces
+C:261,0: Line too long (95/80)
+W:261,0: Found indentation with tabs instead of spaces
+C:262,0: Line too long (102/80)
+W:262,0: Found indentation with tabs instead of spaces
+C:  1,0: Invalid name "AvgNearestGrid_polyline" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+F: 20,0: Unable to import 'shapely.geometry'
+C: 24,0:Usage: Missing docstring
+W: 25,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 28,0:Error: Missing docstring
+W: 29,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 37,8:Node.__init__: Invalid name "_y" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 36,8:Node.__init__: Invalid name "_x" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+W: 44,8:Node.__repr__: Redefining built-in 'id'
+C: 44,8:Node.__repr__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 45,8:Node.__repr__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 46,8:Node.__repr__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 48,8:Node.__repr__: Operator not followed by a space
+        return "Node(%(id)r, %(x)r, %(y)r, %(weight)r)" %vars()
+                                                        ^
+W: 46,8:Node.__repr__: Unused variable 'y'
+W: 45,8:Node.__repr__: Unused variable 'x'
+W: 44,8:Node.__repr__: Unused variable 'id'
+W: 47,8:Node.__repr__: Unused variable 'weight'
+W: 51,8:Node.__str__: Redefining built-in 'id'
+C: 51,8:Node.__str__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 52,8:Node.__str__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 53,8:Node.__str__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 55,8:Node.__str__: Operator not followed by a space
+        return "(%(id)s, %(x)s, %(y)s, %(weight)s)" %vars()
+                                                    ^
+W: 53,8:Node.__str__: Unused variable 'y'
+W: 52,8:Node.__str__: Unused variable 'x'
+W: 51,8:Node.__str__: Unused variable 'id'
+W: 54,8:Node.__str__: Unused variable 'weight'
+C: 98,4:Node.getID: Invalid name "getID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 98,4:Node.getID: Missing docstring
+C:101,4:Node.setID: Comma not followed by a space
+    def setID(self,newID):
+                  ^^
+C:101,4:Node.setID: Invalid name "setID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,4:Node.setID: Invalid name "newID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,4:Node.setID: Missing docstring
+C:101,19:Node.setID: Invalid name "newID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,8:Node.setID: Operator not preceded by a space
+        self._id=newID
+                ^
+C:104,4:Node.getX: Invalid name "getX" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,4:Node.getX: Missing docstring
+C:107,4:Node.setXY: Comma not followed by a space
+    def setXY(self,X,Y):
+                  ^^
+C:107,4:Node.setXY: Invalid name "setXY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,4:Node.setXY: Invalid name "X" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,4:Node.setXY: Invalid name "Y" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,4:Node.setXY: Missing docstring
+C:107,19:Node.setXY: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,21:Node.setXY: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:108,8:Node.setXY: Operator not preceded by a space
+        self._x=X
+               ^
+C:109,8:Node.setXY: Operator not preceded by a space
+        self._y=Y
+               ^
+C:111,4:Node.getY: Invalid name "getY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,4:Node.getY: Missing docstring
+C:114,4:Node.getWeight: Invalid name "getWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:114,4:Node.getWeight: Missing docstring
+C:117,4:Node.setWeight: Comma not followed by a space
+    def setWeight(self,newWeight):
+                      ^^
+C:117,4:Node.setWeight: Invalid name "setWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,4:Node.setWeight: Invalid name "newWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,4:Node.setWeight: Missing docstring
+C:117,23:Node.setWeight: Invalid name "newWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,8:Node.setWeight: Operator not preceded by a space
+        self._weight=newWeight
+                    ^
+C:120,4:Node.getCoords: Invalid name "getCoords" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:120,4:Node.getCoords: Missing docstring
+C:121,8:Node.getCoords: Comma not followed by a space
+        return self._x,self._y
+                      ^^
+C:124,0:generateNodeDictFromShp: Comma not followed by a space
+def generateNodeDictFromShp(shapeFile,outputPath):
+                                     ^^
+W:127,4:generateNodeDictFromShp: Redefining built-in 'file'
+C:124,0:generateNodeDictFromShp: Invalid name "generateNodeDictFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,0:generateNodeDictFromShp: Invalid name "shapeFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,0:generateNodeDictFromShp: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:124,0:generateNodeDictFromShp: Too many local variables (16/15)
+C:124,28:generateNodeDictFromShp: Invalid name "shapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,38:generateNodeDictFromShp: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:126,4:generateNodeDictFromShp: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:126,13:generateNodeDictFromShp: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:132,8:generateNodeDictFromShp: No exception type(s) specified
+C:134,4:generateNodeDictFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:135,4:generateNodeDictFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:137,4:generateNodeDictFromShp: Operator not preceded by a space
+    nodes={}
+         ^
+C:138,4:generateNodeDictFromShp: Operator not preceded by a space
+    points={}
+          ^
+C:141,8:generateNodeDictFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,8:generateNodeDictFromShp: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:143,8:generateNodeDictFromShp: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:149,-1:generateNodeDictFromShp: String statement has no effect
+C:150,8:generateNodeDictFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:154,8:generateNodeDictFromShp: Operator not preceded by a space
+        nodeWeight=1
+                  ^
+C:154,8:generateNodeDictFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,8:generateNodeDictFromShp: Operator not preceded by a space
+        points[FID]=Point([X, Y])
+                   ^
+C:159,4:generateNodeDictFromShp: Comma not followed by a space
+    return nodes,points
+                ^^
+W:127,4:generateNodeDictFromShp: Unused variable 'file'
+W:126,4:generateNodeDictFromShp: Unused variable 'rootDir'
+W:127,10:generateNodeDictFromShp: Unused variable 'ext'
+C:163,0:computeSphericalDistance: Invalid name "computeSphericalDistance" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:168,4:computeSphericalDistance: Invalid name "convertDegreesToRadians" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:170,28:computeSphericalDistance: Used builtin function 'map'
+W:171,28:computeSphericalDistance: Used builtin function 'map'
+C:173,4:computeSphericalDistance: Invalid name "longitudeDelta" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:174,4:computeSphericalDistance: Invalid name "earthRadiusInMeters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:176,4:computeSphericalDistance: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,4:computeSphericalDistance: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:183,0:readNetFromShpCreateLineStrings: Invalid name "readNetFromShpCreateLineStrings" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:185,4:readNetFromShpCreateLineStrings: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:189,4:readNetFromShpCreateLineStrings: Operator not preceded by a space
+    nodeID=0
+          ^
+C:189,4:readNetFromShpCreateLineStrings: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,4:readNetFromShpCreateLineStrings: Operator not preceded by a space
+    lineArray=[]
+             ^
+C:190,4:readNetFromShpCreateLineStrings: Invalid name "lineArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:192,8:readNetFromShpCreateLineStrings: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:194,8:readNetFromShpCreateLineStrings: Invalid name "endPts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:196,12:readNetFromShpCreateLineStrings: Invalid name "pointIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:198,12:readNetFromShpCreateLineStrings: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:198,15:readNetFromShpCreateLineStrings: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:200,12:readNetFromShpCreateLineStrings: Comma not followed by a space
+            endPts.append((x,y))
+                            ^^
+W:189,4:readNetFromShpCreateLineStrings: Unused variable 'nodeID'
+C:211,0:main: Missing docstring
+R:211,0:main: Too many local variables (20/15)
+C:221,12:main: Invalid name "nodesShapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:222,12:main: Operator not preceded by a space
+            gridFile=argv[2]
+                    ^
+C:222,12:main: Invalid name "gridFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:232,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:238,8:main: Operator not preceded by a space
+        statsFile= outputDir + os.sep + "AvgNearestFac.csv"
+                 ^
+C:238,8:main: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:239,8:main: Invalid name "csvWriter" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:240,8:main: Invalid name "outFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:242,8:main: Comma not followed by a space
+        csvWriter.writerow(["FID","X (lat)", "Y (long)", "DistToNearestGrid",])
+                                 ^^
+C:246,8:main: Operator not preceded by a space
+        lineArray=readNetFromShpCreateLineStrings(gridFile)
+                 ^
+C:246,8:main: Invalid name "lineArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:247,8:main: Operator not preceded by a space
+        nodes,points=generateNodeDictFromShp(nodesShapeFile,outputDir)
+                    ^
+C:249,8:main: Operator not preceded by a space
+        shortestDistDict={}
+                        ^
+C:249,8:main: Invalid name "shortestDistDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:251,9:main: Operator not preceded by a space
+        	shortestDistDict[key]=100000000000000000000000000000000000
+                              ^
+C:254,10:main: Operator not preceded by a space
+        		if distance<=shortestDistDict[key]:
+                     ^^
+C:255,11:main: Operator not preceded by a space
+        			shortestDistDict[key]=distance
+                                ^
+C:258,8:main: Operator not preceded by a space
+        sumWeightedShortestDist=0
+                               ^
+C:258,8:main: Invalid name "sumWeightedShortestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:261,10:main: Comma not followed by a space
+        	 csvWriter.writerow([key,nodes[key].getX(), nodes[key].getY(), shortestDistDict[key]])
+                                 ^^
+C:262,10:main: Operator not preceded by a space
+        	 sumWeightedShortestDist=sumWeightedShortestDist+shortestDistDict[key]*nodes[key].getWeight()
+                                 ^
+C:262,10:main: Invalid name "sumWeightedShortestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:264,8:main: Operator not preceded by a space
+        AvgWeightedShortestDist=sumWeightedShortestDist/len(nodes)
+                               ^
+C:264,8:main: Invalid name "AvgWeightedShortestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:274,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:278,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W:216,18:main: Unused variable 'args'
+W:216,12:main: Unused variable 'opts'
+W: 14,0: Unused import time
+
+
+Report
+======
+170 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |174    |74.68 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |18     |7.73  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |8      |3.43  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |33     |14.16 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |124    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |31     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |65          |
++-----------+------------+
+|C0322      |21          |
++-----------+------------+
+|W0612      |14          |
++-----------+------------+
+|C0301      |14          |
++-----------+------------+
+|C0111      |11          |
++-----------+------------+
+|C0324      |9           |
++-----------+------------+
+|W0312      |7           |
++-----------+------------+
+|C0323      |4           |
++-----------+------------+
+|W0622      |3           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0141      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|F0401      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.76/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |33.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |21     |NC         |NC         |61.90       |38.10    |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |75.00       |75.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.AvgNearestGrid_polyline)
+
+
+

@@ -1,0 +1,136 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.fullTreeCalc
+C: 65,0: Line too long (114/80)
+W: 53,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 53,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 53,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 53,0: Anomalous backslash in string: '\O'. String constant might be missing an r prefix.
+C:  1,0: Invalid name "fullTreeCalc" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 14,0: Relative import 'distGen', should be 'network-planner-algorithm-tools.distGen'
+W: 15,0: Relative import 'calcTree', should be 'network-planner-algorithm-tools.calcTree'
+C: 17,0:Usage: Missing docstring
+W: 18,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 21,0:Error: Missing docstring
+W: 22,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 25,0:main: Missing docstring
+C: 40,12:main: Operator not preceded by a space
+            inputFile=r"C:\Users\Selin\Desktop\1000\random1000.shp"
+                     ^
+C: 40,12:main: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 41,12:main: Operator not followed by a space
+            outputDir =r"C:\Users\Selin\Desktop\1000\random1000"
+                      ^
+C: 41,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,12:main: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 52,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 69,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 30,18:main: Unused variable 'args'
+W: 30,12:main: Unused variable 'opts'
+W: 10,0: Unused import os
+
+
+Report
+======
+38 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |12     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |11     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|W1401      |4           |
++-----------+------------+
+|C0103      |4           |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|C0111      |3           |
++-----------+------------+
+|W0612      |2           |
++-----------+------------+
+|W0403      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|C0322      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 3.95/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |36     |54.55 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |20     |30.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |3      |4.55  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |7      |10.61 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+

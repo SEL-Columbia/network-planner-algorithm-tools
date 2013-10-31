@@ -1,0 +1,331 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.network
+W: 35,0: Unnecessary semicolon
+C:296,0: Line too long (123/80)
+C:384,0: Line too long (82/80)
+W: 18,0: TODO: Finish this
+W: 22,0: TODO: Finish this
+W:114,0: TODO: Below is deprecated. Use getTotalEdgeWeight() instead
+C: 15,8:Network.__init__: Invalid name "_nodesByNetID" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 14,8:Network.__init__: Invalid name "_netIDByNode" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 25,4:Network.addSeg: Invalid name "addSeg" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 25,4:Network.addSeg: Invalid name "newSeg" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 25,21:Network.addSeg: Invalid name "newSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 32,16:Network.addSeg: Invalid name "newID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 35,16:Network.addSeg: Invalid name "newID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 44,16:Network.addSeg: Invalid name "baseNetID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 45,16:Network.addSeg: Invalid name "mergingNetID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 46,16:Network.addSeg: Invalid name "mergingNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 56,20:Network.addSeg: Invalid name "baseNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,20:Network.addSeg: Invalid name "newNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,20:Network.addSeg: Invalid name "baseNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,20:Network.addSeg: Invalid name "newNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,16:Network.addSeg: Invalid name "baseNetID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,4:Network.inNet: Invalid name "inNet" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,4:Network.inNet: Missing docstring
+C: 76,4:Network.getNetID: Invalid name "getNetID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 76,4:Network.getNetID: Missing docstring
+C: 82,4:Network.getEdges: Invalid name "getEdges" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 82,4:Network.getEdges: Missing docstring
+C: 83,8:Network.getEdges: Invalid name "netIDs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,8:Network.getEdges: Invalid name "edgeList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 85,12:Network.getEdges: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:Network.getEdgesDict: Invalid name "getEdgesDict" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:Network.getEdgesDict: Missing docstring
+C: 91,8:Network.getEdgesDict: Invalid name "netIDs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 92,8:Network.getEdgesDict: Invalid name "edgesDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 93,12:Network.getEdgesDict: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 98,4:Network.getNodes: Invalid name "getNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 98,4:Network.getNodes: Missing docstring
+C:101,4:Network.numEdges: Invalid name "numEdges" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,4:Network.numEdges: Missing docstring
+C:104,4:Network.numNodes: Invalid name "numNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,4:Network.numNodes: Missing docstring
+C:107,4:Network.numSubnets: Invalid name "numSubnets" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,4:Network.numSubnets: Missing docstring
+C:111,4:Network.listNetIDs: Invalid name "listNetIDs" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,4:Network.listNetIDs: Missing docstring
+C:115,4:Network.getTotalWeight: Invalid name "getTotalWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,4:Network.getTotalWeight: Missing docstring
+C:117,8:Network.getTotalWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,12:Network.getTotalWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:122,4:Network.getTotalEdgeWeight: Invalid name "getTotalEdgeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:122,4:Network.getTotalEdgeWeight: Missing docstring
+C:123,8:Network.getTotalEdgeWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:125,12:Network.getTotalEdgeWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:128,4:Network.getTotalNodeWeight: Invalid name "getTotalNodeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:128,4:Network.getTotalNodeWeight: Missing docstring
+C:129,8:Network.getTotalNodeWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,12:Network.getTotalNodeWeight: Invalid name "totalWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,4:Network.getSubnetNodeWeight: Invalid name "getSubnetNodeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,4:Network.getSubnetNodeWeight: Invalid name "netID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,4:Network.getSubnetNodeWeight: Missing docstring
+C:134,34:Network.getSubnetNodeWeight: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:Network.getSubnetEdgeWeight: Invalid name "getSubnetEdgeWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:Network.getSubnetEdgeWeight: Invalid name "netID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:Network.getSubnetEdgeWeight: Missing docstring
+C:140,34:Network.getSubnetEdgeWeight: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,4:Network.getSubnetEdges: Invalid name "getSubnetEdges" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,4:Network.getSubnetEdges: Invalid name "netID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,4:Network.getSubnetEdges: Missing docstring
+C:146,29:Network.getSubnetEdges: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,4:Network.getSubnetNodes: Invalid name "getSubnetNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,4:Network.getSubnetNodes: Invalid name "netID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,4:Network.getSubnetNodes: Missing docstring
+C:149,29:Network.getSubnetNodes: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:152,4:Network.getNetworkArea: Invalid name "getNetworkArea" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:152,4:Network.getNetworkArea: Invalid name "bufferDist" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:152,4:Network.getNetworkArea: Missing docstring
+C:152,29:Network.getNetworkArea: Invalid name "bufferDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+F:153,8:Network.getNetworkArea: Unable to import 'shapely.geometry'
+C:155,8:Network.getNetworkArea: Invalid name "segUnion" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,12:Network.getNetworkArea: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:158,12:Network.getNetworkArea: Invalid name "segUnion" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,4:Network.writeARC: Invalid name "writeARC" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+W:165,8:Network.writeARC: No exception type(s) specified
+C:168,8:Network.writeARC: Invalid name "segNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:170,12:Network.writeARC: Invalid name "segNum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,12:Network.writeARC: Invalid name "x1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,16:Network.writeARC: Invalid name "y1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,12:Network.writeARC: Invalid name "x2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,16:Network.writeARC: Invalid name "y2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:171,12:Network.writeARC: Unused variable 'x1'
+W:171,16:Network.writeARC: Unused variable 'y1'
+W:172,12:Network.writeARC: Unused variable 'x2'
+W:172,16:Network.writeARC: Unused variable 'y2'
+C:179,4:Network.writeCSV: Invalid name "writeCSV" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+W:183,8:Network.writeCSV: No exception type(s) specified
+C:187,12:Network.writeCSV: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:188,12:Network.writeCSV: Unused variable 'node1'
+W:189,12:Network.writeCSV: Unused variable 'node2'
+W:187,12:Network.writeCSV: Unused variable 'ID'
+C:193,4:Network.readCSV: Invalid name "readCSV" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+W:198,8:Network.readCSV: No exception type(s) specified
+C:204,12:Network.readCSV: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:204,12:Network.readCSV: Unused variable 'ID'
+R:193,4:Network.readCSV: Method could be a function
+R: 10,0:Network: Too many public methods (21/20)
+C:212,8:Seg.__init__: Invalid name "_ID" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C:211,4:Seg.__init__: Invalid name "ID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:211,23:Seg.__init__: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:255,8:Seg.__repr__: Redefining built-in 'id'
+C:255,8:Seg.__repr__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:259,8:Seg.__repr__: Operator not followed by a space
+        return "Seg(%(id)r, %(node1)r, %(node2)r, %(weight)r)" %vars()
+                                                               ^
+W:256,8:Seg.__repr__: Unused variable 'node1'
+W:257,8:Seg.__repr__: Unused variable 'node2'
+W:255,8:Seg.__repr__: Unused variable 'id'
+W:258,8:Seg.__repr__: Unused variable 'weight'
+W:262,8:Seg.__str__: Redefining built-in 'id'
+C:262,8:Seg.__str__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:266,8:Seg.__str__: Operator not followed by a space
+        return "(%(id)s, %(node1)s, %(node2)s, %(weight)s)" %vars()
+                                                            ^
+W:263,8:Seg.__str__: Unused variable 'node1'
+W:264,8:Seg.__str__: Unused variable 'node2'
+W:262,8:Seg.__str__: Unused variable 'id'
+W:265,8:Seg.__str__: Unused variable 'weight'
+C:274,8:Seg.__geo_interface__: Invalid name "x1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:275,8:Seg.__geo_interface__: Invalid name "y1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:276,8:Seg.__geo_interface__: Invalid name "x2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:277,8:Seg.__geo_interface__: Invalid name "y2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:280,4:Seg.getWeight: Invalid name "getWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:280,4:Seg.getWeight: Missing docstring
+C:283,4:Seg.getID: Invalid name "getID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:283,4:Seg.getID: Missing docstring
+C:286,4:Seg.getNode1: Invalid name "getNode1" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:286,4:Seg.getNode1: Missing docstring
+C:289,4:Seg.getNode2: Invalid name "getNode2" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:289,4:Seg.getNode2: Missing docstring
+C:292,4:Seg.getNodes: Invalid name "getNodes" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:292,4:Seg.getNodes: Missing docstring
+C:295,4:Seg.lensegment: Missing docstring
+C:296,8:Seg.lensegment: Operator not preceded by a space
+        lenght=((self.getNode1().getX()-self.getNode2().getX())**2+(self.getNode1().getY()-self.getNode2().getY())**2)**0.5
+              ^
+C:304,8:Node.__init__: Invalid name "_y" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C:303,8:Node.__init__: Invalid name "_x" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+W:311,8:Node.__repr__: Redefining built-in 'id'
+C:311,8:Node.__repr__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:312,8:Node.__repr__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:313,8:Node.__repr__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:315,8:Node.__repr__: Operator not followed by a space
+        return "Node(%(id)r, %(x)r, %(y)r, %(weight)r)" %vars()
+                                                        ^
+W:313,8:Node.__repr__: Unused variable 'y'
+W:312,8:Node.__repr__: Unused variable 'x'
+W:311,8:Node.__repr__: Unused variable 'id'
+W:314,8:Node.__repr__: Unused variable 'weight'
+W:318,8:Node.__str__: Redefining built-in 'id'
+C:318,8:Node.__str__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:319,8:Node.__str__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:320,8:Node.__str__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:322,8:Node.__str__: Operator not followed by a space
+        return "(%(id)s, %(x)s, %(y)s, %(weight)s)" %vars()
+                                                    ^
+W:320,8:Node.__str__: Unused variable 'y'
+W:319,8:Node.__str__: Unused variable 'x'
+W:318,8:Node.__str__: Unused variable 'id'
+W:321,8:Node.__str__: Unused variable 'weight'
+C:365,4:Node.getID: Invalid name "getID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:365,4:Node.getID: Missing docstring
+C:368,4:Node.setID: Comma not followed by a space
+    def setID(self,newID):
+                  ^^
+C:368,4:Node.setID: Invalid name "setID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:368,4:Node.setID: Invalid name "newID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:368,4:Node.setID: Missing docstring
+C:368,19:Node.setID: Invalid name "newID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:369,8:Node.setID: Operator not preceded by a space
+        self._id=newID
+                ^
+C:371,4:Node.getX: Invalid name "getX" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:371,4:Node.getX: Missing docstring
+C:374,4:Node.setXY: Comma not followed by a space
+    def setXY(self,X,Y):
+                  ^^
+C:374,4:Node.setXY: Invalid name "setXY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:374,4:Node.setXY: Invalid name "X" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:374,4:Node.setXY: Invalid name "Y" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:374,4:Node.setXY: Missing docstring
+C:374,19:Node.setXY: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:374,21:Node.setXY: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:375,8:Node.setXY: Operator not preceded by a space
+        self._x=X
+               ^
+C:376,8:Node.setXY: Operator not preceded by a space
+        self._y=Y
+               ^
+C:378,4:Node.getY: Invalid name "getY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:378,4:Node.getY: Missing docstring
+C:381,4:Node.getWeight: Invalid name "getWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:381,4:Node.getWeight: Missing docstring
+C:384,4:Node.setWeight: Comma not followed by a space
+    def setWeight(self,newWeight): # newWeight is NewMVMax or new distance in CMST
+                      ^^
+C:384,4:Node.setWeight: Invalid name "setWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:384,4:Node.setWeight: Invalid name "newWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:384,4:Node.setWeight: Missing docstring
+C:384,23:Node.setWeight: Invalid name "newWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:385,8:Node.setWeight: Operator not preceded by a space
+        self._weight=newWeight
+                    ^
+C:387,4:Node.getCoords: Invalid name "getCoords" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:387,4:Node.getCoords: Missing docstring
+E:388,15:Node.getCoords: Undefined variable 'x'
+E:388,18:Node.getCoords: Undefined variable 'y'
+R:387,4:Node.getCoords: Method could be a function
+
+
+Report
+======
+278 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |60     |NC         |NC         |48.33       |56.67    |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |295    |89.12 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |21     |6.34  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |4      |1.21  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |11     |3.32  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |151    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |35     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |106         |
++-----------+------------+
+|C0111      |31          |
++-----------+------------+
+|W0612      |24          |
++-----------+------------+
+|C0322      |5           |
++-----------+------------+
+|W0622      |4           |
++-----------+------------+
+|C0323      |4           |
++-----------+------------+
+|W0702      |3           |
++-----------+------------+
+|W0511      |3           |
++-----------+------------+
+|C0324      |3           |
++-----------+------------+
+|R0201      |2           |
++-----------+------------+
+|E0602      |2           |
++-----------+------------+
+|C0301      |2           |
++-----------+------------+
+|W0301      |1           |
++-----------+------------+
+|R0904      |1           |
++-----------+------------+
+|F0401      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.84/10
+

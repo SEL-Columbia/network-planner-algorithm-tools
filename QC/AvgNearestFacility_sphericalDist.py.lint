@@ -1,0 +1,414 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.AvgNearestFacility_sphericalDist
+C:  4,0: Line too long (81/80)
+C:148,0: Line too long (105/80)
+C:246,0: Line too long (206/80)
+C:247,0: Line too long (120/80)
+C:278,0: Line too long (106/80)
+C:279,0: Line too long (114/80)
+C:310,0: Line too long (105/80)
+C:311,0: Line too long (135/80)
+C:320,0: Line too long (97/80)
+C:325,0: Line too long (89/80)
+W:207,0: TODO: fix to allow creation of a new field in a shapefile 
+C:  1,0: Invalid name "AvgNearestFacility_sphericalDist" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+C: 19,0:Usage: Missing docstring
+W: 20,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 23,0:Error: Missing docstring
+W: 24,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 32,8:Node.__init__: Invalid name "_y" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 31,8:Node.__init__: Invalid name "_x" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+W: 39,8:Node.__repr__: Redefining built-in 'id'
+C: 39,8:Node.__repr__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,8:Node.__repr__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 41,8:Node.__repr__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,8:Node.__repr__: Operator not followed by a space
+        return "Node(%(id)r, %(x)r, %(y)r, %(weight)r)" %vars()
+                                                        ^
+W: 41,8:Node.__repr__: Unused variable 'y'
+W: 40,8:Node.__repr__: Unused variable 'x'
+W: 39,8:Node.__repr__: Unused variable 'id'
+W: 42,8:Node.__repr__: Unused variable 'weight'
+W: 46,8:Node.__str__: Redefining built-in 'id'
+C: 46,8:Node.__str__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 47,8:Node.__str__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 48,8:Node.__str__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 50,8:Node.__str__: Operator not followed by a space
+        return "(%(id)s, %(x)s, %(y)s, %(weight)s)" %vars()
+                                                    ^
+W: 48,8:Node.__str__: Unused variable 'y'
+W: 47,8:Node.__str__: Unused variable 'x'
+W: 46,8:Node.__str__: Unused variable 'id'
+W: 49,8:Node.__str__: Unused variable 'weight'
+C: 93,4:Node.getID: Invalid name "getID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 93,4:Node.getID: Missing docstring
+C: 96,4:Node.setID: Comma not followed by a space
+    def setID(self,newID):
+                  ^^
+C: 96,4:Node.setID: Invalid name "setID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 96,4:Node.setID: Invalid name "newID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 96,4:Node.setID: Missing docstring
+C: 96,19:Node.setID: Invalid name "newID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 97,8:Node.setID: Operator not preceded by a space
+        self._id=newID
+                ^
+C: 99,4:Node.getX: Invalid name "getX" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 99,4:Node.getX: Missing docstring
+C:102,4:Node.setXY: Comma not followed by a space
+    def setXY(self,X,Y):
+                  ^^
+C:102,4:Node.setXY: Invalid name "setXY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,4:Node.setXY: Invalid name "X" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,4:Node.setXY: Invalid name "Y" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,4:Node.setXY: Missing docstring
+C:102,19:Node.setXY: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,21:Node.setXY: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:103,8:Node.setXY: Operator not preceded by a space
+        self._x=X
+               ^
+C:104,8:Node.setXY: Operator not preceded by a space
+        self._y=Y
+               ^
+C:106,4:Node.getY: Invalid name "getY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,4:Node.getY: Missing docstring
+C:109,4:Node.getWeight: Invalid name "getWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:109,4:Node.getWeight: Missing docstring
+C:112,4:Node.setWeight: Comma not followed by a space
+    def setWeight(self,newWeight):
+                      ^^
+C:112,4:Node.setWeight: Invalid name "setWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:112,4:Node.setWeight: Invalid name "newWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:112,4:Node.setWeight: Missing docstring
+C:112,23:Node.setWeight: Invalid name "newWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:113,8:Node.setWeight: Operator not preceded by a space
+        self._weight=newWeight
+                    ^
+C:115,4:Node.getCoords: Invalid name "getCoords" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,4:Node.getCoords: Missing docstring
+C:116,8:Node.getCoords: Comma not followed by a space
+        return self._x,self._y
+                      ^^
+C:119,0:generateNodeDictFromShp: Comma not followed by a space
+def generateNodeDictFromShp(shapeFile,outputPath):
+                                     ^^
+W:122,4:generateNodeDictFromShp: Redefining built-in 'file'
+C:119,0:generateNodeDictFromShp: Invalid name "generateNodeDictFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,0:generateNodeDictFromShp: Invalid name "shapeFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,0:generateNodeDictFromShp: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:119,0:generateNodeDictFromShp: Too many local variables (16/15)
+C:119,28:generateNodeDictFromShp: Invalid name "shapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:119,38:generateNodeDictFromShp: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,4:generateNodeDictFromShp: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,13:generateNodeDictFromShp: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:127,8:generateNodeDictFromShp: No exception type(s) specified
+C:129,4:generateNodeDictFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:130,4:generateNodeDictFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:132,4:generateNodeDictFromShp: Operator not preceded by a space
+    nodes={}
+         ^
+C:136,8:generateNodeDictFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:137,8:generateNodeDictFromShp: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:138,8:generateNodeDictFromShp: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:144,-1:generateNodeDictFromShp: String statement has no effect
+C:145,8:generateNodeDictFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,8:generateNodeDictFromShp: Invalid name "weightField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:147,8:generateNodeDictFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:122,4:generateNodeDictFromShp: Unused variable 'file'
+W:121,4:generateNodeDictFromShp: Unused variable 'rootDir'
+W:122,10:generateNodeDictFromShp: Unused variable 'ext'
+C:153,0:generateFacDictFromShp: Comma not followed by a space
+def generateFacDictFromShp(shapeFile,outputPath):
+                                    ^^
+W:156,4:generateFacDictFromShp: Redefining built-in 'file'
+C:153,0:generateFacDictFromShp: Invalid name "generateFacDictFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:generateFacDictFromShp: Invalid name "shapeFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:generateFacDictFromShp: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,27:generateFacDictFromShp: Invalid name "shapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,37:generateFacDictFromShp: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:155,4:generateFacDictFromShp: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:155,13:generateFacDictFromShp: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:161,8:generateFacDictFromShp: No exception type(s) specified
+C:163,4:generateFacDictFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:164,4:generateFacDictFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:166,4:generateFacDictFromShp: Operator not preceded by a space
+    facilities={}
+              ^
+C:170,8:generateFacDictFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,8:generateFacDictFromShp: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,8:generateFacDictFromShp: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:178,-1:generateFacDictFromShp: String statement has no effect
+C:179,8:generateFacDictFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,8:generateFacDictFromShp: Operator not preceded by a space
+        weight=1
+              ^
+W:156,4:generateFacDictFromShp: Unused variable 'file'
+W:155,4:generateFacDictFromShp: Unused variable 'rootDir'
+W:156,10:generateFacDictFromShp: Unused variable 'ext'
+C:186,0:generateClusterDicts: Invalid name "generateClusterDicts" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,0:generateClusterDicts: Missing docstring
+C:187,4:generateClusterDicts: Operator not preceded by a space
+    nearestFacDistDict={}
+                      ^
+C:187,4:generateClusterDicts: Invalid name "nearestFacDistDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:188,4:generateClusterDicts: Operator not preceded by a space
+    nearestFacIDDict={}
+                    ^
+C:188,4:generateClusterDicts: Invalid name "nearestFacIDDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,8:generateClusterDicts: Operator not preceded by a space
+        nearestDist=1000000000000000000000000000# something big
+                   ^
+C:190,8:generateClusterDicts: Invalid name "nearestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:194,12:generateClusterDicts: Operator not preceded by a space
+            dist=computeSphericalDistance(node, fac)
+                ^
+C:195,12:generateClusterDicts: Operator not preceded by a space
+            if dist<=nearestDist:
+                   ^^
+C:196,16:generateClusterDicts: Operator not preceded by a space
+                nearestDist=dist
+                           ^
+C:196,16:generateClusterDicts: Invalid name "nearestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:197,16:generateClusterDicts: Operator not preceded by a space
+                nearestFacID=fac.getID()
+                            ^
+C:197,16:generateClusterDicts: Invalid name "nearestFacID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:205,0:writeFieldToShp: Invalid name "writeFieldToShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:205,0:writeFieldToShp: Invalid name "nearestFacDistDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:205,31:writeFieldToShp: Invalid name "nearestFacDistDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:209,4:writeFieldToShp: Operator not preceded by a space
+    field="Near"
+         ^
+C:210,4:writeFieldToShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:213,4:writeFieldToShp: Invalid name "fieldIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:215,8:writeFieldToShp: Invalid name "fieldType" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:216,8:writeFieldToShp: Invalid name "fieldDefn" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:219,8:writeFieldToShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:221,12:writeFieldToShp: Invalid name "fieldValue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:233,0:computeSphericalDistance: Invalid name "computeSphericalDistance" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:238,4:computeSphericalDistance: Invalid name "convertDegreesToRadians" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:240,28:computeSphericalDistance: Used builtin function 'map'
+W:241,28:computeSphericalDistance: Used builtin function 'map'
+C:243,4:computeSphericalDistance: Invalid name "longitudeDelta" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:244,4:computeSphericalDistance: Invalid name "earthRadiusInMeters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:246,4:computeSphericalDistance: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:247,4:computeSphericalDistance: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:255,0:getFieldType: Invalid name "getFieldType" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:255,0:getFieldType: Invalid name "fieldValue" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:255,17:getFieldType: Invalid name "fieldValue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,0:main: Missing docstring
+R:265,0:main: Too many local variables (28/15)
+C:276,12:main: Invalid name "nodesShapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:277,12:main: Operator not preceded by a space
+            facilityShapeFile=argv[2]
+                             ^
+C:277,12:main: Invalid name "facilityShapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:281,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:287,8:main: Invalid name "startTime" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:291,8:main: Operator not preceded by a space
+        nodes=generateNodeDictFromShp(nodesShapeFile,outputDir)
+             ^
+C:292,8:main: Operator not preceded by a space
+        facilities=generateFacDictFromShp(facilityShapeFile,outputDir)
+                  ^
+C:293,8:main: Operator not preceded by a space
+        nearestDict, nearestFac=generateClusterDicts(nodes, facilities)
+                               ^
+C:293,8:main: Invalid name "nearestDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:293,21:main: Invalid name "nearestFac" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:297,8:main: Operator not preceded by a space
+        sumOfWeights=0
+                    ^
+C:297,8:main: Invalid name "sumOfWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:298,8:main: Operator not preceded by a space
+        weightedSum=0
+                   ^
+C:298,8:main: Invalid name "weightedSum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:300,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:301,12:main: Operator not preceded by a space
+            sumOfWeights=sumOfWeights+nodes[ID].getWeight()
+                        ^
+C:301,12:main: Invalid name "sumOfWeights" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:302,12:main: Operator not preceded by a space
+            weightedSum=weightedSum+nodes[ID].getWeight()*nearestDict[ID]
+                       ^
+C:302,12:main: Invalid name "weightedSum" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:304,8:main: Operator not preceded by a space
+        avgNearestDist=weightedSum/sumOfWeights
+                      ^
+C:304,8:main: Invalid name "avgNearestDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:307,8:main: Operator not preceded by a space
+        statsFile= outputDir + os.sep + "AvgNearestFac.csv"
+                 ^
+C:307,8:main: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:308,8:main: Invalid name "csvWriter" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:309,8:main: Invalid name "outFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:311,8:main: Comma not followed by a space
+        csvWriter.writerow(["FID","X (lat)", "Y (long)", "DistToNearestFac", "NearestFacID", "NearestFacX (lat)","NearestFacY (long)"])
+                                 ^^
+C:312,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:313,12:main: Operator not preceded by a space
+            FID=ID
+               ^
+C:313,12:main: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:314,12:main: Operator not preceded by a space
+            x=nodes[ID].getX()
+             ^
+C:314,12:main: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:315,12:main: Operator not preceded by a space
+            y=nodes[ID].getY()
+             ^
+C:315,12:main: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:316,12:main: Operator not preceded by a space
+            distToNearestFac=nearestDict[ID]
+                            ^
+C:316,12:main: Invalid name "distToNearestFac" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:317,12:main: Operator not preceded by a space
+            nearestFacID=nearestFac[ID]
+                        ^
+C:317,12:main: Invalid name "nearestFacID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,12:main: Operator not preceded by a space
+            nearestFacX=facilities[nearestFacID].getX()
+                       ^
+C:318,12:main: Invalid name "nearestFacX" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:319,12:main: Operator not preceded by a space
+            nearestFacY=facilities[nearestFacID].getY()
+                       ^
+C:319,12:main: Invalid name "nearestFacY" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:320,12:main: Comma not followed by a space
+            csvWriter.writerow([FID,x, y, distToNearestFac,nearestFacID,nearestFacX,nearestFacY])
+                                   ^^
+C:325,8:main: Comma not followed by a space
+        print "Average Weighted Nearest Distance to a Facility:",avgNearestDist, "meters"
+                                                                ^^
+C:326,8:main: Operator not preceded by a space
+        endTime=time.time()
+               ^
+C:326,8:main: Invalid name "endTime" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:330,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:334,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W:270,18:main: Unused variable 'args'
+W:270,12:main: Unused variable 'opts'
+
+
+Report
+======
+224 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |227    |80.21 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |19     |6.71  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |5      |1.77  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |32     |11.31 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |169    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |101         |
++-----------+------------+
+|C0322      |33          |
++-----------+------------+
+|W0612      |16          |
++-----------+------------+
+|C0111      |12          |
++-----------+------------+
+|C0301      |10          |
++-----------+------------+
+|C0324      |9           |
++-----------+------------+
+|W0622      |4           |
++-----------+------------+
+|C0323      |4           |
++-----------+------------+
+|W0702      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0141      |2           |
++-----------+------------+
+|W0105      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|W0511      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 1.07/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |33.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |21     |NC         |NC         |61.90       |38.10    |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |NC         |NC         |71.43       |85.71    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.AvgNearestFacility_sphericalDist)
+
+
+

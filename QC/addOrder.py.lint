@@ -1,0 +1,136 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.addOrder
+W: 60,0: Bad indentation. Found 11 spaces, expected 12
+W: 61,0: Bad indentation. Found 11 spaces, expected 12
+C:  1,0: Invalid name "addOrder" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 14,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 15,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 16,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 18,0:Usage: Missing docstring
+W: 19,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 22,0:Error: Missing docstring
+W: 23,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 26,0:main: Missing docstring
+R: 26,0:main: Too many local variables (16/15)
+C: 37,8:main: Invalid name "inputShapefile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 38,8:main: Invalid name "startPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,8:main: Invalid name "fieldName" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,8:main: Invalid name "maxNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,12:main: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,12:main: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,8:main: Invalid name "segOrder" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 58,8:main: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,11:main: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 65,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 66,8:main: Operator not followed by a space
+        print >>sys.stderr, "For help use --help"
+               ^
+C: 70,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 31,12:main: Unused variable 'opts'
+W: 16,0: Unused import network
+W: 10,0: Unused import os
+
+
+Report
+======
+52 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |16     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |10          |
++-----------+------------+
+|W0403      |3           |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|C0111      |3           |
++-----------+------------+
+|W0611      |2           |
++-----------+------------+
+|W0311      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0612      |1           |
++-----------+------------+
+|R0914      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 4.81/10
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |52     |80.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |7      |10.77 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |2      |3.08  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |6.15  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+

@@ -1,0 +1,312 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.PrimPenetrationRate
+C:107,0: Line too long (93/80)
+C:127,0: Line too long (83/80)
+C:138,0: Line too long (89/80)
+C:139,0: Line too long (81/80)
+C:177,0: Line too long (148/80)
+C:178,0: Line too long (164/80)
+C:180,0: Line too long (141/80)
+C:182,0: Line too long (146/80)
+C:183,0: Line too long (162/80)
+C:197,0: Line too long (111/80)
+C:210,0: Line too long (147/80)
+C:213,0: Line too long (92/80)
+W: 17,0: Relative import 'distStats', should be 'network-planner-algorithm-tools.distStats'
+W: 18,0: Relative import 'distGen', should be 'network-planner-algorithm-tools.distGen'
+W: 23,0: Relative import 'calcTree', should be 'network-planner-algorithm-tools.calcTree'
+W: 25,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 26,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 27,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 28,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 40,0:Usage: Missing docstring
+W: 41,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 44,0:Error: Missing docstring
+W: 45,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 49,0:readNodesFromShp: Invalid name "readNodesFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,4:readNodesFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 52,4:readNodesFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 56,8:readNodesFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,8:readNodesFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 58,8:readNodesFromShp: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,8:readNodesFromShp: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,8:readNodesFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Comma not followed by a space
+def generateDistFromNodeDict(nodeDict,inputFile, outputPath, searchRadius):
+                                     ^^
+W: 70,4:generateDistFromNodeDict: Redefining built-in 'file'
+C: 67,0:generateDistFromNodeDict: Invalid name "generateDistFromNodeDict" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Invalid name "nodeDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Invalid name "inputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Invalid name "searchRadius" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDistFromNodeDict: Missing docstring
+R: 67,0:generateDistFromNodeDict: Too many local variables (18/15)
+C: 67,29:generateDistFromNodeDict: Invalid name "nodeDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,38:generateDistFromNodeDict: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,49:generateDistFromNodeDict: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,61:generateDistFromNodeDict: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 68,4:generateDistFromNodeDict: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,4:generateDistFromNodeDict: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,13:generateDistFromNodeDict: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 75,8:generateDistFromNodeDict: No exception type(s) specified
+C: 80,4:generateDistFromNodeDict: Invalid name "nodeCopy" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 81,8:generateDistFromNodeDict: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 83,12:generateDistFromNodeDict: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:generateDistFromNodeDict: Invalid name "nodeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,4:generateDistFromNodeDict: Invalid name "distFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 99,4:generateDistFromNodeDict: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,4:generateDistFromNodeDict: Invalid name "projDestFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:103,4:generateDistFromNodeDict: No exception type(s) specified
+W: 70,4:generateDistFromNodeDict: Unused variable 'file'
+W: 70,10:generateDistFromNodeDict: Unused variable 'ext'
+C:107,0:primsAlgforLV: Comma not followed by a space
+def primsAlgforLV(nodes,tree, numNodes, nodeDict, numberOfNodesCovered, excludedNodes = []):
+                       ^^
+W:107,0:primsAlgforLV: Dangerous default value [] as argument
+C:107,0:primsAlgforLV: Invalid name "primsAlgforLV" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,0:primsAlgforLV: Invalid name "numNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,0:primsAlgforLV: Invalid name "nodeDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,0:primsAlgforLV: Invalid name "numberOfNodesCovered" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,0:primsAlgforLV: Invalid name "excludedNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:107,0:primsAlgforLV: Too many arguments (6/5)
+C:107,30:primsAlgforLV: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,40:primsAlgforLV: Invalid name "nodeDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,50:primsAlgforLV: Invalid name "numberOfNodesCovered" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:107,72:primsAlgforLV: Invalid name "excludedNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,4:primsAlgforLV: Invalid name "segHeap" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:112,8:primsAlgforLV: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:119,8:primsAlgforLV: No exception type(s) specified
+C:123,8:primsAlgforLV: Invalid name "node1InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,8:primsAlgforLV: Invalid name "node2InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:130,16:primsAlgforLV: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:132,16:primsAlgforLV: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:107,30:primsAlgforLV: Unused argument 'numNodes'
+W:107,72:primsAlgforLV: Unused argument 'excludedNodes'
+W:107,18:primsAlgforLV: Unused argument 'nodes'
+C:142,0:addToHeap: Invalid name "addToHeap" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,0:addToHeap: Invalid name "newSegs" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,20:addToHeap: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:148,0:buildAssocDict: Dangerous default value [] as argument
+C:148,0:buildAssocDict: Invalid name "buildAssocDict" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,0:buildAssocDict: Invalid name "excludedNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,29:buildAssocDict: Invalid name "excludedNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:150,4:buildAssocDict: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,16:buildAssocDict: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:166,0:main: Missing docstring
+R:166,0:main: Too many local variables (26/15)
+C:178,12:main: Operator not preceded by a space
+            nodeFile=r"C:\Users\Selin\Documents\COLUMBIA\Project\for World Bank Prensentation\RuhiiraForVillageNetwork\MainGridExpansion\AllNodesMerged_Updated.shp"
+                    ^
+C:178,12:main: Invalid name "nodeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,12:main: Operator not preceded by a space
+            OutputDir=r"C:\Users\Selin\Documents\COLUMBIA\Project\for World Bank Prensentation\RuhiiraForVillageNetwork\MainGridExpansion\75"
+                     ^
+C:180,12:main: Invalid name "OutputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:183,12:main: Operator not preceded by a space
+            existingTree=r"C:\Users\Selin\Documents\COLUMBIA\Project\for World Bank Prensentation\RuhiiraForVillageNetwork\MainGridExpansion\backBone\network.shp"
+                        ^
+C:183,12:main: Invalid name "existingTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:184,12:main: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,8:main: Operator not preceded by a space
+        nodes=readNodesFromShp(nodeFile)
+             ^
+C:191,8:main: Operator not preceded by a space
+        numNodes=len(nodes)
+                ^
+C:191,8:main: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:192,8:main: Operator not preceded by a space
+        net=fileRWarcgis.readNetFromShpUsingNodes(existingTree, nodes)
+           ^
+E:192,12:main: Module 'network-planner-algorithm-tools.modules.fileRWarcgis' has no 'readNetFromShpUsingNodes' member
+C:193,8:main: Operator not preceded by a space
+        backBoneNodes=net.numNodes()
+                     ^
+C:193,8:main: Invalid name "backBoneNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:197,8:main: Comma not followed by a space
+        generateDistFromNodeDict(nodes,nodeFile,OutputDir, searchRadius) ### bu functiona dikkat!!!proj file!!!
+                                      ^^
+C:199,8:main: Invalid name "shapePath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:200,8:main: Invalid name "distFileLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:201,8:main: Invalid name "nodeFileLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,8:main: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:203,8:main: Operator not preceded by a space
+        testSegmentsForLV=fileRW.readSegsFromTxt(distFileLV, nodes)
+                         ^
+C:203,8:main: Invalid name "testSegmentsForLV" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:204,8:main: Operator not preceded by a space
+        segmentsByNodeID=buildAssocDict(testSegmentsForLV, excludedNodes=[])
+                        ^
+C:204,8:main: Invalid name "segmentsByNodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:205,8:main: Invalid name "resultsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:208,8:main: Comma not followed by a space
+        for i in range(10,11):
+                         ^^
+C:209,12:main: Operator not preceded by a space
+            penetrationRate=0.05*i
+                           ^
+C:209,12:main: Invalid name "penetrationRate" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:210,12:main: Operator not preceded by a space
+            finalTree=primsAlgforLV(nodes,net,numNodes, segmentsByNodeID,(backBoneNodes+penetrationRate*(numNodes-backBoneNodes)),excludedNodes=[])
+                     ^
+C:210,12:main: Invalid name "finalTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:211,12:main: Operator not preceded by a space
+            totalCost=finalTree.getTotalEdgeWeight()
+                     ^
+C:211,12:main: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:212,12:main: Operator not preceded by a space
+            nodesConnected=finalTree.numNodes()
+                          ^
+C:212,12:main: Invalid name "nodesConnected" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:223,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:227,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W:212,12:main: Unused variable 'nodesConnected'
+W:171,18:main: Unused variable 'args'
+W:201,8:main: Unused variable 'nodeFileLV'
+W:211,12:main: Unused variable 'totalCost'
+W:171,12:main: Unused variable 'opts'
+W: 14,0: Unused import pylab
+W: 17,0: Unused import distStats
+W: 36,4: Unused import osr
+W: 23,0: Unused import calcTree
+W: 12,0: Unused import pickle
+W: 18,0: Unused import distGen
+W: 21,0: Unused import itertools
+W: 20,0: Unused import collections
+W: 25,0: Unused import prims
+W: 15,0: Unused import numpy
+
+
+Report
+======
+161 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |6      |NC         |NC         |66.67       |83.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |165    |81.28 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |9      |4.43  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |7      |3.45  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |22     |10.84 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |102    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |35     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |67          |
++-----------+------------+
+|C0322      |13          |
++-----------+------------+
+|C0301      |12          |
++-----------+------------+
+|W0611      |10          |
++-----------+------------+
+|W0612      |7           |
++-----------+------------+
+|W0403      |7           |
++-----------+------------+
+|C0324      |4           |
++-----------+------------+
+|C0111      |4           |
++-----------+------------+
+|W0702      |3           |
++-----------+------------+
+|W0613      |3           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0102      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|C0323      |2           |
++-----------+------------+
+|W0622      |1           |
++-----------+------------+
+|R0913      |1           |
++-----------+------------+
+|E1101      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.99/10
+
+External dependencies
+---------------------
+::
+
+    numpy (network-planner-algorithm-tools.PrimPenetrationRate)
+    ogr (network-planner-algorithm-tools.PrimPenetrationRate)
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.PrimPenetrationRate)
+      \-osr (network-planner-algorithm-tools.PrimPenetrationRate)
+    osr (network-planner-algorithm-tools.PrimPenetrationRate)
+    pylab (network-planner-algorithm-tools.PrimPenetrationRate)
+
+
+

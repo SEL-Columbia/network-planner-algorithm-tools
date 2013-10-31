@@ -1,0 +1,175 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.DFS_BFD_Graph_Traversal
+W:  3,0: Bad indentation. Found 2 spaces, expected 4
+W:  4,0: Bad indentation. Found 2 spaces, expected 4
+W:  5,0: Bad indentation. Found 2 spaces, expected 4
+W:  6,0: Bad indentation. Found 4 spaces, expected 8
+W:  7,0: Bad indentation. Found 6 spaces, expected 12
+W:  8,0: Bad indentation. Found 2 spaces, expected 4
+W: 11,0: Bad indentation. Found 2 spaces, expected 4
+W: 12,0: Bad indentation. Found 2 spaces, expected 4
+W: 13,0: Bad indentation. Found 2 spaces, expected 4
+W: 14,0: Bad indentation. Found 4 spaces, expected 8
+W: 15,0: Bad indentation. Found 4 spaces, expected 8
+W: 16,0: Bad indentation. Found 6 spaces, expected 12
+W: 17,0: Bad indentation. Found 6 spaces, expected 12
+W: 18,0: Bad indentation. Found 2 spaces, expected 4
+W: 21,0: Bad indentation. Found 2 spaces, expected 4
+W: 22,0: Bad indentation. Found 2 spaces, expected 4
+W: 23,0: Bad indentation. Found 2 spaces, expected 4
+W: 24,0: Bad indentation. Found 4 spaces, expected 8
+W: 25,0: Bad indentation. Found 4 spaces, expected 8
+W: 26,0: Bad indentation. Found 6 spaces, expected 12
+W: 27,0: Bad indentation. Found 6 spaces, expected 12
+W: 28,0: Bad indentation. Found 2 spaces, expected 4
+W: 30,0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix.
+C:  1,0: Invalid name "DFS_BFD_Graph_Traversal" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+C:  1,0: Missing docstring
+W:  2,18:recursive_dfs: Redefining name 'graph' from outer scope (line 37)
+W:  2,0:recursive_dfs: Dangerous default value [] as argument
+C:  4,2:recursive_dfs: Operator not preceded by a space
+  path=path+[start]
+      ^
+C:  7,6:recursive_dfs: Operator not preceded by a space
+      path=recursive_dfs(graph, node, path)
+          ^
+W: 10,18:iterative_dfs: Redefining name 'graph' from outer scope (line 37)
+W: 10,0:iterative_dfs: Dangerous default value [] as argument
+C: 12,2:iterative_dfs: Operator not preceded by a space
+  q=[start]
+   ^
+C: 12,2:iterative_dfs: Invalid name "q" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 14,4:iterative_dfs: Operator not preceded by a space
+    v=q.pop(0)
+     ^
+C: 14,4:iterative_dfs: Invalid name "v" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 16,6:iterative_dfs: Operator not preceded by a space
+      path=path+[v]
+          ^
+C: 17,6:iterative_dfs: Operator not preceded by a space
+      q=graph[v]+q
+       ^
+C: 17,6:iterative_dfs: Invalid name "q" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 20,18:iterative_bfs: Redefining name 'graph' from outer scope (line 37)
+W: 20,0:iterative_bfs: Dangerous default value [] as argument
+C: 22,2:iterative_bfs: Operator not preceded by a space
+  q=[start]
+   ^
+C: 22,2:iterative_bfs: Invalid name "q" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 24,4:iterative_bfs: Operator not preceded by a space
+    v=q.pop(0)
+     ^
+C: 24,4:iterative_bfs: Invalid name "v" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 26,6:iterative_bfs: Operator not preceded by a space
+      path=path+[v]
+          ^
+C: 27,6:iterative_bfs: Operator not preceded by a space
+      q=q+graph[v]
+       ^
+C: 27,6:iterative_bfs: Invalid name "q" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 36,-1: String statement has no effect
+C: 37,0: Comma not followed by a space
+graph = {'A':['B','C'],'B':['D','E'],'C':['D','E'],'D':['E'],'E':['A']}
+                 ^^
+C: 37,0: Invalid name "graph" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+
+
+Report
+======
+28 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |30     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|W0311      |22          |
++-----------+------------+
+|C0322      |10          |
++-----------+------------+
+|C0103      |8           |
++-----------+------------+
+|W0621      |3           |
++-----------+------------+
+|W0102      |3           |
++-----------+------------+
+|W1401      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|C0324      |1           |
++-----------+------------+
+|C0111      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -7.86/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |30     |76.92 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |6      |15.38 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |7.69  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+

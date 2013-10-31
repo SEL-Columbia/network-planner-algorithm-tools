@@ -1,0 +1,736 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.AfricaLP
+C: 41,0: Line too long (170/80)
+C: 88,0: Line too long (85/80)
+W:107,0: Found indentation with tabs instead of spaces
+W:110,0: Found indentation with tabs instead of spaces
+W:113,0: Found indentation with tabs instead of spaces
+W:116,0: Found indentation with tabs instead of spaces
+W:119,0: Found indentation with tabs instead of spaces
+W:122,0: Found indentation with tabs instead of spaces
+W:125,0: Found indentation with tabs instead of spaces
+C:166,0: Line too long (133/80)
+C:186,0: Line too long (206/80)
+C:187,0: Line too long (120/80)
+W:207,0: Found indentation with tabs instead of spaces
+W:239,0: Found indentation with tabs instead of spaces
+W:240,0: Found indentation with tabs instead of spaces
+W:241,0: Found indentation with tabs instead of spaces
+W:242,0: Found indentation with tabs instead of spaces
+W:315,0: Found indentation with tabs instead of spaces
+W:317,0: Found indentation with tabs instead of spaces
+C:327,0: Line too long (83/80)
+W:338,0: Bad indentation. Found 17 spaces, expected 16
+W:339,0: Bad indentation. Found 21 spaces, expected 20
+W:340,0: Bad indentation. Found 17 spaces, expected 16
+W:341,0: Bad indentation. Found 21 spaces, expected 20
+C:379,0: Line too long (147/80)
+C:384,0: Line too long (85/80)
+C:389,0: Line too long (112/80)
+C:390,0: Line too long (111/80)
+C:396,0: Line too long (106/80)
+C:398,0: Line too long (103/80)
+W:403,0: Bad indentation. Found 15 spaces, expected 12
+W:404,0: Bad indentation. Found 19 spaces, expected 16
+W:405,0: Bad indentation. Found 23 spaces, expected 20
+W:406,0: Bad indentation. Found 19 spaces, expected 16
+W:407,0: Bad indentation. Found 23 spaces, expected 20
+C:408,0: Line too long (124/80)
+W:408,0: Bad indentation. Found 27 spaces, expected 24
+W:409,0: Bad indentation. Found 23 spaces, expected 20
+C:410,0: Line too long (123/80)
+W:410,0: Bad indentation. Found 27 spaces, expected 24
+W:411,0: Bad indentation. Found 23 spaces, expected 20
+C:412,0: Line too long (122/80)
+W:412,0: Bad indentation. Found 27 spaces, expected 24
+W:413,0: Bad indentation. Found 23 spaces, expected 20
+C:414,0: Line too long (124/80)
+W:414,0: Bad indentation. Found 27 spaces, expected 24
+W:418,0: Found indentation with tabs instead of spaces
+W:419,0: Found indentation with tabs instead of spaces
+W:420,0: Bad indentation. Found 24 spaces, expected 20
+W:421,0: Bad indentation. Found 20 spaces, expected 16
+W:422,0: Bad indentation. Found 24 spaces, expected 20
+W:423,0: Bad indentation. Found 20 spaces, expected 16
+W:424,0: Bad indentation. Found 24 spaces, expected 20
+W:425,0: Bad indentation. Found 20 spaces, expected 16
+W:426,0: Bad indentation. Found 24 spaces, expected 20
+C:433,0: Line too long (83/80)
+W:439,0: Found indentation with tabs instead of spaces
+W:447,0: Found indentation with tabs instead of spaces
+W:449,0: Found indentation with tabs instead of spaces
+W:450,0: Found indentation with tabs instead of spaces
+W:453,0: Found indentation with tabs instead of spaces
+W:462,0: Found indentation with tabs instead of spaces
+W:465,0: Found indentation with tabs instead of spaces
+W:466,0: Found indentation with tabs instead of spaces
+W:468,0: Found indentation with tabs instead of spaces
+W: 12,0: Relative import 'distGen', should be 'network-planner-algorithm-tools.distGen'
+W: 13,0: Relative import 'calcTree', should be 'network-planner-algorithm-tools.calcTree'
+W: 14,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 15,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 30,0:Usage: Missing docstring
+W: 31,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 35,0:Error: Missing docstring
+W: 36,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 52,8:Node.__init__: Invalid name "_geoSupply" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 44,8:Node.__init__: Invalid name "_y" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,8:Node.__init__: Invalid name "_x" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 47,8:Node.__init__: Invalid name "_windProd" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 53,8:Node.__init__: Invalid name "_hydroSupply" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 51,8:Node.__init__: Invalid name "_windSupply" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 50,8:Node.__init__: Invalid name "_solarSupply" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 46,8:Node.__init__: Invalid name "_solarProd" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 48,8:Node.__init__: Invalid name "_geoProd" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,8:Node.__init__: Invalid name "_hydroProd" for type attribute (should match [a-z_][a-z0-9_]{2,30}$)
+R: 39,0:Node: Too many instance attributes (13/7)
+C: 41,4:Node.__init__: Comma not followed by a space
+    def __init__(self,value1=None,value2=None,value3=None,value4=None,value5=None,value6=None,value7=None,value8=None,value9=None,value10=None,value11=None,value12=None):
+                     ^^
+R: 41,4:Node.__init__: Too many arguments (13/5)
+C: 46,8:Node.__init__: Operator not preceded by a space
+        self._solarProd=value5
+                       ^
+C: 47,8:Node.__init__: Operator not preceded by a space
+        self._windProd=value6
+                      ^
+C: 48,8:Node.__init__: Operator not preceded by a space
+        self._geoProd=value7
+                     ^
+C: 49,8:Node.__init__: Operator not preceded by a space
+        self._hydroProd=value8
+                       ^
+C: 50,8:Node.__init__: Operator not preceded by a space
+        self._solarSupply=value9
+                         ^
+C: 51,8:Node.__init__: Operator not preceded by a space
+        self._windSupply=value10
+                        ^
+C: 52,8:Node.__init__: Operator not preceded by a space
+        self._geoSupply=value11
+                       ^
+C: 53,8:Node.__init__: Operator not preceded by a space
+        self._hydroSupply=value12
+                         ^
+W: 60,8:Node.__repr__: Redefining built-in 'id'
+C: 60,8:Node.__repr__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,8:Node.__repr__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 62,8:Node.__repr__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 64,8:Node.__repr__: Operator not followed by a space
+        return "Node(%(id)r, %(x)r, %(y)r, %(weight)r)" %vars()
+                                                        ^
+W: 62,8:Node.__repr__: Unused variable 'y'
+W: 61,8:Node.__repr__: Unused variable 'x'
+W: 60,8:Node.__repr__: Unused variable 'id'
+W: 67,8:Node.__str__: Redefining built-in 'id'
+C: 67,8:Node.__str__: Invalid name "id" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 68,8:Node.__str__: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,8:Node.__str__: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,8:Node.__str__: Operator not followed by a space
+        return "(%(id)s, %(x)s, %(y)s, %(weight)s)" %vars()
+                                                    ^
+W: 69,8:Node.__str__: Unused variable 'y'
+W: 68,8:Node.__str__: Unused variable 'x'
+W: 67,8:Node.__str__: Unused variable 'id'
+C: 78,4:Node.getID: Invalid name "getID" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 78,4:Node.getID: Missing docstring
+C: 81,4:Node.getX: Invalid name "getX" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 81,4:Node.getX: Missing docstring
+C: 84,4:Node.getDemand: Invalid name "getDemand" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,4:Node.getDemand: Missing docstring
+C: 87,4:Node.getSupplyAmounts: Invalid name "getSupplyAmounts" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 87,4:Node.getSupplyAmounts: Missing docstring
+C: 88,8:Node.getSupplyAmounts: Comma not followed by a space
+        return self._solarSupply, self._windSupply, self._geoSupply,self._hydroSupply
+                                                                   ^^
+C: 90,4:Node.setXY: Comma not followed by a space
+    def setXY(self,X,Y):
+                  ^^
+C: 90,4:Node.setXY: Invalid name "setXY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:Node.setXY: Invalid name "X" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:Node.setXY: Invalid name "Y" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,4:Node.setXY: Missing docstring
+C: 90,19:Node.setXY: Invalid name "X" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,21:Node.setXY: Invalid name "Y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 91,8:Node.setXY: Operator not preceded by a space
+        self._x=X
+               ^
+C: 92,8:Node.setXY: Operator not preceded by a space
+        self._y=Y
+               ^
+C: 94,4:Node.getY: Invalid name "getY" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,4:Node.getY: Missing docstring
+C: 97,4:Node.getWeight: Invalid name "getWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C: 97,4:Node.getWeight: Missing docstring
+C:100,4:Node.setWeight: Comma not followed by a space
+    def setWeight(self,newWeight):
+                      ^^
+C:100,4:Node.setWeight: Invalid name "setWeight" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,4:Node.setWeight: Invalid name "newWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,4:Node.setWeight: Missing docstring
+C:100,23:Node.setWeight: Invalid name "newWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,8:Node.setWeight: Operator not preceded by a space
+        self._weight=newWeight
+                    ^
+C:103,4:Node.getCoords: Invalid name "getCoords" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:103,4:Node.getCoords: Missing docstring
+C:106,4:Node.getSolarProdCost: Invalid name "getSolarProdCost" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,4:Node.getSolarProdCost: Missing docstring
+C:109,4:Node.getWindProdCost: Invalid name "getWindProdCost" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:109,4:Node.getWindProdCost: Missing docstring
+C:112,4:Node.getGeoProdCost: Invalid name "getGeoProdCost" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:112,4:Node.getGeoProdCost: Missing docstring
+C:115,4:Node.getHydroProdCost: Invalid name "getHydroProdCost" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,4:Node.getHydroProdCost: Missing docstring
+C:118,4:Node.setSolarSupply: Invalid name "setSolarSupply" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,4:Node.setSolarSupply: Missing docstring
+C:119,5:Node.setSolarSupply: Operator not preceded by a space
+    	self._solarSupply=newvalue
+                      ^
+C:121,4:Node.setWindSupply: Comma not followed by a space
+    def setWindSupply(self,newvalue):
+                          ^^
+C:121,4:Node.setWindSupply: Invalid name "setWindSupply" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,4:Node.setWindSupply: Missing docstring
+C:122,5:Node.setWindSupply: Operator not preceded by a space
+    	self._windSupply=newvalue
+                     ^
+C:124,4:Node.setDemand: Invalid name "setDemand" for type method (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,4:Node.setDemand: Missing docstring
+C:125,5:Node.setDemand: Operator not preceded by a space
+    	self._demand=newvalue
+                 ^
+W:101,8:Node.setWeight: Attribute '_weight' defined outside __init__
+C:127,0:readNodesFromShpforAfricaLP: Invalid name "readNodesFromShpforAfricaLP" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+R:127,0:readNodesFromShpforAfricaLP: Too many local variables (27/15)
+C:129,4:readNodesFromShpforAfricaLP: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:130,4:readNodesFromShpforAfricaLP: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,8:readNodesFromShpforAfricaLP: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:135,8:readNodesFromShpforAfricaLP: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:136,8:readNodesFromShpforAfricaLP: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:137,8:readNodesFromShpforAfricaLP: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:139,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        demandField=feat.GetFieldIndex("Dermand")
+                   ^
+C:139,8:readNodesFromShpforAfricaLP: Invalid name "demandField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        demand=feat.GetField(demandField)
+              ^
+C:142,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        solarProdField=feat.GetFieldIndex("Solar_Pr")
+                      ^
+C:142,8:readNodesFromShpforAfricaLP: Invalid name "solarProdField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:143,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        solarProd=feat.GetField(solarProdField)
+                 ^
+C:143,8:readNodesFromShpforAfricaLP: Invalid name "solarProd" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:145,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        windProdField=feat.GetFieldIndex("Wind_Pr")
+                     ^
+C:145,8:readNodesFromShpforAfricaLP: Invalid name "windProdField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:146,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        windProd=feat.GetField(windProdField)
+                ^
+C:146,8:readNodesFromShpforAfricaLP: Invalid name "windProd" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        geoProdField=feat.GetFieldIndex("Geo_Pr")
+                    ^
+C:148,8:readNodesFromShpforAfricaLP: Invalid name "geoProdField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:149,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        geoProd=feat.GetField(geoProdField)
+               ^
+C:149,8:readNodesFromShpforAfricaLP: Invalid name "geoProd" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:151,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        hydroProdField=feat.GetFieldIndex("Hydro_Pr")
+                      ^
+C:151,8:readNodesFromShpforAfricaLP: Invalid name "hydroProdField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:152,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        hydroProd=feat.GetField(hydroProdField)
+                 ^
+C:152,8:readNodesFromShpforAfricaLP: Invalid name "hydroProd" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:154,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        solarSupplyField=feat.GetFieldIndex("Solar")
+                        ^
+C:154,8:readNodesFromShpforAfricaLP: Invalid name "solarSupplyField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:155,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        solarSupply=feat.GetField(solarSupplyField)
+                   ^
+C:155,8:readNodesFromShpforAfricaLP: Invalid name "solarSupply" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:157,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        windSupplyField=feat.GetFieldIndex("Wind")
+                       ^
+C:157,8:readNodesFromShpforAfricaLP: Invalid name "windSupplyField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:158,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        windSupply=feat.GetField(windSupplyField)
+                  ^
+C:158,8:readNodesFromShpforAfricaLP: Invalid name "windSupply" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:160,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        geoSupplyField=feat.GetFieldIndex("Geo")
+                      ^
+C:160,8:readNodesFromShpforAfricaLP: Invalid name "geoSupplyField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        geoSupply=feat.GetField(geoSupplyField)
+                 ^
+C:161,8:readNodesFromShpforAfricaLP: Invalid name "geoSupply" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:163,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        hydroSupplyField=feat.GetFieldIndex("Hydro")
+                        ^
+C:163,8:readNodesFromShpforAfricaLP: Invalid name "hydroSupplyField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:164,8:readNodesFromShpforAfricaLP: Operator not preceded by a space
+        hydroSupply=feat.GetField(hydroSupplyField)
+                   ^
+C:164,8:readNodesFromShpforAfricaLP: Invalid name "hydroSupply" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:166,8:readNodesFromShpforAfricaLP: Comma not followed by a space
+        nodes[FID] = Node(FID, x, y, demand, solarProd, windProd, geoProd, hydroProd, solarSupply, windSupply, geoSupply,hydroSupply)
+                                                                                                                        ^^
+C:173,0:computeSphericalDistance: Invalid name "computeSphericalDistance" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:178,4:computeSphericalDistance: Invalid name "convertDegreesToRadians" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:180,28:computeSphericalDistance: Used builtin function 'map'
+W:181,28:computeSphericalDistance: Used builtin function 'map'
+C:183,4:computeSphericalDistance: Invalid name "longitudeDelta" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:184,4:computeSphericalDistance: Invalid name "earthRadiusInMeters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,4:computeSphericalDistance: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:187,4:computeSphericalDistance: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:192,0:generateDistanceDictionary: Invalid name "generateDistanceDictionary" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:192,0:generateDistanceDictionary: Missing docstring
+C:193,4:generateDistanceDictionary: Invalid name "distDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:194,8:generateDistanceDictionary: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:195,12:generateDistanceDictionary: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:197,12:generateDistanceDictionary: Comma not followed by a space
+            distDict[(startNode.getID(),endNode.getID())]=dist
+                                       ^^
+C:202,0:writeSolutionToTxt: Invalid name "writeSolutionToTxt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,0:writeSolutionToTxt: Invalid name "outputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,28:writeSolutionToTxt: Invalid name "outputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:206,8:writeSolutionToTxt: Unused variable 'var'
+W:462,4:main: Redefining built-in 'sum'
+C:218,0:main: Missing docstring
+R:218,0:main: Too many local variables (43/15)
+C:229,12:main: Operator not preceded by a space
+            nodesFile="/home/selin/Desktop/AfricaLP/Africa_Updated_match21.shp"
+                     ^
+C:229,12:main: Invalid name "nodesFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:232,12:main: Operator not preceded by a space
+            outputDir="/home/selin/Desktop/AfricaLP"
+                     ^
+C:232,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:239,1:main: Operator not preceded by a space
+	solarTransportationCostper1000kmperGW=0.07
+                                      ^
+C:239,1:main: Invalid name "solarTransportationCostper1000kmperGW" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:240,1:main: Operator not preceded by a space
+	windTransportationCostper1000kmperGW=0.06
+                                     ^
+C:240,1:main: Invalid name "windTransportationCostper1000kmperGW" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:241,1:main: Operator not preceded by a space
+	geoTransportationCostper1000kmperGW=0.03
+                                    ^
+C:241,1:main: Invalid name "geoTransportationCostper1000kmperGW" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:242,1:main: Operator not preceded by a space
+	hydroTransportationCostper1000kmperGW=0.02
+                                      ^
+C:242,1:main: Invalid name "hydroTransportationCostper1000kmperGW" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:245,8:main: Operator not preceded by a space
+        numType=4
+               ^
+C:245,8:main: Invalid name "numType" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:246,8:main: Operator not preceded by a space
+        nodes=readNodesFromShpforAfricaLP(nodesFile)
+             ^
+C:247,8:main: Operator not preceded by a space
+        numNodes= len(nodes)
+                ^
+C:247,8:main: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:248,8:main: Operator not preceded by a space
+        dist=generateDistanceDictionary(nodes)
+            ^
+C:250,8:main: Invalid name "variablesFile2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:264,-1:main: String statement has no effect
+C:266,8:main: Operator not preceded by a space
+        b=[]
+         ^
+C:266,8:main: Invalid name "b" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:272,12:main: Operator not preceded by a space
+            solar, wind,geo,hydro=node.getSupplyAmounts()
+                                 ^
+C:280,8:main: Comma not followed by a space
+        for i in range(0,numNodes*numType):
+                        ^^
+C:294,8:main: Operator not preceded by a space
+        consts={}
+              ^
+C:296,8:main: Comma not followed by a space
+        for ID in range(0,numNodes):
+                         ^^
+C:296,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:297,12:main: Operator not preceded by a space
+            consts[ID]=[]
+                      ^
+C:298,12:main: Comma not followed by a space
+            for i in range(0,numNodes):
+                            ^^
+C:300,20:main: Operator not preceded by a space
+                    if i==j:
+                        ^^
+C:302,20:main: Comma not followed by a space
+                    for k in range(1,numType+1):
+                                    ^^
+C:304,24:main: Operator not preceded by a space
+                        if i==ID:
+                            ^^
+C:307,24:main: Operator not preceded by a space
+                        if j==ID:
+                            ^^
+C:310,24:main: Operator not preceded by a space
+                        if i!=ID and j!=ID:
+                            ^^
+C:314,12:main: Comma not followed by a space
+            for l in range(0,numNodes):
+                            ^^
+C:314,16:main: Invalid name "l" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:315,13:main: Comma not followed by a space
+            	for k in range(1,numType+1):
+                             ^^
+C:316,20:main: Operator not preceded by a space
+                    if l==ID:
+                        ^^
+C:326,8:main: Operator not preceded by a space
+        count=0
+             ^
+C:327,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:329,12:main: Operator not preceded by a space
+            consts[ID]=[]
+                      ^
+C:330,12:main: Comma not followed by a space
+            for i in range(0,numNodes):
+                            ^^
+C:332,20:main: Operator not preceded by a space
+                    if i==j:
+                        ^^
+C:334,20:main: Comma not followed by a space
+                    for k in range(1,numType+1):
+                                    ^^
+C:337,12:main: Comma not followed by a space
+            for l in range(0,numNodes*numType):
+                            ^^
+C:337,16:main: Invalid name "l" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:338,17:main: Operator not preceded by a space
+                 if l==count:
+                     ^^
+C:343,12:main: Operator not preceded by a space
+            count+=1
+                 ^^
+C:350,8:main: Operator not preceded by a space
+        count=0
+             ^
+C:351,8:main: Comma not followed by a space
+        for ID in range((numType+1)*numNodes,2*numType*numNodes+numNodes):
+                                            ^^
+C:351,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:352,12:main: Operator not preceded by a space
+            consts[ID]=[]
+                      ^
+C:353,12:main: Comma not followed by a space
+            for i in range(0,numNodes):
+                            ^^
+C:355,16:main: Comma not followed by a space
+                for j in range(0,numNodes):
+                                ^^
+C:356,20:main: Operator not preceded by a space
+                    if i==j:
+                        ^^
+C:358,20:main: Comma not followed by a space
+                    for k in range(1,numType+1):
+                                    ^^
+C:360,24:main: Operator not preceded by a space
+                        if count/numType==i and count%numType==(k-1):
+                                        ^^
+C:365,12:main: Comma not followed by a space
+            for l in range(0,numNodes*numType):
+                            ^^
+C:365,16:main: Invalid name "l" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:366,16:main: Operator not preceded by a space
+                if l==count:
+                    ^^
+C:371,12:main: Operator not preceded by a space
+            count+=1
+                 ^^
+C:379,8:main: Operator not preceded by a space
+        I= spmatrix(-1, range((numNodes*numNodes-numNodes)*numType+numType*numNodes), range((numNodes*numNodes-numNodes)*numType+numType*numNodes))
+         ^
+C:379,8:main: Invalid name "I" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:381,8:main: Operator not preceded by a space
+        AList=[]
+             ^
+C:381,8:main: Invalid name "AList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:383,8:main: Comma not followed by a space
+        for i in range(0,numNodes*(2*numType+1)): # *2 vardi ilk halinde
+                        ^^
+C:390,8:main: Operator not preceded by a space
+        ATrans=matrix(AList,((numNodes*numNodes-numNodes)*numType+numType*numNodes,(2*numType+1)*numNodes),'d')
+              ^
+C:390,8:main: Invalid name "ATrans" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:391,8:main: Operator not preceded by a space
+        Ahalf=ATrans.trans()
+             ^
+C:391,8:main: Invalid name "Ahalf" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:393,8:main: Operator not preceded by a space
+        A=matrix([Ahalf,I])
+         ^
+C:393,8:main: Invalid name "A" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:396,8:main: Operator not preceded by a space
+        B=matrix(b,(((2*numType+1)*numNodes+(numNodes*numNodes-numNodes)*numType+numType*numNodes),1),'d')
+         ^
+C:396,8:main: Invalid name "B" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:400,8:main: Operator not preceded by a space
+        c=[]
+         ^
+C:400,8:main: Invalid name "c" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:402,8:main: Comma not followed by a space
+        for i in range(0,numNodes):
+                        ^^
+C:404,19:main: Operator not preceded by a space
+                   if i==j:
+                       ^^
+C:406,19:main: Comma not followed by a space
+                   for k in range(1,numType+1):
+                                   ^^
+C:407,23:main: Operator not preceded by a space
+                       if k==1:
+                           ^^
+C:408,27:main: Comma not followed by a space
+                           c.append(dist[(nodes[i].getID(),nodes[j].getID())]*solarTransportationCostper1000kmperGW/1000000)
+                                                          ^^
+C:409,23:main: Operator not preceded by a space
+                       if k==2:
+                           ^^
+C:410,27:main: Comma not followed by a space
+                           c.append(dist[(nodes[i].getID(),nodes[j].getID())]*windTransportationCostper1000kmperGW/1000000)
+                                                          ^^
+C:411,23:main: Operator not preceded by a space
+                       if k==3:
+                           ^^
+C:412,27:main: Comma not followed by a space
+                           c.append(dist[(nodes[i].getID(),nodes[j].getID())]*geoTransportationCostper1000kmperGW/1000000)
+                                                          ^^
+C:413,23:main: Operator not preceded by a space
+                       if k==4:
+                           ^^
+C:414,27:main: Comma not followed by a space
+                           c.append(dist[(nodes[i].getID(),nodes[j].getID())]*hydroTransportationCostper1000kmperGW/1000000)
+                                                          ^^
+C:417,8:main: Comma not followed by a space
+        for i in range(0,numNodes):
+                        ^^
+C:418,14:main: Comma not followed by a space
+             	for k in range(1,numType+1):
+                              ^^
+C:419,13:main: Operator not preceded by a space
+       		    if k==1:
+                 ^^
+C:421,20:main: Operator not preceded by a space
+                    if k==2:
+                        ^^
+C:423,20:main: Operator not preceded by a space
+                    if k==3:
+                        ^^
+C:425,20:main: Operator not preceded by a space
+                    if k==4:
+                        ^^
+C:432,8:main: Operator not preceded by a space
+        C=array(c)
+         ^
+C:432,8:main: Invalid name "C" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:433,8:main: Operator not preceded by a space
+        C2=matrix(C,((numNodes*numNodes-numNodes)*numType+numType*numNodes, 1),'d')
+          ^
+C:433,8:main: Invalid name "C2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:435,8:main: Operator not preceded by a space
+        sol=solvers.lp(C2,A,B)
+           ^
+C:437,8:main: Invalid name "variablesFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:438,8:main: Operator not preceded by a space
+        indexFile=outputDir+os.sep+"index_march21.txt"
+                 ^
+C:438,8:main: Invalid name "indexFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:447,5:main: Comma not followed by a space
+    	for i in range(0,numNodes):
+                     ^^
+C:449,6:main: Comma not followed by a space
+    		for k in range(1,numType+1):
+                      ^^
+C:462,4:main: Operator not preceded by a space
+   	sum=0
+       ^
+C:464,8:main: Comma not followed by a space
+        for i in range(0,len(c)):
+                        ^^
+C:465,9:main: Comma not followed by a space
+        	for l in range(0,len(sol['x'])):
+                         ^^
+C:465,13:main: Invalid name "l" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:466,10:main: Operator not preceded by a space
+        		if l==i:
+              ^^
+C:468,11:main: Operator not preceded by a space
+        			sum=sum+c[i]*sol['x'][l]
+              ^
+C:476,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:480,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W:250,8:main: Unused variable 'variablesFile2'
+W:223,18:main: Unused variable 'args'
+W:223,12:main: Unused variable 'opts'
+R:218,0:main: Too many branches (61/12)
+R:218,0:main: Too many statements (123/50)
+W: 26,4: Unused import osr
+W: 14,0: Unused import network
+W: 12,0: Unused import distGen
+W: 13,0: Unused import calcTree
+W: 15,0: Unused import fileRW
+
+
+Report
+======
+296 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |263    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |76     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |103         |
++-----------+------------+
+|C0322      |85          |
++-----------+------------+
+|C0324      |34          |
++-----------+------------+
+|W0312      |25          |
++-----------+------------+
+|W0311      |23          |
++-----------+------------+
+|C0111      |20          |
++-----------+------------+
+|C0301      |17          |
++-----------+------------+
+|W0612      |10          |
++-----------+------------+
+|W0611      |5           |
++-----------+------------+
+|W0403      |4           |
++-----------+------------+
+|C0323      |4           |
++-----------+------------+
+|W0622      |3           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0141      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|W0201      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|R0915      |1           |
++-----------+------------+
+|R0913      |1           |
++-----------+------------+
+|R0912      |1           |
++-----------+------------+
+|R0902      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -1.66/10
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |300    |75.19 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |24     |6.02  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |11     |2.76  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |64     |16.04 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |33.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |23     |NC         |NC         |30.43       |69.57    |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |60.00       |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    cvxopt 
+      \-matrix (network-planner-algorithm-tools.AfricaLP)
+      \-solvers (network-planner-algorithm-tools.AfricaLP)
+      \-spmatrix (network-planner-algorithm-tools.AfricaLP)
+    numpy 
+      \-array (network-planner-algorithm-tools.AfricaLP)
+    ogr (network-planner-algorithm-tools.AfricaLP)
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.AfricaLP)
+      \-osr (network-planner-algorithm-tools.AfricaLP)
+    osr (network-planner-algorithm-tools.AfricaLP)
+
+
+

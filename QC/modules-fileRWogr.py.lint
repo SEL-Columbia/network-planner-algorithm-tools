@@ -1,0 +1,203 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.fileRWogr
+C:100,0: Line too long (83/80)
+C:136,0: Line too long (82/80)
+C:173,0: Line too long (82/80)
+W: 28,0: TODO: Fix this function so it actually handles conversions, rather
+W:112,0: TODO: fix to allow creation of a new field in a shapefile that already has
+C:  1,0: Invalid name "fileRWogr" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 14,0: Relative import 'network', should be 'network-planner-algorithm-tools.modules.network'
+W: 26,33:convertToShpUnits: Redefining built-in 'input'
+C: 26,0:convertToShpUnits: Invalid name "convertToShpUnits" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 30,4:convertToShpUnits: Invalid name "inputLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 30,17:convertToShpUnits: Invalid name "inputUnits" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 31,4:convertToShpUnits: Invalid name "inputUnits" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 33,4:convertToShpUnits: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,4:convertToShpUnits: Invalid name "projText" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 35,4:convertToShpUnits: Invalid name "inFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,4:convertToShpUnits: Invalid name "spatialRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 42,4:convertToShpUnits: Invalid name "shpUnits" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,0:getFieldType: Invalid name "getFieldType" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,0:getFieldType: Invalid name "fieldValue" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,17:getFieldType: Invalid name "fieldValue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 58,0:readNodesFromShp: Invalid name "readNodesFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,4:readNodesFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,4:readNodesFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 68,8:readNodesFromShp: No exception type(s) specified
+C: 66,12:readNodesFromShp: Invalid name "weightField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,12:readNodesFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,12:readNodesFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 70,8:readNodesFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,8:readNodesFromShp: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,8:readNodesFromShp: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 73,8:readNodesFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 79,0:readNetFromShp: Invalid name "readNetFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+R: 79,0:readNetFromShp: Too many local variables (18/15)
+C: 81,4:readNetFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 85,4:readNetFromShp: Invalid name "lengthField" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 86,4:readNetFromShp: Invalid name "nodeWeightFields" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 87,4:readNetFromShp: Invalid name "nodeIDFields" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 89,8:readNetFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 92,8:readNetFromShp: Invalid name "endPts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 93,12:readNetFromShp: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,12:readNetFromShp: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,15:readNetFromShp: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 96,16:readNetFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,12:readNetFromShp: Invalid name "nodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,8:readNetFromShp: Invalid name "newSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,0:writeFieldToShp: Invalid name "writeFieldToShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,0:writeFieldToShp: Invalid name "fieldValues" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:110,31:writeFieldToShp: Invalid name "fieldValues" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:115,4:writeFieldToShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,4:writeFieldToShp: Invalid name "fieldIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:120,8:writeFieldToShp: Invalid name "fieldType" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:121,8:writeFieldToShp: Invalid name "fieldDefn" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,8:writeFieldToShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:126,12:writeFieldToShp: Invalid name "fieldValue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:135,0:readFieldFromShp: Invalid name "readFieldFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:137,4:readFieldFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:140,4:readFieldFromShp: Invalid name "fieldValues" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:143,12:readFieldFromShp: Invalid name "fieldValue" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:147,8:readFieldFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:153,17:genShapefile: Redefining name 'network' from outer scope (line 14)
+C:153,0:genShapefile: Invalid name "genShapefile" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:genShapefile: Invalid name "projFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:genShapefile: Invalid name "outputShape" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R:153,0:genShapefile: Too many local variables (26/15)
+C:153,26:genShapefile: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,36:genShapefile: Invalid name "outputShape" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,4:genShapefile: Invalid name "shpDriver" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:162,4:genShapefile: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:164,4:genShapefile: Invalid name "projText" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:165,4:genShapefile: Invalid name "inFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:170,4:genShapefile: Invalid name "spatialRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:176,4:genShapefile: Invalid name "lengthFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:178,4:genShapefile: Invalid name "netidFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,4:genShapefile: Invalid name "pt1idFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:182,4:genShapefile: Invalid name "pt2idFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:184,4:genShapefile: Invalid name "pt1WeightFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,4:genShapefile: Invalid name "pt2WeightFD" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:193,8:genShapefile: Invalid name "newFeature" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,8:genShapefile: Invalid name "x1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,12:genShapefile: Invalid name "y1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:203,8:genShapefile: Invalid name "x2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:203,12:genShapefile: Invalid name "y2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:204,8:genShapefile: Operator not followed by a space
+        wkt = 'LINESTRING (%f %f, %f %f)' %(x1, y1, x2, y2)
+                                          ^
+
+
+Report
+======
+162 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |159    |83.68 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |19     |10.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |6      |3.16  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |6      |3.16  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |75     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |71          |
++-----------+------------+
+|C0301      |3           |
++-----------+------------+
+|W0511      |2           |
++-----------+------------+
+|R0914      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0622      |1           |
++-----------+------------+
+|W0621      |1           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|C0323      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 4.88/10
+
+External dependencies
+---------------------
+::
+
+    network-planner-algorithm-tools 
+      \-modules 
+        \-network (network-planner-algorithm-tools.modules.fileRWogr)
+    ogr (network-planner-algorithm-tools.modules.fileRWogr)
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.modules.fileRWogr)
+      \-osr (network-planner-algorithm-tools.modules.fileRWogr)
+    osr (network-planner-algorithm-tools.modules.fileRWogr)
+
+
+

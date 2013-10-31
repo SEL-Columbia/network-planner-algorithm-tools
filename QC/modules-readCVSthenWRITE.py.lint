@@ -1,0 +1,109 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.readCVSthenWRITE
+C:  1,0: Invalid name "readCVSthenWRITE" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+C:  1,0: Missing docstring
+C:  8,0: Operator not preceded by a space
+outputDir=r"C:\Users\Selin\Desktop\stat"
+         ^
+C:  8,0: Invalid name "outputDir" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 11,0: Operator not preceded by a space
+statsFile= outputDir + os.sep + "statTemp.csv"
+         ^
+C: 11,0: Invalid name "statsFile" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 12,0: Operator not preceded by a space
+statsFile2= outputDir + os.sep + "statTemp2.csv"
+          ^
+C: 12,0: Invalid name "statsFile2" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 13,0: Operator not preceded by a space
+csvReader= csv.reader(open(statsFile, 'rb'))
+         ^
+C: 13,0: Invalid name "csvReader" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+
+
+Report
+======
+10 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |5           |
++-----------+------------+
+|C0322      |4           |
++-----------+------------+
+|C0111      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.00/10
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |10     |31.25 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |4      |12.50 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |18     |56.25 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+

@@ -1,0 +1,713 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.HeurForMultiLevelNetwork
+C: 34,0: Line too long (127/80)
+C: 38,0: Line too long (92/80)
+C: 40,0: Line too long (92/80)
+C: 47,0: Line too long (82/80)
+C: 86,0: Line too long (91/80)
+C: 89,0: Line too long (104/80)
+C: 90,0: Line too long (84/80)
+C: 91,0: Line too long (110/80)
+C:117,0: Line too long (86/80)
+C:119,0: Line too long (105/80)
+C:133,0: Line too long (102/80)
+C:135,0: Line too long (102/80)
+W:176,0: Bad indentation. Found 13 spaces, expected 12
+W:178,0: Bad indentation. Found 24 spaces, expected 16
+C:188,0: Line too long (86/80)
+C:195,0: Line too long (89/80)
+C:205,0: Line too long (102/80)
+C:207,0: Line too long (102/80)
+C:221,0: Line too long (86/80)
+C:237,0: Line too long (137/80)
+C:238,0: Line too long (83/80)
+C:246,0: Line too long (84/80)
+C:252,0: Line too long (100/80)
+W:283,0: Bad indentation. Found 12 spaces, expected 8
+W:284,0: Bad indentation. Found 12 spaces, expected 8
+C:301,0: Line too long (106/80)
+C:303,0: Line too long (102/80)
+W:310,0: Found indentation with tabs instead of spaces
+C:314,0: Line too long (110/80)
+C:318,0: Line too long (126/80)
+C:320,0: Line too long (84/80)
+C:341,0: Line too long (95/80)
+C:372,0: Line too long (91/80)
+W: 13,0: Relative import 'CMST_dfs', should be 'network-planner-algorithm-tools.CMST_dfs'
+W: 20,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 21,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+W: 22,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 24,0:Usage: Missing docstring
+W: 25,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 28,0:Error: Missing docstring
+W: 29,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 34,0:mergeCluster: Comma not followed by a space
+def mergeCluster(ClusterByNode,NodesByClusterID,Centers,segment): ###merge ettikten sonra eski centerlarin silindigine emin ol.
+                              ^^
+C: 34,0:mergeCluster: Invalid name "mergeCluster" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:mergeCluster: Invalid name "ClusterByNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:mergeCluster: Invalid name "NodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:mergeCluster: Invalid name "Centers" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:mergeCluster: Missing docstring
+C: 34,17:mergeCluster: Invalid name "ClusterByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,31:mergeCluster: Invalid name "NodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,48:mergeCluster: Invalid name "Centers" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 35,4:mergeCluster: Operator not preceded by a space
+    center1,center2=segment.getNodes()
+                   ^
+C: 37,4:mergeCluster: Operator not preceded by a space
+    centerX=(center1.getWeight()*center1.getCenterX()
+           ^
+        +center2.getWeight()*center2.getCenterX())/(center2.getWeight()+center1.getWeight())
+C: 37,4:mergeCluster: Invalid name "centerX" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,4:mergeCluster: Operator not preceded by a space
+    centerY=(center1.getWeight()*center1.getCenterY()
+           ^
+        +center2.getWeight()*center2.getCenterY())/(center2.getWeight()+center1.getWeight())
+C: 39,4:mergeCluster: Invalid name "centerY" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,4:mergeCluster: Operator not preceded by a space
+    weight=center2.getWeight()+center1.getWeight()
+          ^
+C: 44,4:mergeCluster: Operator not preceded by a space
+    baseClusterID=min(ClusterByNode[center1],ClusterByNode[center2])
+                 ^
+C: 44,4:mergeCluster: Invalid name "baseClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 45,4:mergeCluster: Operator not preceded by a space
+    mergingClusterID=max(ClusterByNode[center1],ClusterByNode[center2])
+                    ^
+C: 45,4:mergeCluster: Invalid name "mergingClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 49,4:mergeCluster: Comma not followed by a space
+    Centers[baseClusterID].setXY(centerX,centerY)
+                                        ^^
+C: 55,8:mergeCluster: Operator not preceded by a space
+        ClusterByNode[node]=baseClusterID
+                           ^
+C: 59,0:generateDictsFromShp: Comma not followed by a space
+def generateDictsFromShp(shapeFile,outputPath):
+                                  ^^
+W: 62,4:generateDictsFromShp: Redefining built-in 'file'
+C: 59,0:generateDictsFromShp: Invalid name "generateDictsFromShp" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,0:generateDictsFromShp: Invalid name "shapeFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,0:generateDictsFromShp: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+R: 59,0:generateDictsFromShp: Too many local variables (19/15)
+C: 59,25:generateDictsFromShp: Invalid name "shapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,35:generateDictsFromShp: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,4:generateDictsFromShp: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 61,13:generateDictsFromShp: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 67,8:generateDictsFromShp: No exception type(s) specified
+C: 69,4:generateDictsFromShp: Invalid name "ds" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 70,4:generateDictsFromShp: Invalid name "ptLayer" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,4:generateDictsFromShp: Operator not preceded by a space
+    nodesByClusterID=collections.defaultdict(list)
+                    ^
+C: 72,4:generateDictsFromShp: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 73,4:generateDictsFromShp: Operator not preceded by a space
+    clusterByNode={}
+                 ^
+C: 73,4:generateDictsFromShp: Invalid name "clusterByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 74,4:generateDictsFromShp: Operator not preceded by a space
+    nodes={}
+         ^
+C: 75,4:generateDictsFromShp: Operator not preceded by a space
+    centers={}
+           ^
+C: 76,4:generateDictsFromShp: Operator not preceded by a space
+    LVCostDict={}
+              ^
+C: 76,4:generateDictsFromShp: Invalid name "LVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 80,8:generateDictsFromShp: Invalid name "nodeWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 81,8:generateDictsFromShp: Invalid name "geomRef" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 82,8:generateDictsFromShp: Invalid name "x" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 83,8:generateDictsFromShp: Invalid name "y" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,8:generateDictsFromShp: Invalid name "FID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 86,8:generateDictsFromShp: Operator not preceded by a space
+        centers[FID]=network.Node(FID, x, y, nodeWeight) #tum centerlar node olarak tutulur
+                    ^
+C: 90,8:generateDictsFromShp: Operator not preceded by a space
+        clusterByNode[nodes[FID]]=FID #clusterin kendini degil sadece IDsini tutucak
+                                 ^
+C: 93,8:generateDictsFromShp: Operator not preceded by a space
+        LVCostDict[FID]=0
+                       ^
+C: 97,4:generateDictsFromShp: Comma not followed by a space
+    return nodesByClusterID,clusterByNode,nodes,centers,LVCostDict
+                           ^^
+W: 62,4:generateDictsFromShp: Unused variable 'file'
+W: 61,4:generateDictsFromShp: Unused variable 'rootDir'
+W: 62,10:generateDictsFromShp: Unused variable 'ext'
+C: 99,0:generateSegments: Comma not followed by a space
+def generateSegments(centers,searchRadius): #centers=centerDict
+                            ^^
+C: 99,0:generateSegments: Invalid name "generateSegments" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 99,0:generateSegments: Invalid name "searchRadius" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 99,0:generateSegments: Missing docstring
+C: 99,29:generateSegments: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:100,4:generateSegments: Operator not preceded by a space
+    segments=[]
+            ^
+C:101,4:generateSegments: Invalid name "nodeCopy" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:103,4:generateSegments: Operator not preceded by a space
+    segID=0
+         ^
+C:103,4:generateSegments: Invalid name "segID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,8:generateSegments: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,12:generateSegments: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:112,16:generateSegments: Operator not preceded by a space
+                segID+=1
+                     ^^
+C:112,16:generateSegments: Invalid name "segID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:maxInClusterDist: Comma not followed by a space
+def maxInClusterDist(centerNode,nodesByClusterID): #Returns maxDist within the cluster
+                               ^^
+C:117,0:maxInClusterDist: Invalid name "maxInClusterDist" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:maxInClusterDist: Invalid name "centerNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:maxInClusterDist: Invalid name "nodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:maxInClusterDist: Missing docstring
+C:117,21:maxInClusterDist: Invalid name "centerNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,32:maxInClusterDist: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:118,4:maxInClusterDist: Operator not preceded by a space
+    maxdist=0
+           ^
+C:120,8:maxInClusterDist: Operator not preceded by a space
+        dist=((centerNode.getX()-node.getX())**2+
+            ^
+                (centerNode.getY()-node.getY())**2)**(.5)
+C:122,8:maxInClusterDist: Operator not preceded by a space
+        if dist>=maxdist:
+               ^^
+C:123,12:maxInClusterDist: Operator not preceded by a space
+            maxdist=dist
+                   ^
+C:127,0:maxTempInClusterDist: Comma not followed by a space
+def maxTempInClusterDist(segment,ClusterByNode,nodesByClusterID):
+                                ^^
+C:127,0:maxTempInClusterDist: Invalid name "maxTempInClusterDist" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,0:maxTempInClusterDist: Invalid name "ClusterByNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,0:maxTempInClusterDist: Invalid name "nodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,0:maxTempInClusterDist: Missing docstring
+C:127,33:maxTempInClusterDist: Invalid name "ClusterByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:127,47:maxTempInClusterDist: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:128,4:maxTempInClusterDist: Operator not preceded by a space
+    maxDist=0
+           ^
+C:128,4:maxTempInClusterDist: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:130,4:maxTempInClusterDist: Operator not preceded by a space
+    tempCenter1,tempCenter2=segment.getNodes()
+                           ^
+C:130,4:maxTempInClusterDist: Invalid name "tempCenter1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:130,16:maxTempInClusterDist: Invalid name "tempCenter2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:132,4:maxTempInClusterDist: Operator not preceded by a space
+    tempCenterX=(tempCenter1.getWeight()*tempCenter1.getX()
+               ^
+        +tempCenter2.getWeight()*tempCenter2.getX())/(tempCenter2.getWeight()+tempCenter1.getWeight())
+C:132,4:maxTempInClusterDist: Invalid name "tempCenterX" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:134,4:maxTempInClusterDist: Operator not preceded by a space
+    tempCenterY=(tempCenter1.getWeight()*tempCenter1.getY()
+               ^
+        +tempCenter2.getWeight()*tempCenter2.getY())/(tempCenter2.getWeight()+tempCenter1.getWeight())
+C:134,4:maxTempInClusterDist: Invalid name "tempCenterY" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:138,8:maxTempInClusterDist: Operator not preceded by a space
+        dist=((tempCenterX-node.getX())**2+(tempCenterY-node.getY())**2)**(.5)
+            ^
+C:139,8:maxTempInClusterDist: Operator not preceded by a space
+        if dist>=maxDist:
+               ^^
+C:140,12:maxTempInClusterDist: Operator not preceded by a space
+            maxDist=dist
+                   ^
+C:140,12:maxTempInClusterDist: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:144,8:maxTempInClusterDist: Operator not preceded by a space
+        dist=((tempCenterX-node.getX())**2+(tempCenterY-node.getY())**2)**(.5)
+            ^
+C:145,8:maxTempInClusterDist: Operator not preceded by a space
+        if dist>=maxDist:
+               ^^
+C:146,12:maxTempInClusterDist: Operator not preceded by a space
+            maxDist=dist
+                   ^
+C:146,12:maxTempInClusterDist: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,4:maxTempInClusterDist: Comma not followed by a space
+    return maxDist,tempCenterX,tempCenterY
+                  ^^
+C:153,0:totalInClusterCost: Comma not followed by a space
+def totalInClusterCost(nodesByClusterID,centers):
+                                       ^^
+C:153,0:totalInClusterCost: Invalid name "totalInClusterCost" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:totalInClusterCost: Invalid name "nodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:153,0:totalInClusterCost: Missing docstring
+C:153,23:totalInClusterCost: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:154,4:totalInClusterCost: Operator not preceded by a space
+    totalCost=0
+             ^
+C:154,4:totalInClusterCost: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:155,8:totalInClusterCost: Invalid name "centerID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:157,12:totalInClusterCost: Operator not preceded by a space
+            totalCost+=((node.getX()-centers[centerID].getX())**2+
+                     ^^
+                        (node.getY()-centers[centerID].getY())**2)**(.5)
+C:157,12:totalInClusterCost: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,0:kruskalsAlg: Comma not followed by a space
+def kruskalsAlg(segments,nodes):
+                        ^^
+C:161,0:kruskalsAlg: Invalid name "kruskalsAlg" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:165,4:kruskalsAlg: Operator not preceded by a space
+    numNodes=len(nodes)
+            ^
+C:165,4:kruskalsAlg: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:170,8:kruskalsAlg: Invalid name "node1InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:171,8:kruskalsAlg: Invalid name "node2InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:181,4:kruskalsAlg: Comma not followed by a space
+    return tree,segments
+               ^^
+C:186,0:run: Comma not followed by a space
+def run(centers,nodesByClusterID,clusterByNode,LVCostDict,sr):
+               ^^
+C:186,0:run: Invalid name "nodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,0:run: Invalid name "clusterByNode" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,0:run: Invalid name "LVCostDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,0:run: Invalid name "sr" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,0:run: Missing docstring
+R:186,0:run: Too many local variables (30/15)
+C:186,16:run: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,33:run: Invalid name "clusterByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,47:run: Invalid name "LVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:186,58:run: Invalid name "sr" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:187,4:run: Operator not preceded by a space
+    segments=generateSegments(centers,sr)
+            ^
+C:188,4:run: Operator not preceded by a space
+    minTree,segments=kruskalsAlg(segments,centers) #tree1 is minTree at the beginning.
+                    ^
+C:188,4:run: Invalid name "minTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:189,4:run: Operator not preceded by a space
+    minTotalCost=minTree.getTotalEdgeWeight()*25+len(centers)*5000
+                ^
+C:189,4:run: Invalid name "minTotalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:191,4:run: Operator not preceded by a space
+    minLVCostDict=copy.deepcopy(LVCostDict)
+                 ^
+C:191,4:run: Invalid name "minLVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:192,4:run: Operator not preceded by a space
+    minNodesByClusterID=copy.deepcopy(nodesByClusterID)
+                       ^
+C:192,4:run: Invalid name "minNodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:193,4:run: Operator not preceded by a space
+    minCenters=copy.deepcopy(centers)
+              ^
+C:193,4:run: Invalid name "minCenters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:197,8:run: Operator not preceded by a space
+        maxDist=0 # can be anything less than 500
+               ^
+C:197,8:run: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:199,8:run: Operator not preceded by a space
+        maxDist=501 # can be anything greater than 500
+               ^
+C:199,8:run: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,4:run: Operator not preceded by a space
+    tempCenter1,tempCenter2=segments[0].getNodes()
+                           ^
+C:202,4:run: Invalid name "tempCenter1" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:202,16:run: Invalid name "tempCenter2" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:204,4:run: Operator not preceded by a space
+    tempCenterX=(tempCenter1.getWeight()*tempCenter1.getX()
+               ^
+        +tempCenter2.getWeight()*tempCenter2.getX())/(tempCenter2.getWeight()+tempCenter1.getWeight())
+C:204,4:run: Invalid name "tempCenterX" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:206,4:run: Operator not preceded by a space
+    tempCenterY=(tempCenter1.getWeight()*tempCenter1.getY()
+               ^
+        +tempCenter2.getWeight()*tempCenter2.getY())/(tempCenter2.getWeight()+tempCenter1.getWeight())
+C:206,4:run: Invalid name "tempCenterY" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:208,4:run: Operator not preceded by a space
+    i=0
+     ^
+C:212,8:run: Operator not preceded by a space
+        segment=segments[0]
+               ^
+C:215,8:run: Operator not preceded by a space
+        center1,center2=segment.getNodes()
+                       ^
+C:217,8:run: Operator not preceded by a space
+        weight=center2.getWeight()+center1.getWeight()
+              ^
+C:218,8:run: Operator not preceded by a space
+        baseClusterID=min(clusterByNode[center1],clusterByNode[center2])
+                     ^
+C:218,8:run: Invalid name "baseClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:219,8:run: Operator not preceded by a space
+        mergingClusterID=max(clusterByNode[center1],clusterByNode[center2])
+                        ^
+C:219,8:run: Invalid name "mergingClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:223,8:run: Comma not followed by a space
+        centers[baseClusterID].setXY(tempCenterX,tempCenterY)
+                                                ^^
+C:229,12:run: Operator not preceded by a space
+            clusterByNode[node]=baseClusterID
+                               ^
+C:231,8:run: Operator not preceded by a space
+        segments=generateSegments(centers,sr) # generate segments for new graph
+                ^
+C:232,8:run: Operator not preceded by a space
+        newTree,segments=kruskalsAlg(segments,centers)#returns sorted segments
+                        ^
+C:232,8:run: Invalid name "newTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:233,8:run: Operator not preceded by a space
+        TotalMVCost=newTree.getTotalEdgeWeight()*25
+                   ^
+C:233,8:run: Invalid name "TotalMVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:234,8:run: Operator not preceded by a space
+        TotalTransformerCost=len(centers)*5000
+                            ^
+C:234,8:run: Invalid name "TotalTransformerCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:237,8:run: Operator not followed by a space
+        segmentsCMST, LVCostDict[baseClusterID],householdsCMST =CMST_dfs.CMST(nodesByClusterID[baseClusterID],600,centers[baseClusterID])
+                                                               ^
+C:237,8:run: Invalid name "segmentsCMST" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:237,48:run: Invalid name "householdsCMST" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:238,8:run: Operator not preceded by a space
+        newTotalCost=TotalMVCost+TotalTransformerCost+(sum(LVCostDict.values()))*10
+                    ^
+C:238,8:run: Invalid name "newTotalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:240,12:run: Operator not preceded by a space
+            minNodesByClusterID=copy.deepcopy(nodesByClusterID)
+                               ^
+C:240,12:run: Invalid name "minNodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:241,12:run: Operator not preceded by a space
+            minTree=copy.deepcopy(newTree)
+                   ^
+C:241,12:run: Invalid name "minTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:242,12:run: Operator not preceded by a space
+            minCenters=copy.deepcopy(centers)
+                      ^
+C:242,12:run: Invalid name "minCenters" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:243,12:run: Operator not preceded by a space
+            minLVCostDict=copy.deepcopy(LVCostDict)
+                         ^
+C:243,12:run: Invalid name "minLVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:244,12:run: Operator not preceded by a space
+            minTotalCost=newTotalCost
+                        ^
+C:244,12:run: Invalid name "minTotalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:250,8:run: No exception type(s) specified
+C:249,12:run: Operator not preceded by a space
+            segment=segments[0]
+                   ^
+C:252,8:run: Operator not preceded by a space
+        maxDist,tempCenterX,tempCenterY=maxTempInClusterDist(segment,clusterByNode,nodesByClusterID)
+                                       ^
+C:252,8:run: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:252,16:run: Invalid name "tempCenterX" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:252,28:run: Invalid name "tempCenterY" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:254,4:run: Comma not followed by a space
+    return minTotalCost,minTree,minCenters,minNodesByClusterID,minLVCostDict
+                       ^^
+W:237,8:run: Unused variable 'segmentsCMST'
+W:208,4:run: Unused variable 'i'
+W:237,48:run: Unused variable 'householdsCMST'
+C:257,0:addLVSeg: Comma not followed by a space
+def addLVSeg(tree,centers,nodesByClusterID):#single points line from the root
+                 ^^
+C:257,0:addLVSeg: Invalid name "addLVSeg" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:257,0:addLVSeg: Invalid name "nodesByClusterID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:257,0:addLVSeg: Missing docstring
+C:257,26:addLVSeg: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:259,4:addLVSeg: Operator not preceded by a space
+    SegID=1000000
+         ^
+C:259,4:addLVSeg: Invalid name "SegID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:261,8:addLVSeg: Invalid name "centerID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:264,8:addLVSeg: No exception type(s) specified
+C:263,12:addLVSeg: Operator not preceded by a space
+            netID=tree.getNetID(centers[centerID])
+                 ^
+C:263,12:addLVSeg: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:265,12:addLVSeg: Operator not preceded by a space
+            netID=0
+                 ^
+C:265,12:addLVSeg: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:266,12:addLVSeg: Operator not preceded by a space
+            tree._nodesByNetID[0]=[]
+                                 ^
+W:266,12:addLVSeg: Access to a protected member _nodesByNetID of a client class
+C:267,12:addLVSeg: Operator not preceded by a space
+            tree._network[netID]=[]
+                                ^
+W:267,12:addLVSeg: Access to a protected member _network of a client class
+C:269,12:addLVSeg: Operator not preceded by a space
+            length=((node.getX()-centers[centerID].getX())**2+
+                  ^
+                        (node.getY()-centers[centerID].getY())**2)**(.5)
+C:271,12:addLVSeg: Operator not preceded by a space
+            newSeg=network.Seg(SegID, node, centers[centerID], length)
+                  ^
+C:271,12:addLVSeg: Invalid name "newSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:272,12:addLVSeg: Access to a protected member _netIDByNode of a client class
+W:273,12:addLVSeg: Access to a protected member _nodesByNetID of a client class
+W:274,12:addLVSeg: Access to a protected member _network of a client class
+C:279,0:writeLVDictToText: Invalid name "writeLVDictToText" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:279,0:writeLVDictToText: Invalid name "statsFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:279,0:writeLVDictToText: Invalid name "Dict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:279,22:writeLVDictToText: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:279,33:writeLVDictToText: Invalid name "Dict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:281,4:writeLVDictToText: Invalid name "outFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:283,12:writeLVDictToText: Operator not preceded by a space
+            LVCost=Dict[key]*10
+                  ^
+C:283,12:writeLVDictToText: Invalid name "LVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:283,12:writeLVDictToText: Unused variable 'LVCost'
+C:288,0:main: Missing docstring
+R:288,0:main: Too many local variables (37/15)
+C:302,12:main: Operator not preceded by a space
+            inputShapeFile=r"/home/selin/Desktop/TibyParts/T3.shp"
+                          ^
+C:302,12:main: Invalid name "inputShapeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:305,12:main: Operator not preceded by a space
+            outputDir=r"/home/selin/Desktop/TibyParts/T3"
+                     ^
+C:305,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:307,12:main: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:311,8:main: Invalid name "startTime" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:314,8:main: Operator not preceded by a space
+        nodesByClusterID,clusterByNode,nodes,centers,LVCostDict=generateDictsFromShp(inputShapeFile,outputDir)
+                                                               ^
+C:314,8:main: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:314,25:main: Invalid name "clusterByNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:314,53:main: Invalid name "LVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:317,8:main: Operator not preceded by a space
+        timeBeforeRun=time.time()
+                     ^
+C:317,8:main: Invalid name "timeBeforeRun" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,8:main: Operator not preceded by a space
+        totalCost,tree,centers,nodesByClusterID,LVCostDict=run(centers,nodesByClusterID,clusterByNode,LVCostDict,searchRadius)
+                                                          ^
+C:318,8:main: Invalid name "totalCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,31:main: Invalid name "nodesByClusterID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:318,48:main: Invalid name "LVCostDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:322,8:main: Operator not preceded by a space
+        statsFile= outputDir + os.sep + "LVCostDict.txt"
+                 ^
+C:322,8:main: Invalid name "statsFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:327,8:main: Operator not preceded by a space
+        MVLength=tree.getTotalEdgeWeight()
+                ^
+C:327,8:main: Invalid name "MVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:328,8:main: Operator not preceded by a space
+        MVCost=MVLength*25
+              ^
+C:328,8:main: Invalid name "MVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:330,8:main: Operator not preceded by a space
+        afterrun=time.clock()
+                ^
+W:331,8:main: String statement has no effect
+W:334,8:main: No exception type(s) specified
+C:333,12:main: Operator not preceded by a space
+            netID=tree.getNetID(centers.values()[0])
+                 ^
+C:333,12:main: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:335,12:main: Operator not preceded by a space
+            netID=0
+                 ^
+C:335,12:main: Invalid name "netID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:336,12:main: Operator not preceded by a space
+            tree._nodesByNetID[0]=[]
+                                 ^
+W:336,12:main: Access to a protected member _nodesByNetID of a client class
+C:337,12:main: Operator not preceded by a space
+            tree._network[netID]=[]
+                                ^
+W:337,12:main: Access to a protected member _network of a client class
+C:338,8:main: Operator not preceded by a space
+        start=time.time()
+             ^
+C:339,12:main: Invalid name "ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:340,12:main: Operator not preceded by a space
+            nodesByNodeID={}
+                         ^
+C:340,12:main: Invalid name "nodesByNodeID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:341,12:main: Operator not preceded by a space
+            segments,lvCost,households_CMST=CMST_dfs.CMST(nodesByClusterID[ID],600,centers[ID])
+                                           ^
+C:341,21:main: Invalid name "lvCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:341,28:main: Invalid name "households_CMST" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:344,16:main: Operator not preceded by a space
+                node1=segment.getNode1()
+                     ^
+C:345,16:main: Operator not preceded by a space
+                node2=segment.getNode2()
+                     ^
+W:354,16:main: Access to a protected member _netIDByNode of a client class
+W:355,16:main: Access to a protected member _nodesByNetID of a client class
+W:358,16:main: Access to a protected member _network of a client class
+C:361,8:main: Operator not preceded by a space
+        finish=time.time()
+              ^
+C:362,8:main: Operator not preceded by a space
+        timeCMST=start-finish
+                ^
+C:362,8:main: Invalid name "timeCMST" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:365,8:main: Operator not preceded by a space
+        LVLength=tree.getTotalEdgeWeight()-MVLength
+                ^
+C:365,8:main: Invalid name "LVLength" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:366,8:main: Operator not preceded by a space
+        LVCost=LVLength*10
+              ^
+C:366,8:main: Invalid name "LVCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:368,8:main: Operator not preceded by a space
+        transformerCost=len(centers)*5000
+                       ^
+C:368,8:main: Invalid name "transformerCost" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:369,8:main: Comma not followed by a space
+        print "Transformer Cost",transformerCost
+                                ^^
+C:370,8:main: Comma not followed by a space
+        print "Total Cost=" ,MVCost+LVCost+transformerCost
+                            ^^
+C:374,8:main: Comma not followed by a space
+        print "Total Running Time:",time.time()-startTime
+                                   ^^
+C:378,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C:382,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W:330,8:main: Unused variable 'afterrun'
+W:318,8:main: Unused variable 'totalCost'
+W:341,28:main: Unused variable 'households_CMST'
+W:314,39:main: Unused variable 'nodes'
+W:341,21:main: Unused variable 'lvCost'
+W:293,18:main: Unused variable 'args'
+W:293,12:main: Unused variable 'opts'
+R:288,0:main: Too many statements (65/50)
+W: 22,0: Unused import prims
+W: 17,0: Unused import numpy
+
+
+Report
+======
+260 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |292    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |43     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |137         |
++-----------+------------+
+|C0322      |96          |
++-----------+------------+
+|C0301      |28          |
++-----------+------------+
+|C0324      |18          |
++-----------+------------+
+|W0612      |14          |
++-----------+------------+
+|W0212      |10          |
++-----------+------------+
+|C0111      |10          |
++-----------+------------+
+|W0702      |4           |
++-----------+------------+
+|W0403      |4           |
++-----------+------------+
+|W0311      |4           |
++-----------+------------+
+|R0914      |3           |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|W0611      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0622      |1           |
++-----------+------------+
+|W0312      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|R0915      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -3.04/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |263    |79.22 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |16     |4.82  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |9      |2.71  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |44     |13.25 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |11     |NC         |NC         |27.27       |81.82    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (network-planner-algorithm-tools.HeurForMultiLevelNetwork)
+    osgeo 
+      \-ogr (network-planner-algorithm-tools.HeurForMultiLevelNetwork)
+
+
+

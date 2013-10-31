@@ -1,0 +1,184 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.prims_neighborhood
+C: 17,0: Line too long (84/80)
+W: 72,0: TODO: cut primsSimple function from here
+W:143,0: TODO: insert code
+W:146,0: TODO: fix this bottleneck
+W: 13,0: Relative import 'network', should be 'network-planner-algorithm-tools.modules.network'
+C: 17,0:primsAlg: Invalid name "primsAlg" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,0:primsAlg: Invalid name "numNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,0:primsAlg: Invalid name "firstSegID" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,0:primsAlg: Invalid name "numSmallest" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,0:primsAlg: Missing docstring
+R: 17,0:primsAlg: Too many local variables (26/15)
+C: 17,23:primsAlg: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,33:primsAlg: Invalid name "firstSegID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 17,49:primsAlg: Invalid name "numSmallest" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 18,4:primsAlg: Invalid name "lastNumNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 21,4:primsAlg: Invalid name "nodeDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 22,4:primsAlg: Invalid name "segHeap" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 26,4:primsAlg: Invalid name "leastWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 29,12:primsAlg: Invalid name "leastWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 30,12:primsAlg: Invalid name "firstSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,8:primsAlg: Invalid name "endPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,8:primsAlg: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 57,8:primsAlg: Invalid name "potentialSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 58,8:primsAlg: Invalid name "lengthRatios" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,12:primsAlg: Invalid name "endPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 73,16:primsAlg: Invalid name "localTree" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 75,16:primsAlg: Invalid name "localSegHeap" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 76,16:primsAlg: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 85,20:primsAlg: No exception type(s) specified
+C: 84,24:primsAlg: Invalid name "localSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 88,20:primsAlg: Invalid name "localEndPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 91,24:primsAlg: Invalid name "localNewSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:101,12:primsAlg: Invalid name "bestIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:102,12:primsAlg: Invalid name "bestSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:106,12:primsAlg: Invalid name "bestSegEndPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:108,12:primsAlg: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:114,8:primsAlg: Invalid name "currentNumNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,12:primsAlg: Invalid name "lastNumNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+R: 17,0:primsAlg: Too many branches (14/12)
+R: 17,0:primsAlg: Too many statements (51/50)
+C:124,0:getFreeEndPt: Invalid name "getFreeEndPt" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:124,0:getFreeEndPt: Missing docstring
+C:127,4:getFreeEndPt: Invalid name "p1ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:128,4:getFreeEndPt: Invalid name "p2ID" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:131,12:getFreeEndPt: Invalid name "freeEndPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:133,12:getFreeEndPt: Invalid name "freeEndPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,0:simplePrims: Invalid name "simplePrims" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,0:simplePrims: Invalid name "nodeDict" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,0:simplePrims: Invalid name "firstSeg" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,0:simplePrims: Missing docstring
+C:142,22:simplePrims: Invalid name "nodeDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:142,32:simplePrims: Invalid name "firstSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+E:144,11:simplePrims: Undefined variable 'tree'
+W:142,32:simplePrims: Unused argument 'firstSeg'
+W:142,22:simplePrims: Unused argument 'nodeDict'
+W:142,16:simplePrims: Unused argument 'segs'
+C:147,0:addToHeap: Invalid name "addToHeap" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:147,0:addToHeap: Invalid name "newSegs" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:147,0:addToHeap: Missing docstring
+C:147,20:addToHeap: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:148,4:addToHeap: Invalid name "treeEdges" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,0:buildAssocDict: Invalid name "buildAssocDict" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:156,0:buildAssocDict: Missing docstring
+C:157,4:buildAssocDict: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 10,0: Unused import sys
+
+
+Report
+======
+91 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |52     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |46          |
++-----------+------------+
+|C0111      |5           |
++-----------+------------+
+|W0613      |3           |
++-----------+------------+
+|W0511      |3           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|R0915      |1           |
++-----------+------------+
+|R0914      |1           |
++-----------+------------+
+|R0912      |1           |
++-----------+------------+
+|E0602      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.42/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |94     |59.12 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |7      |4.40  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |31     |19.50 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |27     |16.98 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    network-planner-algorithm-tools 
+      \-modules 
+        \-network (network-planner-algorithm-tools.modules.prims_neighborhood)
+
+
+

@@ -1,0 +1,172 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.distGen
+C: 60,0: Line too long (86/80)
+C: 88,0: Line too long (105/80)
+W: 49,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 49,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 49,0: Anomalous backslash in string: '\R'. String constant might be missing an r prefix.
+W: 49,0: Anomalous backslash in string: '\O'. String constant might be missing an r prefix.
+C:  1,0: Invalid name "distGen" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 16,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 18,0:Usage: Missing docstring
+W: 19,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 22,0:Error: Missing docstring
+W: 23,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 26,0:main: Missing docstring
+C: 39,12:main: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,12:main: Invalid name "outputDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 41,12:main: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 48,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 64,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 31,12:main: Unused variable 'opts'
+W: 70,4:generateDist: Redefining built-in 'file'
+C: 67,0:generateDist: Invalid name "generateDist" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDist: Invalid name "inputFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDist: Invalid name "outputPath" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDist: Invalid name "searchRadius" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,0:generateDist: Missing docstring
+R: 67,0:generateDist: Too many local variables (18/15)
+C: 67,17:generateDist: Invalid name "inputFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,28:generateDist: Invalid name "outputPath" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,40:generateDist: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 68,4:generateDist: Invalid name "searchRadius" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,4:generateDist: Invalid name "rootDir" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,13:generateDist: Invalid name "fc" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 75,8:generateDist: No exception type(s) specified
+C: 84,4:generateDist: Invalid name "nodeCopy" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 85,8:generateDist: Invalid name "startNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 87,12:generateDist: Invalid name "endNode" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 94,4:generateDist: Invalid name "nodeFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 98,4:generateDist: Invalid name "distFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:103,4:generateDist: Invalid name "projFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:104,4:generateDist: Invalid name "projDestFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W:107,4:generateDist: No exception type(s) specified
+W: 70,4:generateDist: Unused variable 'file'
+W: 70,10:generateDist: Unused variable 'ext'
+C:111,0:trimDists: Invalid name "trimDists" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,0:trimDists: Invalid name "inDistFile" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,0:trimDists: Invalid name "outDirectory" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,0:trimDists: Invalid name "maxDist" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,0:trimDists: Missing docstring
+C:111,14:trimDists: Invalid name "inDistFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,26:trimDists: Invalid name "outDirectory" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:111,40:trimDists: Invalid name "maxDist" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:113,8:trimDists: Invalid name "inFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:114,8:trimDists: Invalid name "outFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+E:114,23:trimDists: Undefined variable 'outDistFile'
+W:111,26:trimDists: Unused argument 'outDirectory'
+W:118,8:trimDists: Unused variable 'node1'
+W:118,15:trimDists: Unused variable 'node2'
+
+
+Report
+======
+85 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |83     |76.15 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |18     |16.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |3      |2.75  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |4.59  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |39     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |16     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |30          |
++-----------+------------+
+|W0612      |5           |
++-----------+------------+
+|C0111      |5           |
++-----------+------------+
+|W1401      |4           |
++-----------+------------+
+|W0702      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|C0323      |2           |
++-----------+------------+
+|C0301      |2           |
++-----------+------------+
+|W0622      |1           |
++-----------+------------+
+|W0613      |1           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|R0914      |1           |
++-----------+------------+
+|E0602      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.82/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |0.00        |66.67    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+

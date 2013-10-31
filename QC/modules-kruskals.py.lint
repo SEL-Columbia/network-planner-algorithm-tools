@@ -1,0 +1,111 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.modules.kruskals
+W: 25,0: Bad indentation. Found 13 spaces, expected 12
+W: 27,0: Bad indentation. Found 24 spaces, expected 16
+W:  9,0: Relative import 'network', should be 'network-planner-algorithm-tools.modules.network'
+C: 11,0:kruskalsAlg: Invalid name "kruskalsAlg" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 11,0:kruskalsAlg: Invalid name "numNodes" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 11,0:kruskalsAlg: Invalid name "maxSegWeight" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 11,26:kruskalsAlg: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 11,36:kruskalsAlg: Invalid name "maxSegWeight" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 19,8:kruskalsAlg: Invalid name "node1InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 20,8:kruskalsAlg: Invalid name "node2InNet" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+
+
+Report
+======
+19 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |20     |64.52 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |8      |25.81 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |3.23  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |6.45  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |7           |
++-----------+------------+
+|W0311      |2           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 4.74/10
+
+External dependencies
+---------------------
+::
+
+    network-planner-algorithm-tools 
+      \-modules 
+        \-network (network-planner-algorithm-tools.modules.kruskals)
+
+
+

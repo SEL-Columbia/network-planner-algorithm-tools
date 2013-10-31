@@ -1,0 +1,154 @@
+No config file found, using default configuration
+************* Module network-planner-algorithm-tools.treeTrim
+W: 87,0: Bad indentation. Found 12 spaces, expected 8
+W:  8,0: TODO: Adapt to work with new network class, and test.
+C:  1,0: Invalid name "treeTrim" for type module (should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+W: 15,0: Relative import 'modules', should be 'network-planner-algorithm-tools.modules'
+C: 17,0:Usage: Missing docstring
+W: 18,4:Usage.__init__: __init__ method from base class 'Exception' is not called
+C: 21,0:Error: Missing docstring
+W: 22,4:Error.__init__: __init__ method from base class 'Exception' is not called
+C: 25,0:main: Missing docstring
+C: 37,8:main: Invalid name "fieldName" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,8:main: Invalid name "orderCut" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,8:main: Operator not followed by a space
+        print >>sys.stderr, err.msg
+               ^
+C: 44,8:main: Operator not followed by a space
+        print >>sys.stderr, "For help use --help"
+               ^
+C: 48,8:main: Operator not followed by a space
+        print >>sys.stderr, "ERROR:", err.msg
+               ^
+W: 30,12:main: Unused variable 'opts'
+C: 51,0:treeTrim: Invalid name "treeTrim" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 58,4:treeTrim: Invalid name "numNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 59,4:treeTrim: Invalid name "nodeDict" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 60,4:treeTrim: Invalid name "terminalNodes" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 64,4:treeTrim: Invalid name "terminalHeap" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 65,4:treeTrim: Comma not followed by a space
+    addToHeap(terminalHeap,terminalNodes)
+                          ^^
+C: 66,4:treeTrim: Invalid name "orderCut" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 67,4:treeTrim: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 69,8:treeTrim: Comma not followed by a space
+        cutSeg = heapq.nlargest(1,terminalHeap)[0]
+                                 ^^
+C: 69,8:treeTrim: Invalid name "cutSeg" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,8:treeTrim: Invalid name "endPts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 73,12:treeTrim: Invalid name "endPt" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 77,16:treeTrim: Invalid name "endPtIndex" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 80,20:treeTrim: Comma not followed by a space
+                    addToHeap(terminalHeap,nodeDict[endPt])
+                                          ^^
+C: 81,8:treeTrim: Invalid name "n" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 58,4:treeTrim: Unused variable 'numNodes'
+C: 84,0:addToHeap: Invalid name "addToHeap" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,0:addToHeap: Invalid name "newSegs" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 84,20:addToHeap: Invalid name "newSegs" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 90,0:buildAssocDict: Invalid name "buildAssocDict" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 92,4:buildAssocDict: Invalid name "segList" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 10,0: Unused import os
+
+
+Report
+======
+77 statements analysed.
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |8      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |20          |
++-----------+------------+
+|C0324      |3           |
++-----------+------------+
+|C0323      |3           |
++-----------+------------+
+|C0111      |3           |
++-----------+------------+
+|W0612      |2           |
++-----------+------------+
+|W0231      |2           |
++-----------+------------+
+|W0611      |1           |
++-----------+------------+
+|W0511      |1           |
++-----------+------------+
+|W0403      |1           |
++-----------+------------+
+|W0311      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 5.19/10
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |75.00       |75.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |78     |82.98 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |10     |10.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |2      |2.13  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |4.26  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
