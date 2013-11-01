@@ -3,8 +3,8 @@
 # This shell script is a Makefile generator, for the quality control (QC)
 # criteria we want to track automatically: it gets all list of all the
 # python code files and creates a Makefile which will run them through
-# pylint; finally, it generates a markdown summary (PYLINT_SCORES.md)
-# of those results, timestamped with when the 'make all' command was run.
+# pylint; finally, it generates a markdown summary (README.md) of those
+# results, timestamped with when the 'make all' command was run.
 
 # list all the python files we want to score with pylint
 pyfiles=`cd ..; ls *.py | grep -v "__init" ; ls modules/*.py | grep -v "__init"`
@@ -19,12 +19,15 @@ do
 	output=`echo $pyf | tr '/' '-'`
 	echo "\t$output.lint \\"
 done
-echo "\tPYLINT_SCORES.md\n"
+echo "\tREADME.md\n"
 
 # Define each individual pylint file score rule
 for pyf in $pyfiles
 do
 	output=`echo $pyf | tr '/' '-'`
+	# if pylint detects a problem it will return an error code
+	# but since we don't want make to stop in its tracks, we
+	# use the '- ' prefix so that it continues through all files
 	echo "$output.lint:\n\t- pylint "../$pyf" >$output.lint 2>&1"
 done
 
@@ -32,16 +35,16 @@ done
 # (use a simple grep/sed combination to pull the summary info out of
 # each pylint result, though we're saving the full pylint results here
 # for reference)
-echo """\nPYLINT_SCORES.md:
-	echo -n \"# Pylint scores as of \" > PYLINT_SCORES.md
-	echo \"`date +\"%b %d %Y %H:%M:%S (UTC)\" --utc`\" >> PYLINT_SCORES.md
-	echo \"<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>\" >> PYLINT_SCORES.md 
+echo """\nREADME.md:
+	echo -n \"# Pylint scores as of \" > README.md
+	echo \"`date +\"%b %d %Y %H:%M:%S (UTC)\" --utc`\" >> README.md
+	echo \"<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>\" >> README.md 
 	grep \"Your code has been rated at\" *.lint | \
 sed -e 's/Your code has been rated at/ /' | \
 sed -e 's/modules-/modules\//' | \
 sed -e 's/^/<tr><td>/' | \
-sed -e 's/\.lint:/<\/td><td align=\"right\"><tt>/' | \
-sed -e 's/\$\$/<\/tt><\/td><\/tr>/' >> PYLINT_SCORES.md
-	echo \"</table>\" >> PYLINT_SCORES.md
+sed -e 's/\.lint:/<\/td><td align=\"right\">/' | \
+sed -e 's/\$\$/<\/td><\/tr>/' >> README.md
+	echo \"</table>\" >> README.md
 """
 
