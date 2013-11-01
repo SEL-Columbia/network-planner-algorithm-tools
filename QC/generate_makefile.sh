@@ -46,8 +46,7 @@ done
 # each pylint result, though we're saving the full pylint results here
 # for reference)
 echo """\nREADME.md: *.lint
-	echo -n \"# Pylint scores as of \" > README.md
-	echo \"`date +\"%b %d %Y %H:%M:%S (UTC)\" --utc`\" >> README.md
+	echo \"# Pylint scores as of \`date +\"%b %d %Y %H:%M:%S (UTC)\" --utc\` \" > README.md
 	echo \"<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>\" >> README.md 
 	grep \"Your code has been rated at\" *.lint | \
 sed -e 's/Your code has been rated at/ /' | \

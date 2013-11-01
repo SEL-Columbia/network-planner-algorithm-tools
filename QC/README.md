@@ -1,4 +1,4 @@
-# Pylint scores as of Nov 01 2013 14:03:12 (UTC)
+# Pylint scores as of Nov 01 2013 14:44:27 (UTC) 
 <table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>
 <tr><td>AfricaLP.py</td><td align="right">  -1.66/10</td></tr>
 <tr><td>AggCluster.py</td><td align="right">  -3.98/10</td></tr>
@@ -37,5 +37,5 @@
 <tr><td>modules/prims_neighborhood.py</td><td align="right">  2.42/10</td></tr>
 <tr><td>modules/readCVSthenWRITE.py</td><td align="right">  0.00/10</td></tr>
 <tr><td>shapefile_editor.py</td><td align="right">  -7.71/10</td></tr>
-<tr><td>treeTrim.py</td><td align="right">  5.19/10 (previous run: 5.19/10)</td></tr>
+<tr><td>treeTrim.py</td><td align="right">  5.19/10</td></tr>
 </table>

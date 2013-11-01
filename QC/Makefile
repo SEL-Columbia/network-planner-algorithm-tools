@@ -167,8 +167,7 @@ modules-prims.py.lint: ../modules/prims.py
 modules-readCVSthenWRITE.py.lint: ../modules/readCVSthenWRITE.py
 
 README.md: *.lint
-	echo -n "# Pylint scores as of " > README.md
-	echo "Nov 01 2013 14:18:05 (UTC)" >> README.md
+	echo "# Pylint scores as of `date +"%b %d %Y %H:%M:%S (UTC)" --utc` " > README.md
 	echo "<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>" >> README.md 
 	grep "Your code has been rated at" *.lint | sed -e 's/Your code has been rated at/ /' | sed -e 's/modules-/modules\//' | sed -e 's/^/<tr><td>/' | sed -e 's/\.lint:/<\/td><td align="right">/' | sed -e 's/$$/<\/td><\/tr>/' >> README.md
 	echo "</table>" >> README.md
