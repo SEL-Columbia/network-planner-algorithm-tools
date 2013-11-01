@@ -42,7 +42,7 @@ all:	addOrder.py.lint \
 	modules-prims_neighborhood.py.lint \
 	modules-prims.py.lint \
 	modules-readCVSthenWRITE.py.lint \
-	PYLINT_SCORES.md
+	README.md
 
 addOrder.py.lint:
 	- pylint ../addOrder.py >addOrder.py.lint 2>&1
@@ -124,11 +124,52 @@ modules-prims.py.lint:
 	- pylint ../modules/prims.py >modules-prims.py.lint 2>&1
 modules-readCVSthenWRITE.py.lint:
 	- pylint ../modules/readCVSthenWRITE.py >modules-readCVSthenWRITE.py.lint 2>&1
+ 
+addOrder.py.lint: ../addOrder.py
+AfricaLP.py.lint: ../AfricaLP.py
+AggCluster.py.lint: ../AggCluster.py
+AvgNearestFacility.py.lint: ../AvgNearestFacility.py
+AvgNearestFacility_sphericalDist.py.lint: ../AvgNearestFacility_sphericalDist.py
+AvgNearestGrid_polyline.py.lint: ../AvgNearestGrid_polyline.py
+batchPrimsforTransformers.py.lint: ../batchPrimsforTransformers.py
+batchPrims.py.lint: ../batchPrims.py
+calcTree.py.lint: ../calcTree.py
+CMST_dfs.py.lint: ../CMST_dfs.py
+DFS_BFD_Graph_Traversal.py.lint: ../DFS_BFD_Graph_Traversal.py
+distGen.py.lint: ../distGen.py
+distStats.py.lint: ../distStats.py
+FacilityLoc.py.lint: ../FacilityLoc.py
+FacilityLoc_StarConfig.py.lint: ../FacilityLoc_StarConfig.py
+fullTreeCalc.py.lint: ../fullTreeCalc.py
+genSubnets.py.lint: ../genSubnets.py
+healthcarePrims.py.lint: ../healthcarePrims.py
+HeurForMultiLevelNetwork.py.lint: ../HeurForMultiLevelNetwork.py
+kCluster.py.lint: ../kCluster.py
+KruskalCluster.py.lint: ../KruskalCluster.py
+maxDist.py.lint: ../maxDist.py
+microgridDirectLV_improved.py.lint: ../microgridDirectLV_improved.py
+MST.py.lint: ../MST.py
+PrimPenetrationRate.py.lint: ../PrimPenetrationRate.py
+SetCovering_WithNetwork.py.lint: ../SetCovering_WithNetwork.py
+SetCovering_withSphericalDistance_withPopandNames.py.lint: ../SetCovering_withSphericalDistance_withPopandNames.py
+shapefile_editor.py.lint: ../shapefile_editor.py
+TKruskals.py.lint: ../TKruskals.py
+TPrims.py.lint: ../TPrims.py
+treeTrim.py.lint: ../treeTrim.py
+modules-cluster.py.lint: ../modules/cluster.py
+modules-fileRWarcgis.py.lint: ../modules/fileRWarcgis.py
+modules-fileRWogr.py.lint: ../modules/fileRWogr.py
+modules-fileRW.py.lint: ../modules/fileRW.py
+modules-kruskals.py.lint: ../modules/kruskals.py
+modules-network.py.lint: ../modules/network.py
+modules-prims_neighborhood.py.lint: ../modules/prims_neighborhood.py
+modules-prims.py.lint: ../modules/prims.py
+modules-readCVSthenWRITE.py.lint: ../modules/readCVSthenWRITE.py
 
-PYLINT_SCORES.md:
-	echo -n "# Pylint scores as of " > PYLINT_SCORES.md
-	echo "Oct 31 2013 21:14:43 (UTC)" >> PYLINT_SCORES.md
-	echo "<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>" >> PYLINT_SCORES.md 
-	grep "Your code has been rated at" *.lint | sed -e 's/Your code has been rated at/ /' | sed -e 's/modules-/modules\//' | sed -e 's/^/<tr><td>/' | sed -e 's/\.lint:/<\/td><td align="right"><tt>/' | sed -e 's/$$/<\/tt><\/td><\/tr>/' >> PYLINT_SCORES.md
-	echo "</table>" >> PYLINT_SCORES.md
+README.md: *.lint
+	echo -n "# Pylint scores as of " > README.md
+	echo "Nov 01 2013 14:18:05 (UTC)" >> README.md
+	echo "<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>" >> README.md 
+	grep "Your code has been rated at" *.lint | sed -e 's/Your code has been rated at/ /' | sed -e 's/modules-/modules\//' | sed -e 's/^/<tr><td>/' | sed -e 's/\.lint:/<\/td><td align="right">/' | sed -e 's/$$/<\/td><\/tr>/' >> README.md
+	echo "</table>" >> README.md
 

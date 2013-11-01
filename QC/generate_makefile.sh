@@ -31,11 +31,21 @@ do
 	echo "$output.lint:\n\t- pylint "../$pyf" >$output.lint 2>&1"
 done
 
+# Define the python source file dependency rule
+# (i.e., make sure that when a python source code file is changed,
+#  make will know to re-run pylint and update the summary)
+echo " "
+for pyf in $pyfiles
+do
+	output=`echo $pyf | tr '/' '-'`
+	echo "$output.lint: ../$pyf"
+done
+
 # Define the rule to create the markdown score summary file
 # (use a simple grep/sed combination to pull the summary info out of
 # each pylint result, though we're saving the full pylint results here
 # for reference)
-echo """\nREADME.md:
+echo """\nREADME.md: *.lint
 	echo -n \"# Pylint scores as of \" > README.md
 	echo \"`date +\"%b %d %Y %H:%M:%S (UTC)\" --utc`\" >> README.md
 	echo \"<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>\" >> README.md 

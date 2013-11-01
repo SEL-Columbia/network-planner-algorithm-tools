@@ -1,0 +1,41 @@
+# Pylint scores as of Nov 01 2013 14:03:12 (UTC)
+<table><tr><td><b>Script</b></td><td><b>Pylint Score</b></td></tr>
+<tr><td>AfricaLP.py</td><td align="right">  -1.66/10</td></tr>
+<tr><td>AggCluster.py</td><td align="right">  -3.98/10</td></tr>
+<tr><td>AvgNearestFacility.py</td><td align="right">  0.92/10</td></tr>
+<tr><td>AvgNearestFacility_sphericalDist.py</td><td align="right">  1.07/10</td></tr>
+<tr><td>AvgNearestGrid_polyline.py</td><td align="right">  0.76/10</td></tr>
+<tr><td>CMST_dfs.py</td><td align="right">  -1.06/10</td></tr>
+<tr><td>DFS_BFD_Graph_Traversal.py</td><td align="right">  -7.86/10</td></tr>
+<tr><td>FacilityLoc.py</td><td align="right">  -2.17/10</td></tr>
+<tr><td>FacilityLoc_StarConfig.py</td><td align="right">  -2.17/10</td></tr>
+<tr><td>HeurForMultiLevelNetwork.py</td><td align="right">  -3.04/10</td></tr>
+<tr><td>PrimPenetrationRate.py</td><td align="right">  0.99/10</td></tr>
+<tr><td>SetCovering_WithNetwork.py</td><td align="right">  -1.14/10</td></tr>
+<tr><td>SetCovering_withSphericalDistance_withPopandNames.py</td><td align="right">  -1.43/10</td></tr>
+<tr><td>TKruskals.py</td><td align="right">  -2.97/10</td></tr>
+<tr><td>TPrims.py</td><td align="right">  -3.07/10</td></tr>
+<tr><td>addOrder.py</td><td align="right">  4.81/10</td></tr>
+<tr><td>batchPrims.py</td><td align="right">  2.10/10</td></tr>
+<tr><td>batchPrimsforTransformers.py</td><td align="right">  -3.08/10</td></tr>
+<tr><td>calcTree.py</td><td align="right">  5.54/10</td></tr>
+<tr><td>distGen.py</td><td align="right">  2.82/10</td></tr>
+<tr><td>distStats.py</td><td align="right">  0.48/10</td></tr>
+<tr><td>fullTreeCalc.py</td><td align="right">  3.95/10</td></tr>
+<tr><td>genSubnets.py</td><td align="right">  4.28/10</td></tr>
+<tr><td>healthcarePrims.py</td><td align="right">  5.05/10</td></tr>
+<tr><td>kCluster.py</td><td align="right">  2.67/10</td></tr>
+<tr><td>maxDist.py</td><td align="right">  4.83/10</td></tr>
+<tr><td>microgridDirectLV_improved.py</td><td align="right">  -3.37/10</td></tr>
+<tr><td>modules/cluster.py</td><td align="right">  2.99/10</td></tr>
+<tr><td>modules/fileRW.py</td><td align="right">  2.47/10</td></tr>
+<tr><td>modules/fileRWarcgis.py</td><td align="right">  5.84/10</td></tr>
+<tr><td>modules/fileRWogr.py</td><td align="right">  4.88/10</td></tr>
+<tr><td>modules/kruskals.py</td><td align="right">  4.74/10</td></tr>
+<tr><td>modules/network.py</td><td align="right">  2.84/10</td></tr>
+<tr><td>modules/prims.py</td><td align="right">  3.14/10</td></tr>
+<tr><td>modules/prims_neighborhood.py</td><td align="right">  2.42/10</td></tr>
+<tr><td>modules/readCVSthenWRITE.py</td><td align="right">  0.00/10</td></tr>
+<tr><td>shapefile_editor.py</td><td align="right">  -7.71/10</td></tr>
+<tr><td>treeTrim.py</td><td align="right">  5.19/10 (previous run: 5.19/10)</td></tr>
+</table>
