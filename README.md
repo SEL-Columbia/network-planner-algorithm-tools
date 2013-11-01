@@ -17,7 +17,7 @@ The eventual goal is to make future refinements, to convert this codebase into a
 
 ### Quality Control
 
-The [Makefile](https://github.com/modilabs/network-planner-algorithm-tools/blob/master/QC/Makefile) in the [QC folder](https://github.com/modilabs/network-planner-algorithm-tools/tree/master/QC) runs [pylint](http://pylint.org/) automatically over the entire set of python source code files in this repo, and summarizes the results in a markdown file ([PYLINT_SCORES.md](https://github.com/modilabs/network-planner-algorithm-tools/blob/master/QC/PYLINT_SCORES.md)) while preserving the entire pylint report in each <tt>.lint</tt> file. 
+The [Makefile](QC/Makefile) in the [QC folder](QC) runs [pylint](http://pylint.org/) automatically over the entire set of python source code files in this repo, and summarizes the results in a markdown file ([README.md](QC/README.md)) while preserving the entire pylint report in each <tt>.lint</tt> file. 
 
 To update the tests after any python source code changes, use the 'all' rule from inside the QC folder, as follows:
 
@@ -32,7 +32,7 @@ make clean
 make all
 ```
 
-If the names or total number of python source files ever changes, the Makefile can be regenerated automatically by running the [generate_makefile.sh](https://github.com/modilabs/network-planner-algorithm-tools/blob/master/QC/generate_makefile.sh) script.
+If the names or total number of python source files ever changes, the Makefile can be regenerated automatically by running the [generate_makefile.sh](QC/generate_makefile.sh) script.
 
 Dependencies
 ------------
